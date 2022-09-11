@@ -1,63 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.black-cat-moon {
+    width: 500px;
+    height: 400px; 
+    padding: 20px;
+    padding-top: 1%;
+   
 }
 
 .catm {
-    width: 3em;
-    height: 3em;
-   
-    }
+    width: 2em;
+    height: 2em;
+       }
 
-
-.black-cat-moon {
-    width: 300px;
-    height: 200px; 
-    padding: 20px;
-    padding-top: 1%;
-    
-  
-}
 
 .game-name {
-  
     color: orange;
     text-align: center;
     font-family: Montserrat;
     font-size: 50px;
-    font-family: Montserrat;
+    font-family: Montserrat;    
+    
+   
 
 }
 
 .game-title {
     color: orange;
     text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    padding-bottom: 40px;
+   
     
+   
+}
+
+.instructions {
+    color : orange;
+    font-family: Montserrat;
+    font-size: 35px;
+    padding-top: 40px;
+}
+
+.instructions-p {
+    color : orange;
     font-family: Montserrat;
     font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.button-start {
+   background-color: darkslategray;
+   border-radius: bold;
+   border-style: solid;
+   padding: 10px;
+   border-style: dashed;
+
+}
    
+.but-level-one {
+    background-color: darkslategray;
+    border-radius: bold;
+    border-style: solid;
+    padding: 10px;
+    border-style: dashed;
+  
+   
+   }
+
+   .but-level-one-h {
+    font-family: Montserrat;
+    font-size: 25px;
+    color: orange;
+
+   }
+   
+   .but-level-two {
+    background-color: darkslategray;
+    border-radius: bold;
+    border-style: solid;
+    padding: 10px;
+    border-style: dashed;
+    
+ 
+   }
+
+   .but-level-two-h {
+    font-family: Montserrat;
+    font-size: 25px;
+    color: orange;
+   }
+
+
+.start-game {
+    font-family: Montserrat;
+    font-size: 25px;
+    color: orange;
+    
+  
+}
+
+.time-left {
+    font-family: Montserrat;
+    font-size: 35px;
+    color: orange;
+    padding-top: 40px;
+   
+}
+
+.clock{
+    font-family: Montserrat;
+    font-size: 35px;
+    color: orange;
+    padding-bottom: 30px;
 }
 
 
 .grid-container {
-    display: grid;
-    
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-   grid-gap: 5px;
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+   
+    justify-content: center;
 
+    gap: 1%;
+    padding-bottom: 40px;
 }
 
-
 .square {
-    height: 100px;
+    height: 200px;
     width: 50%;
     border: solid;
-    padding: 1px;
+    justify-content: center;
     border-color: orange;
+    border-radius: 200%;
+    background: transparent;
+    
     
 }
 
 .hr-style {
     border-style: solid;
-    color: slategray;
+    color: darkslategray;
+    padding-block: 5px;
+    
+    background-color: darkslategray;
+}
+
+.score {
+    font-family: Montserrat;
+    font-size: 35px;
+    color: orange;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
