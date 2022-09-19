@@ -12,7 +12,7 @@ body {
 
 .black-cat-moon{
   width: 300px;
-  hei
+  height: 200px;
 }
 
 #catm {
@@ -33,6 +33,15 @@ body {
   text-align: center;
   font-family: Montserrat;
   font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.hr-style {
+  border-style: solid;
+  padding-block: 5px;
+  padding-top: 10px;
   padding-bottom: 10px;
+  background-color: darkslategray;
+
 }
 
