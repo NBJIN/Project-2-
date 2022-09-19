@@ -59,5 +59,60 @@ body {
   font-family: Montserrat;
   font-size: 20px;
   text-align: center;
+  padding-bottom: 20px;
 }
+
+.button-start {
+  background-color: darkslategray;
+  border-radius: 100px;
+  border-style: solid;
+  border: 0;
+  outline: none;
+  padding: 20px;
+  color: orange;
+}
+
+.time-left {
+  font-family: Montserrat;
+  font-size: 25px;
+  color: orange;
+  padding-top: 20px;
+}
+
+.seconds {
+  font-family: Montserrat;
+  font-size: 25px;
+  color: orange;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  gap: 1%;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.square {
+  background-color: orange;
+  border-color: orange;
+  border-radius: 100%;
+  border: solid;
+  height: 200px;
+  width: 200px;
+  left:  30%;
+  top: 45%;
+  overflow: hidden;
+  position: relative;
+  flex: 1 0 33.33%;
+  justify-items: space-evenly;
+  
+}
+
+
+
+
 
