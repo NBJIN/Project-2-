@@ -70,6 +70,7 @@ body {
   outline: none;
   padding: 20px;
   color: orange;
+  font-size: large;
  
 }
 
@@ -114,50 +115,135 @@ body {
 }
 
 .catm0 {
- height: 100px;
- width: 100px;
+  height: 100px;
+  width: 100px;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-60%);
+  bottom: 30%;
+  animation: ease-in .2s ease-out;
+  }
 
-}
+
 
 .catm1 {
   height: 100px;
   width: 100px;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-60%);
+  bottom: 30%;
+  animation: ease-in .2s ease-out;
 }
 
 .catm2 {
   height: 100px;
   width: 100px;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-60%);
+  bottom: 30%;
+  animation: ease-in .2s ease-out;
 }
 
 .catm3 {
   height: 100px;
   width: 100px;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-60%);
+  bottom: 30%;
+  animation: ease-in .2s ease-out;
 }
 
 .catm4 {
   height: 100px;
   width: 100px;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-60%);
+  bottom: 30%;
+  animation: ease-in .2s ease-out;
 }
 
 .catm5 {
   height: 100px;
   width: 100px;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-60%);
+  bottom: 30%;
+  animation: ease-in .2s ease-out;
 }
 
 .catm6 {
   height: 100px;
   width: 100px;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-60%);
+  bottom: 30%;
+  animation: ease-in .2s ease-out;
 }
 
 .catm7 {
   height: 100px;
   width: 100px;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-60%);
+  bottom: 30%;
+  animation: ease-in .2s ease-out;
 }
 
 .catm8 {
   height: 100px;
   width: 100px;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-60%);
+  bottom: 30%;
+  animation: ease-in .2s ease-out;
 }
+
+#hr-style2 {  
+  border-style: solid;
+  padding-block: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: darkslategray;
+    
+}
+
+.score {
+  font-family: Montserrat;
+  font-size: 25px;
+  color: orange;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.reset {
+  background-color: darkslategray;
+  border-radius: 100px;
+  border-style: solid;
+  border: 0;
+  outline: none;
+  padding: 20px;
+  color: orange;
+  font-size: large;
+}
+
+
 
 
 
