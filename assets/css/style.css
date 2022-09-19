@@ -124,7 +124,7 @@ body {
   bottom: 30%;
   animation: ease-in .2s ease-out;
   }
-
+  
 
 
 .catm1 {
@@ -219,7 +219,6 @@ body {
   border-style: solid;
   padding-block: 5px;
   padding-top: 10px;
-  padding-bottom: 10px;
   background-color: darkslategray;
     
 }
