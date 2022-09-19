@@ -70,6 +70,7 @@ body {
   outline: none;
   padding: 20px;
   color: orange;
+ 
 }
 
 .time-left {
@@ -113,7 +114,8 @@ body {
 }
 
 .catm0 {
-  size: 5em;
+ height: 100px;
+ width: 100px;
 
 }
 
@@ -156,6 +158,8 @@ body {
   height: 100px;
   width: 100px;
 }
+
+
 
 
 
