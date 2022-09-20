@@ -1,32 +1,35 @@
-const square = document.querySelectorAll('.square');
-const score = document.querySelector('.score');
-const catm0 = document.getElementById('.catm0');
-let score = 0;
-let lastSquare;
-let timeLeft = false;
+
+let catm;
+let square;
+let buttonstart;
+let score;
 
 
-
-function timeRandom(min, max) {
-      return Math.floor(Math.random() * (max-min)+ min);
+function welcome() {
+      var name=prompt("What is your name?");
+      alert("Welcome to this website " +name);
 }
 
-function square(square){
-      const index = Math.floor(Math.random() * square.length);
-      const square = square[index];
+function buttonstart() {
+      document.getElementByclass("catm").style.visibility='hidden';
+      document.getElementByclass("square").style.visibility='hidden';
+      document.getElementByclass("buttonstart").style.visibility='hidden';
 }
 
-if (square === lastSquare){
-      return square(square);
+for(var i=0;i<2;i++){
+      document.getElementsByClassName("score")[i].style.visibility='visible'
+}
+for(var i=0;i<9;i++){
+      document.getElementsByClassName("square")[i].style.visibility="visible";
+}
+setInterval(() => {
+      var random=Math.floor(Math.random()*9)+1;
+      document.getElementById("catm" +random).style.
+      visibility="visible";
+      setTimeout(() => {
+            for(var i=0;i<9;i++){ document.getElementsByClassName("catm")[i].style.visibility="hidden";} }, 900); }, 1000);
+      
+function clicked() {
+      document.getElementsByClassName("buttonstart").innerHTML=buttonstart++;
 }
 
-lastSquare = square;
-return square;
-
-function catmappear() {((
-      const timeLeft = time (200, 450);
-      const square = square;
-      square.classList.add('upwards');
-      square.classList.add('up
-      setTimeleft))')
-}
