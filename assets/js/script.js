@@ -36,6 +36,18 @@ function buttonstart() {
       }, 1000);
 }
 
+var timeleft = 10;
+var timeleft = setInterval(function() {
+      if(timeleft <=0) {
+            clearInterval(timeleft);
+            document.getElementsByClassName("countdonw").innerHTML = "Finished";
+      } else {
+            document.getElementsByClassName("timeleft").innerHTML = timeleft
+      }
+timeleft -= 1;
+}, 1000 );
+
+
 function clicked(){
       document.getElementsByClassName("currentScore").innerHTML=currentScore++;
 }

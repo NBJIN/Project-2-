@@ -1,11 +1,55 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Project Number 2 : Javascript Module
 
-Welcome noreen,
+Project Name: Catch The Black Cat!
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Introduction: 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+On researching projects and javascript notes I reviewed a widely used game called "Whack A Mole" and decided to go with a similar idea for the project i am undertaking.  The game that i am building has a  slight twist on the "Whack A Mole" game.  I have decided to use a black cat instead of a mole and the game is called "Catch The Black Cat!" instead of "Whack A Mole".  
 
+In this game "Catch a Black Cat" when the user clicks on the start button a black cat should appear randomly in one of the circles for a short period and the user must click on the black cat before it disappears.  If the user manages to catch the black cat by clicking on them they will get a score.  The game will run for 20 seconds and all successful catches will be recorded in the score counter.  The game will show the user the time remaining so that they know how much time they have at any stage of the game.  Also at the end of the game there is a button to re-set the game.  
+
+Features:
+
+The Header / Top of Page
+
+Logo : 
+The logo features on the top left hand corner and is a pictue of a cat on a yellow background.  It is very clear and also the coloring matches in perfectly with the background color of the page.
+/workspace/Project-2-/assets/images/blackcatmoon.jpg
+
+Title & Name: 
+The game-name "Memory Game" and game-title "Catch The Black Cat" appears just underneath the logo.  The font that is used here is Montserrat.  The coloring is orange and again contrasts with the main logo.  
+
+Image:
+I have also used an image here to the right of the game-name and game-title and is a picture of a black cat. 
+/workspace/Project-2-/assets/images/catm.png
+
+Division Line:
+Just to separate the Header from the Main Game area i just put in a division line using the following html code <hr> and then styling it in CSS.  I increased the weight on the line so the the user can see that they are leaving the header section and moving into the games area.  The color that i have chosen for this line division is darkslategray which compliments with the colors that i have used.  
+
+Games Area
+
+Instructions Section:
+I have included an instruction section underneath the division line just to give the user instructions on how to play the game.   I have again chosen the Montserrat font for the heading and the instructions paragraph and the orange color on both to compliment with the other colors on the page. 
+
+Start Game Button:
+This is the button which the user will click on in order to start the game.  The color that is used for the button background is darkslategray to compliment the division line.  For the text its font color is orange and also in bold.  The shape of all the buttons on the page are in a circular shape by using the "border-radius" code in css.  This feature just gives the button more definition and stands out more on the page.
+
+Time Remaining:
+This gives the user the time remaining on the game once they click on the start button.  It will count-down from 20 to 1 and the game will stop once it reaches 1.  For the heading and timer i have user font color of orange and again the Montserrat to compliment with all other elements.  
+
+Cat and Circle:
+The next section of the games area contains 9 black cats and 9 circles.  The image for the black cat is the one as is used above in the heading to the right of the game-title and game-name. 
+/workspace/Project-2-/assets/images/catm.png
+There is also 9 circles which have an orange background.  Here the cat will appear randomly in anyone of the 9 circles.  
+
+Score:
+A record of the score is recoreded underneath the cat and circle section.  Everytime the user cathes a cat by clicking on them the score will increment.  In keeping with colors and design an orange font-color was used and the Montserrat font.  
+
+Reset Button:
+I have inputted a reset button so that the user can re-set the game back to 0.  The same styling is applied to the Reset Button as is applied to the Start Button just to keep all buttons uniform.  
+
+
+ 
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
