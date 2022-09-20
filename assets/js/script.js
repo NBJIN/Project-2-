@@ -3,19 +3,22 @@ function welcome () {
 }
 
 var currentScore=0;
-console.log("hello");
-function start() {
-      document.getElementsByClassName('catm0').style.visibility='hidden';
-      document.getElementsByClassName('catm1').style.visibility='hidden';
-      document.getElementsByClassName('catm2').style.visibility='hidden';
-      document.getElementsByClassName('catm3').style.visibility='hidden';
-      document.getElementsByClassName('catm4').style.visibility='hidden';
-      document.getElementsByClassName('catm5').style.visibility='hidden';
-      document.getElementsByClassName('catm6').style.visibility='hidden';
-      document.getElementsByClassName('catm7').style.visibility='hidden';
-      document.getElementsByClassName('catm8').style.visibility='hidden';
 
-      document.getElementsByClassName('buttonstart').style.visibility='hidden';
+const cat0 = document.getElementsByClassName('catm0');
+
+function start() {
+      cat0[0].style.visibility = 'hidden';
+     
+      document.getElementsByClassName('catm1')[0].style.visibility='hidden';
+      document.getElementsByClassName('catm2')[0].style.visibility='hidden';
+      document.getElementsByClassName('catm3')[0].style.visibility='hidden';
+      document.getElementsByClassName('catm4')[0].style.visibility='hidden';
+      document.getElementsByClassName('catm5')[0].style.visibility='hidden';
+      document.getElementsByClassName('catm6')[0].style.visibility='hidden';
+      document.getElementsByClassName('catm7')[0].style.visibility='hidden';
+      document.getElementsByClassName('catm8')[0].style.visibility='hidden';
+
+      document.getElementsByClassName('buttonstart')[0].style.visibility='hidden';
 
       for(var i=0;i<square.length;i++){
             document.getElementsByClassName("score")[i].style.visibility="visible";
