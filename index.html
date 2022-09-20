@@ -29,9 +29,8 @@
         </p>
 
         <div>
-            <button class="buttonstart" onClick="start()">
-               <h3 class="start-game" onClick="start()">Start Game</h3>
-            </button>
+            <button type="button" onClick="start()" class="buttonstart">Start Game</button>
+            
         </div>
 
         <div>
@@ -48,12 +47,11 @@
             <div class="square">6<img src="/assets/images/catm.png" class="catm6" onclick="clicked"></div>
             <div class="square">7<img src="/assets/images/catm.png" class="catm7" onclick="clicked"></div>
             <div class="square">8<img src="/assets/images/catm.png" class="catm8" onclick="clicked"></div>
-                
-            
+                            
           </div> 
 
           <footer>
-            <p class="score">Score:</p>
+            <p class="score">Score:<span class="currentScore">0</span></p>
             <button class="reset">Reset</button>
         </footer>
 
@@ -63,7 +61,7 @@
           
          
 
-        <script src="/workspace/Project-2-/assets/js/script.js"></script>
+        <script src="/assets/js/script.js"></script>
 
     </body>
     </html>
