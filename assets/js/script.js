@@ -1,13 +1,13 @@
-function welcome () {
-      alert("Welcome to Catch The Black Cat Game!");
-}
-
 var currentScore=0;
 
-const cat0 = document.getElementsByClassName('catm0');
+const catm0 = document.getElementsByClassName('catm0');
+const square = document.getElementsByClassName('square');
+const catm = document.getElementsByClassName("catm");
+var random;
+const visibility = document.getElementsByTagName("visible");
 
 function start() {
-      cat0[0].style.visibility = 'hidden';
+      catm0[0].style.visibility = 'hidden';
      
       document.getElementsByClassName('catm1')[0].style.visibility='hidden';
       document.getElementsByClassName('catm2')[0].style.visibility='hidden';
@@ -21,7 +21,7 @@ function start() {
       document.getElementsByClassName('buttonstart')[0].style.visibility='hidden';
 
       for(var i=0;i<square.length;i++){
-            document.getElementsByClassName("score")[i].style.visibility="visible";
+            document.getElementsByClassName("score")[0].style.visibility="visible";
       
       }
       for(var i=0;i<square.length;i++){
@@ -29,7 +29,7 @@ function start() {
       }
       setInterval(() => {
             var random=Math.floor(Math.random()*8)+1;
-            document.getElementsByClassName("catm"+random).style.visibility="visible";
+            document.getElementsByClassName("catm" + random).style.visibility="visible";
             setTimeout(() => { 
                   for(var i=0;i<square.length;i++){
                         document.getElementsByClassName('catm')[i].style.visibility='hidden';
