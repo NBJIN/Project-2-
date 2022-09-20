@@ -5,7 +5,7 @@
 }
 
 body {
-  /**background-color: black;**/
+  background-color: black;
   width: 100%;
   height: 100vh;
 }
@@ -79,14 +79,14 @@ body {
   font-size: 25px;
   color: orange;
   padding-top: 20px;
-  display: inline-block;
+  display: inline-flex;
 }
 
 .seconds {
   font-family: Montserrat;
   font-size: 25px;
   color: orange;
-  display: inline-block;
+  display: inline-flex;
 }
 
 .grid-container {
@@ -95,6 +95,7 @@ body {
   grid-template-rows: repeat(3, 1fr);
   justify-content: center;
   gap: 1%;
+  padding-top: -80px;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -217,19 +218,15 @@ body {
   animation: ease-in .2s ease-out;
 }
 
-#hr-style2 {  
-  border-style: solid;
-  padding-block: 5px;
-  padding-top: 10px;
-  background-color: darkslategray;
+
     
-}
+
 
 .score {
   font-family: Montserrat;
   font-size: 25px;
   color: orange;
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 
@@ -239,14 +236,21 @@ body {
   border-style: solid;
   border: 0;
   outline: none;
+  padding-top: 10px;
+  padding-bottom: 20px;
   padding: 20px;
   color: orange;
   font-size: large;
 }
 
 
-
-
+#hr-style2 {  
+  padding: 50px;
+  border-style: solid;
+  padding-block: 5px;
+  padding-top: 30px;
+  background-color: darkslategray;
+}
 
 
 

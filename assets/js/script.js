@@ -1,15 +1,14 @@
 
+
+function welcome () {
+	console.log("Welcome to Catch The Black Cat Game!");
+}
+/*
+
 let catm;
 let square;
 let buttonstart;
 let score;
-
-
-function welcome() {
-      var name=prompt("What is your name?");
-      alert("Welcome to this website " +name);
-}
-
 function buttonstart() {
       document.getElementByclass("catm").style.visibility='hidden';
       document.getElementByclass("square").style.visibility='hidden';
@@ -32,4 +31,3 @@ setInterval(() => {
 function clicked() {
       document.getElementsByClassName("buttonstart").innerHTML=buttonstart++;
 }
-
