@@ -1,69 +1,70 @@
     <!DOCTYPE html>
     <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
-        <link rel = "stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/style.css">
         <title>Catch The Black Cat!</title>
     </head>
+
     <body load="welcome()">
-        <img class="black-cat-moon", src="/assets/images/blackcatmoon.jpg"></img>
+        <img class="black-cat-moon" , src="/assets/images/blackcatmoon.jpg"></img>
         <h1 class="game-name">Memory Game</h1>
         <h2 class="game-title">Catch The Black Cat!
-        <img id="catm" src="/assets/images/catm.png"></img>
+            <img id="catm" src="/assets/images/catm.png"></img>
         </h2>
-    </div>
+        </div>
 
         <hr class="hr-style">
         <h3 class="instructions">Instructions:</h3>
         <p class="instructions-p">Click on Start Game when the cat appears randomly in a square.
-"            Try and catch the cat by clicking on him.  Each time you catch a cat you are given 
-            a score.  You will be given 20 seconds to complete the game and the time remaining
+            " Try and catch the cat by clicking on him. Each time you catch a cat you are given
+            a score. You will be given 20 seconds to complete the game and the time remaining
             will be displayed on screen.</p>
         </p>
 
         <div>
-            <button type="button" onClick="start()" class="buttonstart">Start Game</button>
-            
+            <button type="button" id="startbutton" class="buttonstart">Start Game</button>
+
         </div>
 
         <div>
             <div class="timeleft">Time Remaining:<div class="seconds">20</div>
-        </div>
+            </div>
 
-        <div class="grid-container"> 
-            <div class="square">0<img src="/assets/images/catm.png" class="catm0" onclick="clicked()"></div>
-            <div class="square">1<img src="/assets/images/catm.png" class="catm1" onclick="clicked()"></div>
-            <div class="square">2<img src="/assets/images/catm.png" class="catm2" onclick="clicked()"></div>
-            <div class="square">3<img src="/assets/images/catm.png" class="catm3" onclick="clicked()"></div>
-            <div class="square">4<img src="/assets/images/catm.png" class="catm4" onclick="clicked()"></div>
-            <div class="square">5<img src="/assets/images/catm.png" class="catm5" onclick="clicked()"></div>
-            <div class="square">6<img src="/assets/images/catm.png" class="catm6" onclick="clicked()"></div>
-            <div class="square">7<img src="/assets/images/catm.png" class="catm7" onclick="clicked()"></div>
-            <div class="square">8<img src="/assets/images/catm.png" class="catm8" onclick="clicked()"></div>
-                            
-          </div> 
+            <div class="grid-container">
+                <div class="square">0<img src="/assets/images/catm.png" class="catm0" onclick="clicked()"></div>
+                <div class="square">1<img src="/assets/images/catm.png" class="catm1" onclick="clicked()"></div>
+                <div class="square">2<img src="/assets/images/catm.png" class="catm2" onclick="clicked()"></div>
+                <div class="square">3<img src="/assets/images/catm.png" class="catm3" onclick="clicked()"></div>
+                <div class="square">4<img src="/assets/images/catm.png" class="catm4" onclick="clicked()"></div>
+                <div class="square">5<img src="/assets/images/catm.png" class="catm5" onclick="clicked()"></div>
+                <div class="square">6<img src="/assets/images/catm.png" class="catm6" onclick="clicked()"></div>
+                <div class="square">7<img src="/assets/images/catm.png" class="catm7" onclick="clicked()"></div>
+                <div class="square">8<img src="/assets/images/catm.png" class="catm8" onclick="clicked()"></div>
 
-          <footer>
-            <p class="score">Score:<span class="currentScore">0</span></p>
-            <button class="reset">Reset</button>
-        </footer>
+            </div>
 
-        
-          
-          <hr id="hr-style2">
-          
-         
+            <footer>
+                <p class="score">Score:<span class="currentScore">0</span></p>
+                <button class="reset">Reset</button>
+            </footer>
 
-        <script src="/assets/js/script.js"></script>
+
+
+            <hr id="hr-style2">
+
+
+
+            <script src="./assets/js/script.js"></script>
 
     </body>
+
     </html>
-    
-   

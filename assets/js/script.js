@@ -3,8 +3,8 @@ function welcome () {
 }
 
 var currentScore=0;
-
-function buttonstart() {
+console.log("hello");
+function start() {
       document.getElementsByClassName('catm0').style.visibility='hidden';
       document.getElementsByClassName('catm1').style.visibility='hidden';
       document.getElementsByClassName('catm2').style.visibility='hidden';
