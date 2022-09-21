@@ -4,7 +4,11 @@ const catm0 = document.getElementsByClassName('catm0');
 const square = document.getElementsByClassName('square');
 const catm = document.getElementsByClassName("catm");
 var random;
-const visibility = document.getElementsByTagName("visible");
+let visibility;
+let visible;
+
+var start;
+
 
 function start() {
       catm0[0].style.visibility = 'hidden';
@@ -27,6 +31,7 @@ function start() {
       for(var i=0;i<square.length;i++){
             document.getElementsByClassName('square')[i].style.visibility="visible";
       }
+
       setInterval(() => {
             var random=Math.floor(Math.random()*8)+1;
             document.getElementsByClassName("catm" + random).style.visibility="visible";
@@ -37,20 +42,4 @@ function start() {
             }, 900);
 
       }, 1000);
-}
-
-var timeleft = 10;
-var timeleft = setInterval(function() {
-      if(timeleft <=0) {
-            clearInterval(timeleft);
-            document.getElementsByClassName("countdonw").innerHTML = "Finished";
-      } else {
-            document.getElementsByClassName("timeleft").innerHTML = timeleft
-      }
-timeleft -= 1;
-}, 1000 );
-
-
-function clicked(){
-      document.getElementsByClassName("currentScore").innerHTML=currentScore++;
 }
