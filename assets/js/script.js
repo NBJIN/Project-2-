@@ -1,13 +1,9 @@
 var currentScore=0;
 
-const catm0 = document.getElementsByClassName('catm0');
-const square = document.getElementsByClassName('square');
-const catm = document.getElementsByClassName("catm");
-var random;
-let visibility;
-let visible;
-
+const cat0 = document.getElementsByClassName('catm0');
+var catm0;
 var start;
+
 
 
 function start() {
@@ -25,7 +21,7 @@ function start() {
       document.getElementsByClassName('buttonstart')[0].style.visibility='hidden';
 
       for(var i=0;i<square.length;i++){
-            document.getElementsByClassName("score")[0].style.visibility="visible";
+            document.getElementsByClassName("score")[i].style.visibility="visible";
       
       }
       for(var i=0;i<square.length;i++){
@@ -33,13 +29,17 @@ function start() {
       }
 
       setInterval(() => {
-            var random=Math.floor(Math.random()*8)+1;
-            document.getElementsByClassName("catm" + random).style.visibility="visible";
+            var random=Math.floor(Math.random()*9)+1;
+            document.getElementsByClassName("catm"+random).style.visibility="visible";
             setTimeout(() => { 
                   for(var i=0;i<square.length;i++){
                         document.getElementsByClassName('catm')[i].style.visibility='hidden';
                   }
+                  
             }, 900);
 
       }, 1000);
 }
+     
+     
+   
