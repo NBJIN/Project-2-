@@ -4,6 +4,7 @@ var currentScore=0;
 const cat0 = document.getElementsByClassName('catm0');
 const square = document.getElementsByClassName("square");
 const score = document.getElementsByClassName("score");
+let scoreValue = 0;
 let catm0;
 let style;
 let visibility;
@@ -11,6 +12,7 @@ let visible;
 let catm;
 let random;
 let setTimeout;
+let timer = 20;
 
 
 
