@@ -1,13 +1,22 @@
 var currentScore=0;
 
+
 const cat0 = document.getElementsByClassName('catm0');
-var catm0;
-var start;
+const square = document.getElementsByClassName("square");
+const score = document.getElementsByClassName("score");
+let catm0;
+let style;
+let visibility;
+let visible;
+let catm;
+let random;
+let setTimeout;
+
 
 
 
 function start() {
-      catm0[0].style.visibility = 'hidden';
+      cat0[0].style.visibility = 'hidden';
      
       document.getElementsByClassName('catm1')[0].style.visibility='hidden';
       document.getElementsByClassName('catm2')[0].style.visibility='hidden';
@@ -21,7 +30,7 @@ function start() {
       document.getElementsByClassName('buttonstart')[0].style.visibility='hidden';
 
       for(var i=0;i<square.length;i++){
-            document.getElementsByClassName("score")[i].style.visibility="visible";
+            document.getElementsByClassName("score")[0].style.visibility="visible";
       
       }
       for(var i=0;i<square.length;i++){
