@@ -11,31 +11,31 @@ In this game "Catch a Black Cat" when the user clicks on the start button a blac
 ![image](https://user-images.githubusercontent.com/106515976/191320974-84e2b38d-3104-4526-8943-ed79030bf185.png)
 
 
-1. Site Design Consideration Heading
+#1. Site Design Consideration Heading
     - Site Goals
     - User Stories and Goals
     - Site Design Approach
     - Game Design and Font
 
-2. Wireframes
+#2. Wireframes
     - Description of Project 
 
-3. Features
+#3. Features
     - Initital Deployment Features
     - Future Features
 
-4. Technologies Used
+#4. Technologies Used
 
-5. Testing
+#5. Testing
     - Manual Testing
 
-6. Deployment
+#6. Deployment
 
-7. Credits
+#7. Credits
 
 <hr>
 
-1. Site Design Consideration 
+#1. Site Design Consideration 
 
    Site Goals:
    1. To provide a interactive, fun and easy game to play.
@@ -68,7 +68,7 @@ In this game "Catch a Black Cat" when the user clicks on the start button a blac
 
     <hr>
 
-2 Wireframes
+#2. Wireframes
 
 
    ![image](https://user-images.githubusercontent.com/106515976/191692349-79b155ff-4566-4aa7-a2cc-22064d5ae600.png)
@@ -76,7 +76,7 @@ In this game "Catch a Black Cat" when the user clicks on the start button a blac
 
 <hr>
 
-3. Features:
+#3. Features:
 
 Initital Deployment Features
 
@@ -151,7 +151,7 @@ Future Features
     2 The addition of a sound element when the user actually caught a cat just to indicate they have been successful and they     have added to their score.
     3 Animate the cursor maybe with an image like a cat catcher or just to make the cursor bigger so that the user can have a better chance of catching the cat.  
 
-4. Technologies Used
+#4. Technologies Used
 
     - HTML5 was used to build the structure of the page
     - CSS3 was used to provide styling to the elements on the page
@@ -164,7 +164,7 @@ Future Features
     - 
 
 
-5. Testing
+#5. Testing
     Manual Testing
     - On the page there are navigational items - when you open the page the start button will appear along with all the 9 cats and their circles.  When the user clicks on the start button the button should disappear and the also the 9 cat will also disappear.  A cat will then randomly appear in one of the circles which the user must click in order to get a score.  
     - The time reaminaing will countdown from 20 seconds once the start button is clicked and once it hts 0 it will say game over your score is ....
@@ -172,7 +172,7 @@ Future Features
 
     - Even though i have built this game there are some bugs in my code which is making the site unreponsive.  I have ran out of time on this project in order to address same.  
 
-6. Deployment
+#6. Deployment
 
 This site was deployed to GitHub pages.  The steps to deploy are the following: 
 - In GitHub repository, navigate to the settings tab
@@ -181,7 +181,7 @@ This site was deployed to GitHub pages.  The steps to deploy are the following:
 
 The link can be found at the following -https://github.com/NBJIN/Project-2- (gh repo clone NBJIN/Project-2-)
 
-7. Credits
+#7. Credits
 In completing this project i reviewed the following sources of information: 
 
 Design / Content
