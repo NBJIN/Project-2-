@@ -1,3 +1,4 @@
+// Define Variables
 var currentScore=0;
 
 
@@ -13,6 +14,8 @@ let catm;
 let random;
 let setTimeout;
 let timer = 20;
+let start;
+
 
 // Define 9 cats
 const cat1 = document.getElementsByClassName("catm0")[0];
@@ -35,13 +38,15 @@ function start() {
       startTimer();
 }
 
+// Once game is started the startTimer Functiion starts
 function startTimer() {
       setInterval(function() {
-            timer--;
+            timer --;
             console.log(timer);
       }, 1000);
       }
 
+      // function to enter game
 function enterGame() {
       hideCats();
       setInterval(function() {
@@ -55,6 +60,7 @@ function enterGame() {
       }, 2000);
 }
 
+// function that ends game once timer has finished
 function endGame() {
       alert(`Game over, your time has run out, you have a score of ${scoreValue}`);
 }
@@ -73,6 +79,7 @@ function hideCats() {
 
 }
 
+// Display random cat
 function displayCat() {
       const randomNumber = Math.floor(Math.random() *9);
       if (randomNumber ===1) {
@@ -96,42 +103,6 @@ function displayCat() {
       }
       }
 
-      /** 
-
-function start() {
-      cat0[0].style.visibility = 'hidden';
-     
-      document.getElementsByClassName('catm1')[0].style.visibility='hidden';
-      document.getElementsByClassName('catm2')[0].style.visibility='hidden';
-      document.getElementsByClassName('catm3')[0].style.visibility='hidden';
-      document.getElementsByClassName('catm4')[0].style.visibility='hidden';
-      document.getElementsByClassName('catm5')[0].style.visibility='hidden';
-      document.getElementsByClassName('catm6')[0].style.visibility='hidden';
-      document.getElementsByClassName('catm7')[0].style.visibility='hidden';
-      document.getElementsByClassName('catm8')[0].style.visibility='hidden';
-
-      document.getElementsByClassName('buttonstart')[0].style.visibility='hidden';
-
-      for(var i=0;i<square.length;i++){
-            document.getElementsByClassName("score")[0].style.visibility="visible";
-      
-      }
-      for(var i=0;i<square.length;i++){
-            document.getElementsByClassName('square')[i].style.visibility="visible";
-      }
-
-      setInterval(() => {
-            var random=Math.floor(Math.random()*9)+1;
-            document.getElementsByClassName("catm"+random).style.visibility="visible";
-            setTimeout(() => { 
-                  for(var i=0;i<square.length;i++){
-                        document.getElementsByClassName('catm')[i].style.visibility='hidden';
-                  }
-                  
-            }, 900);
-
-      }, 1000);
-}
      
      
    
