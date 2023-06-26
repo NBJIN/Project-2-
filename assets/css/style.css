@@ -43,6 +43,7 @@ body {
   padding-top: 30px;
   padding-bottom: 10px;
   background-color: darkslategray;
+  color: orange;
 }
 
 
@@ -139,7 +140,7 @@ body {
 
 .main-container {
   justify-items: center;
-  padding-left: 230px;
+  padding-left: 500px;
 
 }
 
@@ -294,6 +295,7 @@ body {
   padding-block: 5px;
   padding-top: 30px;
   background-color: darkslategray;
+  color: orange;
 }
 
 
