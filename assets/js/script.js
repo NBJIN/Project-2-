@@ -1,10 +1,11 @@
 // Define Variables
 var currentScore=0;
 
-
+// const startButton = document.getElementById('startButton');
 const cat0 = document.getElementsByClassName('catm0');
 const square = document.getElementsByClassName("square");
 const score = document.getElementsByClassName("score");
+
 let scoreValue = 0;
 let catm0;
 let style;
@@ -14,7 +15,7 @@ let catm;
 let random;
 let setTimeout;
 let timer = 20;
-let start;
+// let start;
 
 
 // Define 9 cats
@@ -28,15 +29,28 @@ const cat7 = document.getElementsByClassName("catm6")[0];
 const cat8 = document.getElementsByClassName("catm7")[0];
 const cat9 = document.getElementsByClassName("catm8")[0];
 
-const startBtn = document.getElementsByClassName('buttonstart')[0];
+// const startBtn = document.getElementsByClassName('buttonstart')[0];
+const startButton = document.getElementById('startButton');
+
+startButton.addEventListener('click', start);
 
 function start() {
       //Stop showing play button
-      startBtn.style.display = 'none';
-      // Enter game
-      enterGame();
-      startTimer();
+      startButton.style.display = 'none';
+      let timeRemaining = 20;
+      const countdown = setInterval(() => {
+            document.querySelector('.timeremaining .seconds').textContent = timeRemaining;
+            timeRemaining--;
+            if (timeRemaining < 0) {
+                  clearInterval(countdown);
+                  alert('Game over!');
+            }
+      }, 1000);
 }
+      // Enter game
+//       enterGame();
+//       startTimer();
+// }
 
 // Once game is started the startTimer Functiion starts
 function startTimer() {
