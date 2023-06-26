@@ -43,9 +43,12 @@ function start() {
             timeRemaining--;
             if (timeRemaining < 0) {
                   clearInterval(countdown);
-                  alert('Game over!');
+                  
+                  alert('STOP - Game over!');
             }
       }, 1000);
+
+      enterGame();
 }
       // Enter game
 //       enterGame();
