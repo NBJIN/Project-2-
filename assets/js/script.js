@@ -3,19 +3,24 @@ var currentScore=0;
 
 // const startButton = document.getElementById('startButton');
 const cat0 = document.getElementsByClassName('catm0');
+
+// const startBtn = document.getElementsByClassName('buttonstart')[0];
+const startButton = document.getElementById('startButton');
+
 const square = document.getElementsByClassName("square");
 const score = document.getElementsByClassName("score");
 
 let scoreValue = 0;
-let catm0;
-let style;
-let visibility;
-let visible;
-let catm;
-let random;
-let setTimeout;
+// let catm0;
+// let style;
+// let visibility;
+// let visible;
+// let catm;
+// let random;
+// let setTimeout;
 let timer = 20;
 // let start;
+// let startButton
 
 
 // Define 9 cats
@@ -29,8 +34,7 @@ const cat7 = document.getElementsByClassName("catm6")[0];
 const cat8 = document.getElementsByClassName("catm7")[0];
 const cat9 = document.getElementsByClassName("catm8")[0];
 
-// const startBtn = document.getElementsByClassName('buttonstart')[0];
-const startButton = document.getElementById('startButton');
+
 
 startButton.addEventListener('click', start);
 
@@ -66,7 +70,8 @@ function startTimer() {
       // function to enter game
 function enterGame() {
       hideCats();
-      setInterval(function() {
+      // setInterval(function() {
+      setInterval(() => {
             displayCat();
             if (timer === 0) {
                   endGame();
@@ -79,7 +84,7 @@ function enterGame() {
 
 // function that ends game once timer has finished
 function endGame() {
-      alert(`Game over, your time has run out, you have a score of ${scoreValue}`);
+      alert(`Game over, your time has run out, you have a score of ${score}`);
 }
 
 function hideCats() {
@@ -118,6 +123,11 @@ function displayCat() {
       } else  {
             cat9.style.display = 'block';
       }
+      }
+
+      function display() {
+            score;
+            score.textContent = score
       }
 
      
