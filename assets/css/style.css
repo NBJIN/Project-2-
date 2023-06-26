@@ -37,12 +37,14 @@ body {
 }
 
 .hr-style {
+  padding: 50px;
   border-style: solid;
   padding-block: 5px;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
   background-color: darkslategray;
 }
+
 
 .instructions {
   color: orange;
@@ -60,6 +62,13 @@ body {
   font-size: 20px;
   text-align: center;
   padding-bottom: 20px;
+}
+
+.button-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 #startButton {
@@ -83,10 +92,33 @@ body {
   text-align: center;
 }
 
-.timeleft {
+.reset {
+  background-color: darkslategray;
+  border-radius: 100px;
+  border-style: solid;
+  border: 0;
+  outline: none;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding: 20px;
+  color: orange;
+  font-size: large;
+}
+
+.game-status {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 10px; 
+}
+.fa-sharp {
+  color: red;
+}
+
+.timeremaining {
   font-family: Montserrat;
   font-size: 25px;
-  color: orange;
+  color: red;
   padding-top: 20px;
   display: inline-flex;
 }
@@ -94,15 +126,30 @@ body {
 .seconds {
   font-family: Montserrat;
   font-size: 25px;
-  color: orange;
+  color: red;
   display: inline-flex;
 }
+
+.score {
+  font-family: Montserrat;
+  font-size: 25px;
+  color: blue;
+
+}
+
+.main-container {
+  justify-items: center;
+  padding-left: 230px;
+
+}
+
 
 .square-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  justify-items: center;
+  justify-items: center; 
+  align-items: center;
  
   gap: 1%;
   height: 800px;
@@ -111,6 +158,7 @@ body {
   padding-bottom: 20px;
   /* padding-left: 20px;
   padding-right: 20px; */
+  background-color: darkslategrey;
 } 
 
 .square {
@@ -118,7 +166,7 @@ body {
   /* border-color: orange; */
   border-radius: 100%;
   /* border: solid; */
-  box-shadow: inset 0 10px 0 7px rgba(255, 165, 0, 0.5);
+  box-shadow: inset 0 10px 0 7px rgba(255, 165, 0, 0.9);
   height: 200px;
   width: 200px;
   /* left:  30%;
@@ -127,6 +175,8 @@ body {
   position: relative;
   /* flex: 1 0 33.33%;
   justify-items: space-evenly; */
+  border: 2px;
+  background-color: darkslategray;
   
 }
 
@@ -235,26 +285,7 @@ body {
     
 
 
-.score {
-  font-family: Montserrat;
-  font-size: 25px;
-  color: orange;
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
 
-.reset {
-  background-color: darkslategray;
-  border-radius: 100px;
-  border-style: solid;
-  border: 0;
-  outline: none;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  padding: 20px;
-  color: orange;
-  font-size: large;
-}
 
 
 #hr-style2 {  

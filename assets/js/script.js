@@ -22,6 +22,8 @@ let timer = 20;
 // let start;
 // let startButton
 
+// document.addEventListener("DOMContentLoaded", function () {}
+
 
 // Define 9 cats
 const cat1 = document.getElementsByClassName("catm0")[0];
@@ -40,8 +42,9 @@ startButton.addEventListener('click', start);
 
 function start() {
       //Stop showing play button
-      startButton.style.display = 'none';
+      // startButton.style.display = 'none';
       let timeRemaining = 20;
+
       const countdown = setInterval(() => {
             document.querySelector('.timeremaining .seconds').textContent = timeRemaining;
             timeRemaining--;

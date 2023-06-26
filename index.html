@@ -32,21 +32,28 @@
             will be displayed on screen.</p>
         </p>
 
-        <div>
+        <div class="button-layout">
             <button type="button" onclick="start(startButton)" class="buttonstart" id="startButton">Start Game</button>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <button class="reset">Reset</button>
 
         </div>
 
-        <div>
-            <div class="timeremaining">Time Remaining:<div class="seconds">20</div>
+        <div class="game-status">
+            
+            <div class="timeremaining">Time Remaining: &nbsp;<div class="seconds">&nbsp;20</div>
+            <br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <p class="score">Score:<span class="currentScore">0</span></p>
             </div>
+        </div>
 
-            <div>
+            <!-- <div>
                 <p class="score">Score:<span class="currentScore">0</span></p>
-                <button class="reset">Reset</button>
-            </div>
+                
+            </div> -->
+ 
 
-            <!-- <div class="grid-container"> -->
+        <div class="main-container">
             <div class="square-container">
                 <div class="square">0<img src="/assets/images/catm.png" class="catm0" onclick="clicked()"></div>
                 <div class="square">1<img src="/assets/images/catm.png" class="catm1" onclick="clicked()"></div>
@@ -57,13 +64,15 @@
                 <div class="square">6<img src="/assets/images/catm.png" class="catm6" onclick="clicked()"></div>
                 <div class="square">7<img src="/assets/images/catm.png" class="catm7" onclick="clicked()"></div>
                 <div class="square">8<img src="/assets/images/catm.png" class="catm8" onclick="clicked()"></div>
-
             </div>
+        </div>
 
             <!-- <footer> -->
          
             <!-- </footer> -->
-
+            <br>
+            <br>
+            <br>
 
 
             <hr id="hr-style2">
