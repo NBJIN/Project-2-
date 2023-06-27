@@ -62,77 +62,99 @@ function start() {
 //       startTimer();
 // }
 
+
+// function to enter game 
+function enterGame() {
+      catsHide();
+      startTimer();
+}
+
 // Once game is started the startTimer Functiion starts
 function startTimer() {
-      setInterval(function() {
+      setInterval(() => {
             timer --;
             console.log(timer);
+
+            if(timer === 0) {
+                  gameOver();
+                  timer = -1;
+            }
       }, 1000);
       }
 
       // function to enter game
-function enterGame() {
-      hideCats();
+// function enterGame() {
+//       hideCats();
       // setInterval(function() {
-      setInterval(() => {
+//       setInterval(() => {
           
-            displayCat();
-            if (timer === 0) {
-                  endGame();
-                  timer = -1;
-            } else {
-                  enterGame();
-            }
-      }, 2000);
-}
+//             displayCat();
+//             if (timer === 0) {
+//                   endGame();
+//                   timer = -1;
+//             } else {
+//                   enterGame();
+//             }
+//       }, 2000);
+// }
 
 // function that ends game once timer has finished
 function endGame() {
-      alert(`Game over, your time has run out, you have a score of ${score}`);
+      alert(`Time is up game has now ended your score is as follows:  ${currentScore}`);
 }
 
-function hideCats() {
-      // Hide Cats
-      cat1.style.display = 'none';
-      cat2.style.display = 'none';
-      cat3.style.display = 'none';
-      cat4.style.display = 'none';
-      cat5.style.display = 'none';
-      cat6.style.display = 'none';
-      cat7.style.display = 'none';
-      cat8.style.display = 'none';
-      cat9.style.display = 'none';
 
+
+function catsHide() {
+      // Hide Cats
+      // cat1.style.display = 'none';
+      // cat2.style.display = 'none';
+      // cat3.style.display = 'none';
+      // cat4.style.display = 'none';
+      // cat5.style.display = 'none';
+      // cat6.style.display = 'none';
+      // cat7.style.display = 'none';
+      // cat8.style.display = 'none';
+      // cat9.style.display = 'none';
+      for (var i = 0; i < squares.length; i++) {
+            squares[i].innerHTML = ' ';
+      }
 }
 
 // Display random cat
 function displayCat() {
-      const randomNumber = Math.floor(Math.random() *9);
-      if (randomNumber ===1) {
-            cat1.style.display = 'block';
-      } else if (randomNumber === 2) {
-            cat2.style.display = 'block';
-      } else if (randomNumber === 3) {
-            cat3.style.display = 'block';
-      } else if (randomNumber === 4) {
-            cat4.style.display = 'block';
-      } else if (randomNumber === 5) {
-            cat5.style.display = 'block';
-      } else if (randomNumber === 6) {
-            cat6.style.display = 'block';
-      } else if (randomNumber === 7) {
-           cat7.style.display = 'block';
-      } else if (randomNumber === 8) {
-            cat8.style.display = 'block';
-      } else  {
-            cat9.style.display = 'block';
-      }
-      }
+      // const randomNumber = Math.floor(Math.random() *9);
+      // if (randomNumber ===1) {
+      //       cat1.style.display = 'block';
+      // } else if (randomNumber === 2) {
+      //       cat2.style.display = 'block';
+      // } else if (randomNumber === 3) {
+      //       cat3.style.display = 'block';
+      // } else if (randomNumber === 4) {
+      //       cat4.style.display = 'block';
+      // } else if (randomNumber === 5) {
+      //       cat5.style.display = 'block';
+      // } else if (randomNumber === 6) {
+      //       cat6.style.display = 'block';
+      // } else if (randomNumber === 7) {
+      //      cat7.style.display = 'block';
+      // } else if (randomNumber === 8) {
+      //       cat8.style.display = 'block';
+      // } else  {
+      //       cat9.style.display = 'block';
+      const randomNumber = Math.floor(Math.random() * 9);
+      const catImg = document.createElement('img');
+      catImg.src = "/assets/images/catm.png";
+      catImg.className = 'catm' + randomNumber;
 
-      function display() {
-            score;
-            score.textContent = score
+      squares[randomNumber1].appendChild(catImg)
       }
+      // }
+
+      // function display() {
+      //       score;
+      //       score.textContent = score
+      // }
 
      
      
