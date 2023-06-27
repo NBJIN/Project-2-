@@ -5,10 +5,10 @@ var currentScore=0;
 const cat0 = document.getElementsByClassName('catm0');
 
 // const startBtn = document.getElementsByClassName('buttonstart')[0];
-const startButton = document.getElementById('startButton');
+const startButton = document.getElementById('#startButton');
 
-const square = document.getElementsByClassName("square");
-const score = document.getElementsByClassName("score");
+const square = document.getElementsByClassName(".square");
+const score = document.getElementsByClassName(".score");
 
 let scoreValue = 0;
 // let catm0;
@@ -74,7 +74,8 @@ function startTimer() {
 function enterGame() {
       hideCats();
       // setInterval(function() {
-      setInterval(() => {
+      // setInterval(() => {
+            timeremaining = setInterval(square, 500)
             displayCat();
             if (timer === 0) {
                   endGame();
