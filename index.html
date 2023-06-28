@@ -17,11 +17,15 @@
     </head>
 
     <body>
-        <img class="black-cat-moon" src="/assets/images/blackcatmoon.jpg"></img>
-        <h1 class="game-name">Memory Game</h1>
-        <h2 class="game-title">Catch The Black Cat!
+   
+
+        <div class="introduction">
+            <img class="black-cat-moon" src="/assets/images/blackcatmoon.jpg"></img>
+            <h1 class="game-name">Memory Game - Catch The Black Cat</h1>
+            <!-- <h2 class="game-title">Catch The Black Cat! -->
             <img id="catm" src="/assets/images/catm.png"></img>
-        </h2>
+            </h2>
+        </div>
 
         <hr class="hr-style">
         <h3 class="instructions">Instructions:</h3>
@@ -32,14 +36,16 @@
         </p>
 
         <div class="button-layout">
-            <button type="button" onclick="start(startButton)" class="buttonstart" id="startButton">Start Game</button>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+           
+           
             <!-- <button class="resetButton">Reset</button> -->
             <label class="levelLabel">Choose A Level &nbsp;<i class="fa-solid fa-arrow-right" style="color: #2f4f4f;"></i></label>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-            <button type="button" onclick="levele(levelEasy)" class="levelEasy" id="levelEasy">Easy</button>
+            <button type="button" class="levelEasy" id="levelEasy">Easy</button>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-            <button type="button" onclick="levelh(levelHard)" class="levelHard" id="levelHard">Hard</button>
+            <button type="button" class="levelHard" id="levelHard">Hard</button>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <button type="button" class="buttonstart" id="startButton">Start Game</button>
 
         </div>
 
