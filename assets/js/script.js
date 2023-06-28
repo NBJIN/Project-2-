@@ -3,6 +3,7 @@ var currentScore = 0;
 var timer = 20;
 var countdownInterval;
 var catImg = document.createElement('img');
+var gameLevel = "",
 catImg.src = "/assets/images/catm.png";
 catImg.style.width = '80%';
 catImg.style.height = '80%';
@@ -13,33 +14,59 @@ catImg.style.height = '80%';
 
 // const startBtn = document.getElementsByClassName('buttonstart')[0];
 const startButton = document.getElementById('startButton');
-const resetButton = document.getElementById('resetButton');
+// const resetButton = document.getElementById('resetButton');
 const square = document.getElementsByClassName("square");
 const score = document.getElementsByClassName("currentScore")[0];
+const levelEasy = document.getElementById('levelEasy');
+const levelHard = document.getElementById('levelHard');
 var timerRemaining = document.querySelector('.timeremaining .seconds');
 var catMoveInterval;
 
 // startButton.addEventListener('click', start);
 startButton.addEventListener('click', function() {
-  countdownInterval = setInterval(countdown, 1000);
-  displayCat();
-  catMoveInterval = setInterval(displayCat, 1000);
-  startButton.disabled = true;
+  start();
 });
 
-resetButton.addEventListener('click', reset);
-catImg.addEventListener('click', incrementScore);
-levelEasy.addEventListener('click', level)
-levelHard.addEventListener('click', level)
 
-function selectLevel() {
-  if (level === 'easy') {
-    setTime = 30;
-    randomIndex = 1000;
-  } else if (level === 'hard') {
-    setTime = 20;
-    randomIndex = 500;
+
+// resetButton.addEventListener('click', reset);
+catImg.addEventListener('click', incrementScore);
+levelEasy.addEventListener('click', function() {
+  levele('levelEasy');
+})
+levelHard.addEventListener('click', function() {
+  levelh('levelHard');
+})
+
+
+function start() {
+  if (gameLevel !== "") {
+    countdownInterval = setInterval(countdown, 1000);
+    displayCat();
+    catMoveInterval = setInterval(displayCat, rate);
+    startButton.disabled = true;
+    } else {
+    alert("Please choose a level.");
+    }
   }
+
+function levele(level) {
+  gameLevel = level;
+  if (level === 'levelEasy') {
+    setTime = 30;
+    rate = 1000;
+  } 
+  timerRemaining.textContent = timer;
+}
+
+
+function levelh(level) {
+  gameLevel = level;
+  if (level === 'levelHard') {
+    setTime = 20;
+    rate = 500;
+  } 
+  timerRemaining.textContent = timer;
 }
 
 function countdown() {
@@ -68,12 +95,12 @@ function endGame() {
   }
 
 
-function resetGame() {
-  timer = 20;
-  currentScore = 0;
-  timerRemaining.textContent = timer;
-  score.textContent = currentScore;
-}
+// function resetGame() {
+//   timer = 20;
+//   currentScore = 0;
+//   timerRemaining.textContent = timer;
+//   score.textContent = currentScore;
+// }
 
 // Display random cat
 function displayCat() {
@@ -96,9 +123,9 @@ function incrementScore() {
 }
 
 
-function reset() {
-  resetGame();
-  clearInterval(countdownInterval);
-  clearInterval(catMoveInterval);
-  startButton.disabled = false; 
-}
+// function reset() {
+//   resetGame();
+//   clearInterval(countdownInterval);
+//   clearInterval(catMoveInterval);
+//   startButton.disabled = false; 
+// }
