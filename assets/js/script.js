@@ -23,6 +23,8 @@ const square = document.getElementsByClassName("square");
 const score = document.getElementsByClassName("currentScore")[0];
 const levelEasy = document.getElementById('levelEasy');
 const levelHard = document.getElementById('levelHard');
+const stopButton = document.getElementById('stopButton');
+const resumeButton = document.getElementById('resumeButton');
 var timerRemaining = document.querySelector('.timeremaining .seconds');
 var catMoveInterval;
 var rate;
@@ -129,46 +131,32 @@ levelHard.addEventListener('click', function() {
   level('levelHard');
 });
 
-// function levele(level) {
-//   gameLevel = level;
-//   if (level === 'levelEasy') {
-//     timer = 30;
-//     rate = 1000;
-//   } 
-//   timerRemaining.textContent = timer;
-// }
-
-
-// function levelh(level) {
-//   gameLevel = level;
-//   if (level === 'levelHard') {
-//     timer = 20;
-//     rate = 500;
-//   } 
-//   timerRemaining.textContent = timer;
-// }
 
 
 
 
+function level(level) {
+  gameLevel = level;
+  if (level === 'levelEasy') {
+    timer = 30;
+    rate = 1000;
+  } 
+  timerRemaining.textContent = timer;
+}
 
-// function resetGame() {
-//   timer = 20;
-//   currentScore = 0;
-//   timerRemaining.textContent = timer;
-//   score.textContent = currentScore;
-// }
 
+function stopGame() {
+  clearInterval(countdownInterval);
+  clearInterval(catMoveInterval);
+  startButton.disabled = false;
+  stopButton.disabled = true;
+  catImg.removeEventListener('click', incrementScore);
+  stopButton.removeEventListener('click', stopGame)
+ 
+}
+stopButton.addEventListener('click', stopGame)
 
-
-
+function resumeButton
 
 });
 
-
-// function reset() {
-//   resetGame();
-//   clearInterval(countdownInterval);
-//   clearInterval(catMoveInterval);
-//   startButton.disabled = false; 
-// }
