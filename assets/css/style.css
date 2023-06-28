@@ -143,13 +143,11 @@ body {
   font-family: Montserrat;
   font-size: 25px;
   color: blue;
-
 }
 
 .main-container {
   justify-items: center;
   padding-left: 500px;
-
 }
 
 
@@ -159,7 +157,6 @@ body {
   grid-template-rows: repeat(3, 1fr);
   justify-items: center; 
   align-items: center;
- 
   gap: 1%;
   height: 800px;
   width: 800px;
@@ -186,7 +183,6 @@ body {
   justify-items: space-evenly; */
   border: 2px;
   background-color: darkslategray;
-  
 }
 
 .catm0 {
@@ -200,8 +196,6 @@ body {
   animation: ease-in .2s ease-out;
   }
   
-
-
 .catm1 {
   height: 100px;
   width: 100px;
@@ -290,13 +284,6 @@ body {
   animation: ease-in .2s ease-out;
 }
 
-
-    
-
-
-
-
-
 #hr-style2 {  
   padding: 50px;
   border-style: solid;
@@ -308,7 +295,7 @@ body {
 
 
 /* @media screen and (min-width: 568px) and (max-width:666px) { */
-
+/* 
   @media screen and (max-width: 567px) {
 
     .rotation {
@@ -326,5 +313,5 @@ body {
     }
 
     
-    }
+    } */
 /* } */

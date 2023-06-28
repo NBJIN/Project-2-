@@ -29,7 +29,8 @@ startButton.addEventListener('click', function() {
 
 resetButton.addEventListener('click', reset);
 catImg.addEventListener('click', incrementScore);
-levelButton.addEventListener('click', level)
+levelEasy.addEventListener('click', level)
+levelHard.addEventListener('click', level)
 
 function selectLevel() {
   if (level === 'easy') {
