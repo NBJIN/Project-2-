@@ -114,10 +114,6 @@ body {
   font-family: Montserrat;
 }
 
-.arrow {
-  color: orange;
-}
-
 .game-status {
   display: flex;
   justify-content: center; 
