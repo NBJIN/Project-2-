@@ -15,7 +15,7 @@ catImg.style.height = '80%';
 const startButton = document.getElementById('startButton');
 const resetButton = document.getElementById('resetButton');
 const square = document.getElementsByClassName("square");
-const score = document.getElementsByClassName(".score .value");
+const score = document.getElementsByClassName("currentScore")[0];
 var timerRemaining = document.querySelector('.timeremaining .seconds');
 var catMoveInterval;
 
