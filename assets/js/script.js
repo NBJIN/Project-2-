@@ -19,17 +19,16 @@ const score = document.getElementsByClassName("currentScore")[0];
 var timerRemaining = document.querySelector('.timeremaining .seconds');
 var catMoveInterval;
 
-startButton.addEventListener('click', start);
-resetButton.addEventListener('click', reset);
-catImg.addEventListener('click', incrementScore);
-
-
-function start() {
+// startButton.addEventListener('click', start);
+startButton.addEventListener('click', function() {
   countdownInterval = setInterval(countdown, 1000);
   displayCat();
   catMoveInterval = setInterval(displayCat, 1000);
   startButton.disabled = true;
-}
+});
+
+resetButton.addEventListener('click', reset);
+catImg.addEventListener('click', incrementScore);
 
 
 function countdown() {
@@ -109,6 +108,15 @@ function reset() {
   clearInterval(catMoveInterval);
   startButton.disabled = false; 
 }
+
+
+// function start() {
+//   countdownInterval = setInterval(countdown, 1000);
+//   displayCat();
+//   catMoveInterval = setInterval(displayCat, 1000);
+//   startButton.disabled = true;
+// }
+
      
    
 
