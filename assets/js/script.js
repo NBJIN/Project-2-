@@ -29,7 +29,17 @@ startButton.addEventListener('click', function() {
 
 resetButton.addEventListener('click', reset);
 catImg.addEventListener('click', incrementScore);
+levelButton.addEventListener('click', level)
 
+function selectLevel() {
+  if (level === 'easy') {
+    setTime = 30;
+    randomIndex = 1000;
+  } else if (level === 'hard') {
+    setTime = 20;
+    randomIndex = 500;
+  }
+}
 
 function countdown() {
   if (timer > 0) {
@@ -57,17 +67,6 @@ function endGame() {
   }
 
 
-// function to enter game 
-// function enterGame() {
-//   clearInterval(countdownInterval);
-//   alert('The Game has now ended your score is: ' + currentScore);
-// }
-
-// var randomIndex = Math.floor(Math.random() * square.length);
-//   square[randomIndex].appendChild(catImg);
-//   catImg.addEventListener('click', incrementScore);
-
-
 function resetGame() {
   timer = 20;
   currentScore = 0;
@@ -89,12 +88,6 @@ function displayCat() {
   }
 }
 
-//     catImg.addEventListener('click', incrementScore);
-//   } else {
-//     catImg.removeEventListener('click', incrementScore);
-//  }
-// }
-
 
 function incrementScore() {
    currentScore++;
@@ -108,53 +101,3 @@ function reset() {
   clearInterval(catMoveInterval);
   startButton.disabled = false; 
 }
-
-
-// function start() {
-//   countdownInterval = setInterval(countdown, 1000);
-//   displayCat();
-//   catMoveInterval = setInterval(displayCat, 1000);
-//   startButton.disabled = true;
-// }
-
-     
-   
-
-
-
-
-
-
-
-
-
-// Once game is started the startTimer Functiion starts
-
-// function startTimer() {
-//       setInterval(() => {
-//             timer --;
-//             console.log(timer);
-
-//             if(timer === 0) {
-//                   gameOver();
-//                   timer = -1;
-//             }
-//       }, 1000);
-//       }
-
-
-// }
-
-
-
-
-
-// function catsHide() {
-//        if (currentSquare !== null) {
-//             const selectSquare = square[selectSquare];
-//             targetSquare.innerHTML = '';
-//             currentSquare = null;
-//       }
-// }
-
-

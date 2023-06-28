@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <script src="https://kit.fontawesome.com/4ac481fc67.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -34,7 +34,12 @@
         <div class="button-layout">
             <button type="button" onclick="start(startButton)" class="buttonstart" id="startButton">Start Game</button>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-            <button class="resetButton">Reset</button>
+            <!-- <button class="resetButton">Reset</button> -->
+            <label class="levelLabel">Choose A Level &nbsp;<i class="fa-solid fa-arrow-right" style="color: #2f4f4f;"></i></label>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <button type="button" onclick="levele(levelEasy)" class="levelEasy" id="levelEasy">Easy</button>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <button type="button" onclick="levelh(levelHard)" class="levelHard" id="levelHard">Hard</button>
 
         </div>
 
