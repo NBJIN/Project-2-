@@ -101,12 +101,9 @@ body {
   text-align: center;
 }
 
-/* .resetButton,  */
+
 .levelEasy,
-.levelHard,
-/* .stopButton, */
-/* .resumeButton { */
-.newGameButton {
+.levelHard {
   background-color: darkslategray;
   border-radius: 100px;
   border-style: solid;
@@ -315,6 +312,103 @@ body {
   height: 150px;
 }
 
+/* Media Queries For Large to Medium screen sizes from 1200px wide and down.  
+/* @media screen and (max-width: 1200px) { */
+
+/* For Medium Screen Sizes From 950px wide and down */
+
+@media screen and (max-width: 950px) {
+  .black-cat-moon {
+    width: 200px;
+    height: 100px;
+    left: 0;
+  }
+
+  .game-name,
+  .game-title,
+  .instructions {
+    font-size: 25px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .hr-style {
+    padding-top: 20px;
+    width: 135%;
+  }
+
+#catm,
+  .imagetopright {
+    display: none;
+  }
+
+.instructions-p {
+    font-size: 20px;
+    width: 135%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+#startButton,
+.buttonstart,
+.levelEasy,
+.levelHard,
+.levelLabel,
+.fa-sharp {
+  /* display: flex;  */
+
+  width: 135%;
+
+  }
+
+.levelLabel {
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.timeremaining,
+.seconds,
+.score {
+  padding-left: 5px;
+  font-size: 20px;
+  display: inline-flex;
+}
+
+ .main-container {
+  width: 135%;
+
+ }
+
+ .square-container {
+  /* display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center; 
+  align-items: center;
+
+  height: 150px; */
+  background-color: black;
+  width: 135%;
+ }
+
+ .square {
+  width: 150px;
+  height: 150px; 
+  gap: 1px;
+ }
+
+ #hr-style2 {
+  width: 135%;
+  /* display: none; */
+ }
+
+ .paws {
+  margin-left: 50%;
+  padding-bottom: 50px;
+ }
+
+}
 
 
 
