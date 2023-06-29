@@ -17,22 +17,28 @@
     </head>
 
     <body>
+        <div class="imagetopright">
+            <img class="paws" src="/assets/images/paws.png"></img>
+        </div>
    
 
         <div class="introduction">
             <img class="black-cat-moon" src="/assets/images/blackcatmoon.jpg"></img>
             <h1 class="game-name">Memory Game - Catch The Black Cat</h1>
-            <!-- <h2 class="game-title">Catch The Black Cat! -->
             <img id="catm" src="/assets/images/catm.png"></img>
             </h2>
         </div>
 
         <hr class="hr-style">
         <h3 class="instructions">Instructions:</h3>
-        <p class="instructions-p">Click on Start Game when the cat appears randomly in a square.
-            " Try and catch the cat by clicking on him. Each time you catch a cat you are given
-            a score. You will be given 20 seconds to complete the game and the time remaining
-            will be displayed on screen.</p>
+        <p class="instructions-p">Player can choose two levels.  Level Easy is where the player
+            gets 30 seconds and a speed of 1000 for the cat to display.  Level Hard is where the 
+            player gets 20 seconds and a speed of 500 for the cat to display.  Once the player 
+            has chosen their desired level the time and score counter will reflect the chosen level.  
+            The player then click on Start Game to begin playing the game.  Once the game starts the 
+            timer will count down and any successful trys will be recorded in the score counter.  
+            When the game finishes an alert will display advising the player the game has finished and
+            will also display the score counter.</p>
         </p>
 
         <div class="button-layout">
@@ -46,10 +52,7 @@
             <button type="button" class="levelHard" id="levelHard">Hard</button>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
             <button type="button" class="buttonstart" id="startButton">Start Game</button>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <button type="button" class="stopButton" id="stopButton">Stop Game</button>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <button type="button" class="resumeButton" id="resumeButton">Stop Game</button>
+          
         </div>
 
         <div class="game-status">
@@ -59,11 +62,6 @@
             <p class="score">Score:<span class="currentScore">0</span></p>
             </div>
         </div>
-
-            <!-- <div>
-                <p class="score">Score:<span class="currentScore">0</span></p>
-                
-            </div> -->
  
 
         <div class="main-container">
@@ -80,18 +78,20 @@
             </div>
         </div>
 
-            <!-- <footer> -->
-         
-            <!-- </footer> -->
+
             <br>
             <br>
             <br>
 
 
             <hr id="hr-style2">
+            <br>
+            <br>
 
+            <div class="footerimage">
+                <img class="paws" src="/assets/images/paws.png"></img>
 
-
+             </div>
             <script src="./assets/js/script.js"></script>
             <div class="rotation"></div> 
     </body>

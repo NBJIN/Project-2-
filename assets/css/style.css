@@ -10,6 +10,12 @@ body {
   height: 100vh;
 }
 
+.imagetopright {
+  position: absolute;
+  top: 0;
+  right: 0; 
+}
+
 .black-cat-moon{
   width: 300px;
   height: 200px;
@@ -60,9 +66,10 @@ body {
 .instructions-p {
   color: orange;
   font-family: Montserrat;
-  font-size: 20px;
-  text-align: center;
-  padding-bottom: 20px;
+  font-size: 25px;
+  text-align: justify;
+  padding: 10px;
+ 
 }
 
 .button-layout,
@@ -94,11 +101,12 @@ body {
   text-align: center;
 }
 
-.resetButton, 
+/* .resetButton,  */
 .levelEasy,
 .levelHard,
-.stopButton,
-.resumeButton {
+/* .stopButton, */
+/* .resumeButton { */
+.newGameButton {
   background-color: darkslategray;
   border-radius: 100px;
   border-style: solid;
@@ -299,6 +307,15 @@ body {
   background-color: darkslategray;
   color: orange;
 }
+
+.paws {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+}
+
+
 
 
 /* @media screen and (min-width: 568px) and (max-width:666px) { */
