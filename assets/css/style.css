@@ -174,14 +174,14 @@ body {
   padding-bottom: 20px;
   /* padding-left: 20px;
   padding-right: 20px; */
-  background-color: darkslategrey;
+  background-color: darkslategray;
 } 
 
 .square {
   background-color: orange;
   border-color: orange; 
   border-radius: 100%;
-  /* border: solid; */
+  border: solid;
   box-shadow: inset 0 10px 0 7px rgba(255, 165, 0, 0.9);
   height: 200px;
   width: 200px;
@@ -368,6 +368,10 @@ body {
     width: 133%;
  
   }
+
+/* .main-container {
+  width: 133%;
+} */
 
 .button-layout {
   justify-items: center;

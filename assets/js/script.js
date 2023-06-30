@@ -36,7 +36,7 @@ function start() {
     rate = 1000;
     } else if (gameLevel === 'levelHard') {
       timer = 20;
-      rate = 500;
+      rate = 700;
     }
     timerRemaining.textContent = timer;
     resetScore();
@@ -55,7 +55,7 @@ function level(level) {
     rate = 1000;
   } else if (level === 'levelHard') {
     timer = 20;
-    rate = 500;
+    rate = 700;
   }
   timerRemaining.textContent = timer;
   resetScore();
@@ -100,6 +100,7 @@ function resetGame() {
 
 // Display random cat
 function displayCat() {
+  
   for (var i = 0; i < square.length; i++) {
       square[i].innerHTML = '';
       }
@@ -110,6 +111,7 @@ function displayCat() {
    
     square[randomIndex].appendChild(catImg);
     square[randomIndex].addEventListener('click', incrementScore);
+    
   }
 }
 
