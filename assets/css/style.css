@@ -30,14 +30,14 @@ body {
 .game-name {
   color: orange;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat", Arial;
   font-size: 40px;
 }
 
 .game-title {
   color: orange;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat", Arial;
   font-size: 40px;
   padding-bottom: 20px;
 }
@@ -55,7 +55,7 @@ body {
 
 .instructions {
   color: orange;
-  font-family: Montserrat;
+  font-family: "Montserrat", Arial;
   font-size: 25px;
   padding-top: 20px;
   padding-left: 5px;
@@ -65,7 +65,7 @@ body {
 
 .instructions-p {
   color: orange;
-  font-family: Montserrat;
+  font-family: "Montserrat", Arial;
   font-size: 25px;
   text-align: justify;
   padding: 10px;
@@ -120,7 +120,7 @@ body {
 .levelLabel {
   color: orange;
   font-size: x-large;
-  font-family: Montserrat;
+  font-family: "Montserrat", Arial;
 }
 
 .game-status {
@@ -134,7 +134,7 @@ body {
 }
 
 .timeremaining {
-  font-family: Montserrat;
+  font-family: "Montserrat", Arial;
   font-size: 25px;
   color: red;
   padding-top: 20px;
@@ -142,14 +142,14 @@ body {
 }
 
 .seconds {
-  font-family: Montserrat;
+  font-family: "Montserrat", Arial;
   font-size: 25px;
   color: red;
   display: inline-flex;
 }
 
 .score {
-  font-family: Montserrat;
+  font-family: "Montserrat", Arial;
   font-size: 25px;
   color: blue;
 }
