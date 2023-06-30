@@ -44,7 +44,6 @@ function start() {
     displayCat();
     catMoveInterval = setInterval(displayCat, rate);
     startButton.disabled = true;
-    newGameButton.disabled = true;
   }
   }
 
@@ -84,7 +83,6 @@ function endGame() {
       
   startButton.disabled = false;
 
-  newGameButton.disabled = false;
   }
 
 function resetGame() {
@@ -96,7 +94,7 @@ function resetGame() {
   currentScore = 0;
   score.textContent = currentScore;
   startButton.disabled = false;
-  newGameButton.disabled = false;
+
 }
 
 
@@ -142,11 +140,6 @@ function level(level) {
   } 
   timerRemaining.textContent = timer;
 }
-
-
-stopButton.addEventListener('click', start);
-newGameButton.addEventListener('click', startNewGame);
-
 
 });
 
