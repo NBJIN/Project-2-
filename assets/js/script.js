@@ -122,9 +122,10 @@ function displayCat() {
 function incrementScore(event) {
   var clickedElement = event.target;
   if (clickedElement.contains(catImg)) {
-  currentScore++;
-  score.textContent = currentScore;
   
+    currentScore++;
+    score.textContent = currentScore;
+    clickedElement.parentNode.removeEventListener('click', incrementScore);
   }
 }
 
