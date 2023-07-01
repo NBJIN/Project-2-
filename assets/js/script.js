@@ -10,6 +10,7 @@ var catImg = document.createElement('img');
 catImg.src = "/assets/images/catm.png";
 var gameLevel = "";
 var currentRate;
+var gameStarted = false;
 
 const startButton = document.getElementById('startButton');
 const square = document.getElementsByClassName("square");
@@ -28,7 +29,10 @@ function resetScore() {
 
 // Function to start game and play at levelEasy or levelHard //
 function start() {
-  resetScore();
+  if (gameStarted) {
+    return;
+  }
+  resetGame();
   if (gameLevel !== "") {
     if (gameLevel === 'levelEasy') {
     timer = 30;
@@ -43,11 +47,15 @@ function start() {
     displayCat();
     catMoveInterval = setInterval(displayCat, rate);
     startButton.disabled = true;
+    gameStarted = true;
   }
 }
 
 // Function for two levels levelEasy and Level Hard //
 function level(level) {
+  if (gameStarted) {
+    return;
+  }
   gameLevel = level;
   if (level === 'levelEasy') {
     timer = 30;
@@ -83,6 +91,7 @@ function endGame() {
   alert('Time is up game has now ended your score is as follows: ' + currentScore);
    
   startButton.disabled = false;
+  gameStarted = false;
 }
 
 // Function to reset game //
@@ -96,6 +105,7 @@ function resetGame() {
   currentScore = 0;
   score.textContent = currentScore;
   startButton.disabled = false;
+  gameStarted = false;
 }
 
 
@@ -141,14 +151,6 @@ levelHard.addEventListener('click', function() {
   level('levelHard');
 });
 
-// Level Function //
-function level(level) {
-  gameLevel = level;
-  if (level === 'levelEasy') {
-    timer = 30;
-    rate = 1000;
-  } 
-  timerRemaining.textContent = timer;
-}
+
 
 });
