@@ -1,5 +1,5 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
     <head>
         <meta charset="UTF-8">
@@ -9,18 +9,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-
         <link rel="icon" href="/favicon.ico">
-        
         <link rel="stylesheet" href="/assets/css/style.css">
         <title>Catch The Black Cat!</title>
     </head>
 
     <body>
+        <!-- Top section containing name of game and images and hr rule-->
         <div class="imagetopright">
             <img class="paws" src="/assets/images/paws.png"></img>
         </div>
-   
 
         <div class="introduction">
             <img class="black-cat-moon" src="/assets/images/blackcatmoon.jpg"></img>
@@ -30,6 +28,8 @@
         </div>
 
         <hr class="hr-style">
+
+        <!-- Instructions section on how to play game -->
         <h3 class="instructions">Instructions:</h3>
         <p class="instructions-p">Player can choose two levels.  Level Easy is where the player
             gets 30 seconds and a speed of 1000 for the cat to display.  Level Hard is where the 
@@ -41,10 +41,8 @@
             will also display the score counter.</p>
         </p>
 
+        <!-- Game control section which contains buttons for game level and start game-->
         <div class="button-layout">
-           
-           
-            <!-- <button class="resetButton">Reset</button> -->
             <label class="levelLabel">Choose A Level &nbsp;<i class="fa-solid fa-arrow-right" style="color: #2f4f4f;"></i></label>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
             <button type="button" class="levelEasy" id="levelEasy">Easy</button>
@@ -52,18 +50,17 @@
             <button type="button" class="levelHard" id="levelHard">Hard</button>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
             <button type="button" class="buttonstart" id="startButton">Start Game</button>
-          
         </div>
 
+        <!-- Timer and score counter section to advise user how much time they have and no of scores-->
         <div class="game-status">
-            
             <div class="timeremaining">Time Remaining: &nbsp;<div class="seconds">&nbsp;20</div>
             <br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
             <p class="score">Score: &nbsp;&nbsp; &nbsp;<span class="currentScore">0</span></p>
             </div>
         </div>
- 
 
+        <!-- Game section where an array of cirles are presented and a cat display randomly inside of each -->
         <div class="main-container">
             <div class="square-container">
                 <div class="square">0<img src="/assets/images/catm.png" class="catm0" onclick="clicked()"></div>
@@ -78,22 +75,18 @@
             </div>
         </div>
 
+        <br>
+        <br>
+        <br>
 
-            <br>
-            <br>
-            <br>
+        <!-- Bottom section which contains hr rule and image.-->
+        <hr id="hr-style2">
+        <br>
+        <br>
 
-
-            <hr id="hr-style2">
-            <br>
-            <br>
-
-            <div class="footerimage">
-                <img class="paws" src="/assets/images/paws.png"></img>
-
-             </div>
+        <div class="footerimage">
+            <img class="paws" src="/assets/images/paws.png"></img>
+        </div>
             <script src="./assets/js/script.js"></script>
-            <div class="rotation"></div> 
     </body>
-
-    </html>
+</html>

@@ -1,3 +1,4 @@
+/* Page css styling */
 *{ 
   margin: 0;
   padding: 0;
@@ -10,22 +11,32 @@ body {
   height: 100vh;
 }
 
+/* Css styling for top section of page */
+
+/* Image of paw prints top right of screen */
+
 .imagetopright {
   position: absolute;
   top: 0;
   right: 0; 
 }
 
+/* Image of cat before game heading */
+
 .black-cat-moon{
   width: 300px;
   height: 200px;
 }
+
+/* Image of cat after game heading */
 
 #catm {
   align-items: center;
   width: 80px;
   height: 70px;
 }
+
+/* Game Name */
 
 .game-name {
   color: orange;
@@ -34,13 +45,15 @@ body {
   font-size: 40px;
 }
 
-.game-title {
+/* .game-title {
   color: orange;
   text-align: center;
   font-family: "Montserrat", Arial;
   font-size: 40px;
   padding-bottom: 20px;
-}
+} */
+
+/* hr rule under the game title */
 
 .hr-style {
   padding: 50px;
@@ -52,6 +65,9 @@ body {
   color: orange;
 }
 
+/* CSS styling for middle section of page */
+
+/* Heading for instructions */
 
 .instructions {
   color: orange;
@@ -60,8 +76,9 @@ body {
   padding-top: 20px;
   padding-left: 5px;
   padding-bottom: 5px;
-
 }
+
+/* Paragraph section for instructions */
 
 .instructions-p {
   color: orange;
@@ -69,9 +86,9 @@ body {
   font-size: 25px;
   text-align: justify;
   padding: 10px;
-
- 
 }
+
+/* Button section for game and top section introduction for game */
 
 .button-layout,
 .introduction {
@@ -80,6 +97,10 @@ body {
   align-items: center;
 
 }
+
+/* Button section css styling of buttons */
+
+/* Start Button */
 
 #startButton {
   justify-items: center;
@@ -98,11 +119,7 @@ body {
  
 }
 
-.buttonstart {
-  text-align: center;
-}
-
-
+/* Game Level Buttons */
 .levelEasy,
 .levelHard {
   background-color: darkslategray;
@@ -117,11 +134,14 @@ body {
   font-size: large;
 }
 
+/* Label for choose a level */
 .levelLabel {
   color: orange;
   font-size: x-large;
   font-family: "Montserrat", Arial;
 }
+
+/* Timer and score section styling */
 
 .game-status {
   display: flex;
@@ -129,10 +149,13 @@ body {
   align-items: center;
   gap: 10px; 
 }
+
+/* font awesome icon used for right arrow */
 .fa-sharp {
   color: red;
 }
 
+/* Time remaining heading */
 .timeremaining {
   font-family: "Montserrat", Arial;
   font-size: 25px;
@@ -141,6 +164,7 @@ body {
   display: inline-flex;
 }
 
+/* Display of seconds */
 .seconds {
   font-family: "Montserrat", Arial;
   font-size: 25px;
@@ -148,18 +172,23 @@ body {
   display: inline-flex;
 }
 
+/* Score heading */
 .score {
   font-family: "Montserrat", Arial;
   font-size: 25px;
   color: blue;
 }
 
+/* Main game section styling */
+
+/* Main container which holds all circles and images */
 .main-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Container which holds grid of square/circles */
 
 .square-container {
   display: grid;
@@ -175,7 +204,9 @@ body {
   /* padding-left: 20px;
   padding-right: 20px; */
   background-color: darkslategray;
-} 
+}
+
+/* Individual squares */
 
 .square {
   background-color: orange;
@@ -198,7 +229,17 @@ body {
   align-items: center;
 }
 
-.catm0 {
+
+/* Image of cat to display in circles */
+.catm0,
+.catm1,
+.catm2,
+.catm3,
+.catm4,
+.catm5,
+.catm6,
+.catm7,
+.catm8 {
   height: 100px;
   width: 100px;
   left: 50%;
@@ -207,10 +248,13 @@ body {
   transform: translate(-60%);
   bottom: 30%;
   animation: ease-in .2s ease-out;
+  padding-bottom: 1px;
+  padding-top: 30px;
+  padding-left: 20px;
 
   }
   
-.catm1 {
+/* .catm1 {
   height: 100px;
   width: 100px;
   left: 50%;
@@ -234,6 +278,7 @@ body {
   transform: translate(-60%);
   bottom: 30%;
   animation: ease-in .2s ease-out;
+  padding-bottom: 1px;
   padding-top: 30px;
   padding-left: 20px;
 
@@ -248,6 +293,7 @@ body {
   transform: translate(-60%);
   bottom: 30%;
   animation: ease-in .2s ease-out;
+  padding-bottom: 1px;
   padding-top: 30px;
   padding-left: 20px;
 
@@ -262,6 +308,7 @@ body {
   transform: translate(-60%);
   bottom: 30%;
   animation: ease-in .2s ease-out;
+  padding-bottom: 1px;
   padding-top: 30px;
   padding-left: 20px;
 
@@ -276,6 +323,7 @@ body {
   transform: translate(-60%);
   bottom: 30%;
   animation: ease-in .2s ease-out;
+  padding-bottom: 1px;
   padding-top: 30px;
   padding-left: 20px;
 
@@ -290,6 +338,7 @@ body {
   transform: translate(-60%);
   bottom: 30%;
   animation: ease-in .2s ease-out;
+  padding-bottom: 1px;
   padding-top: 30px;
   padding-left: 20px;
 
@@ -304,6 +353,7 @@ body {
   transform: translate(-60%);
   bottom: 30%;
   animation: ease-in .2s ease-out;
+  padding-bottom: 1px;
   padding-top: 30px;
   padding-left: 20px;
 
@@ -318,15 +368,21 @@ body {
   transform: translate(-60%);
   bottom: 30%;
   animation: ease-in .2s ease-out;
+  padding-bottom: 1px;
   padding-top: 30px;
   padding-left: 20px;
 
-}
+} */
 
+/* Styling applied to container to get images to display inside cirlce*/
 .square-container .square img {
   max-width: 75%;
   max-height: 75%;
 }
+
+/* Bottom section of page */
+
+/* hr rule at the bottom of the page */
 
 #hr-style2 {  
   padding: 50px;
@@ -336,6 +392,8 @@ body {
   background-color: darkslategray;
   color: orange;
 }
+
+/* Paws image at the bottom of the page */
 
 .paws {
   display: flex;

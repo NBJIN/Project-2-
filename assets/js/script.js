@@ -1,3 +1,4 @@
+// Load HTML content before JS // 
 document.addEventListener('DOMContentLoaded', function() {
 
 // Define Game Variables
@@ -10,10 +11,6 @@ catImg.src = "/assets/images/catm.png";
 var gameLevel = "";
 var currentRate;
 
-
-// catImg.style.width = '80%';
-// catImg.style.height = '80%';
-
 const startButton = document.getElementById('startButton');
 const square = document.getElementsByClassName("square");
 const levelEasy = document.getElementById('levelEasy');
@@ -22,12 +19,14 @@ var timerRemaining = document.querySelector('.timeremaining .seconds');
 var catMoveInterval;
 var rate;
 
+// Function to reset score to 0 //
+
 function resetScore() {
   currentScore = 0;
   score.textContent = currentScore;
 }
 
-
+// Function to start game and play at levelEasy or levelHard //
 function start() {
   resetScore();
   if (gameLevel !== "") {
@@ -45,9 +44,9 @@ function start() {
     catMoveInterval = setInterval(displayCat, rate);
     startButton.disabled = true;
   }
-  }
+}
 
-
+// Function for two levels levelEasy and Level Hard //
 function level(level) {
   gameLevel = level;
   if (level === 'levelEasy') {
@@ -61,29 +60,32 @@ function level(level) {
   resetScore();
 }
 
+// Function for countdown timer //
+
 function countdown() {
   if (timer > 0) {
     timer--;
     timerRemaining.textContent = timer;
-}
+  }
 
   if (timer === 0) {
     endGame();
   }
 }
 
-// function that ends game once timer has finished
+// Function that ends the game //
+
 function endGame() {
   clearInterval(countdownInterval);
   clearInterval(catMoveInterval);
   catImg.removeEventListener('click', incrementScore);
 
   alert('Time is up game has now ended your score is as follows: ' + currentScore);
-
-      
+   
   startButton.disabled = false;
+}
 
-  }
+// Function to reset game //
 
 function resetGame() {
   clearInterval(countdownInterval);
@@ -94,11 +96,11 @@ function resetGame() {
   currentScore = 0;
   score.textContent = currentScore;
   startButton.disabled = false;
-
 }
 
 
-// Display random cat
+// Function to display a random cat //
+
 function displayCat() {
   
   for (var i = 0; i < square.length; i++) {
@@ -115,13 +117,18 @@ function displayCat() {
   }
 }
 
+// Function to increment score //
+
 function incrementScore(event) {
   var clickedElement = event.target;
   if (clickedElement.contains(catImg)) {
   currentScore++;
   score.textContent = currentScore;
+  
+  }
 }
-}
+
+// Event Listeners for startbutton, leveleasy and levelhard //
 
 startButton.addEventListener('click', start);
 
@@ -133,7 +140,7 @@ levelHard.addEventListener('click', function() {
   level('levelHard');
 });
 
-
+// Level Function //
 function level(level) {
   gameLevel = level;
   if (level === 'levelEasy') {
@@ -144,5 +151,3 @@ function level(level) {
 }
 
 });
-
-
