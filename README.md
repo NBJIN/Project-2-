@@ -22,7 +22,7 @@ On researching projects and javascript notes I reviewed a widely used game calle
         Player Goals:
         <br>
             - A game that is easy to play and just for fun.
-            - A game that that provides an appealing interactive user experience.  
+            - A game that provides an appealing interactive user experience.  
             - Different levels to be included in the game so that the player can test the different levels and is 
               challenging. 
             - Instruction that are easy to follow in order to play the game.  
@@ -35,7 +35,8 @@ On researching projects and javascript notes I reviewed a widely used game calle
             - To provide a positive user experience.
             - Provide a game where the player can challenge themselves.
             - Provide a timer so that the player can see exactly how much time they have remaining to play the game. 
-            - Provide a score counter that keeps track of scores for the player. 
+            - Provide a score counter that keeps track of scores for the player.
+            - Advise the player when the game is completed.  
         <br>
         <br>
         Target Audience
@@ -45,7 +46,7 @@ On researching projects and javascript notes I reviewed a widely used game calle
 
     b) User Stories
     <br>
-        - Provide that is easy to play. 
+        - Provide a game that is easy to play. 
         - A game with an attractive user design.
         - Provide a game with clear instructions for the player on how to play the game.
         - A game that provides different levels to play at. 
