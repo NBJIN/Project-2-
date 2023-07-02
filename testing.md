@@ -37,7 +37,31 @@
      <br>
      ![image](https://github.com/NBJIN/Project-2-/assets/106515976/0d6397d6-0f3c-4af3-8622-55475845b003)
      <br>
-     - Address responsiveness so that the player can play the game across different devices. PUT IN PICTURES HERE 
+     - Address responsiveness so that the player can play the game across different devices.
+     <br>
+     Desktop
+     ![image](https://github.com/NBJIN/Project-2-/assets/106515976/808873d4-5c35-40ed-8544-e5c15db469ee)
+     <br>
+     Laptop
+     ![image](https://github.com/NBJIN/Project-2-/assets/106515976/564e9625-0652-48c3-9045-c092ff55ab6a)
+     
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/01b1bd8d-279e-4694-ac43-981ed288bd61)
+    <br>
+    Iphone 6/7/8
+    <br>
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/a4b2b1bb-93ed-46c2-a703-3f0f2799c81c)
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/88971cea-9152-4316-a29d-be8a55f0ad7e)
+    <br>
+    Samsung Galaxy S8 +
+    <br>
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/650d61bb-3b62-4ac9-92da-2f7bc4e14714)
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/287cd6c5-0660-4265-9330-3bcd4543264c)
+    <br>
+    
+
+
+
+
      - Provide a timer so that the player knows exactly what time is remaining. There is a countdown timer provided which counts down from 30 seconds if levelEasy is selected and counts down  20 seconds if if levelHard is selected.  
      <br>
      ![image](https://github.com/NBJIN/Project-2-/assets/106515976/71aacdfd-2af3-48fa-8546-cbf7b849ee6e)
@@ -68,9 +92,38 @@
 
 <br>
 #### b) Code Validation
-
+##### index.html first check through W3 NU Html Checker - Most of the errors that were returned on the first check when putting the html code through the validator were in relation to alt attributes for all images which have now been inserted.  Also closing image tags and closing h2 tags were inserted and all of these have been removed. 
+<br>
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/bbf0a026-a920-455e-9807-1b6069b23c13)
+<br>
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/20ef2881-fb91-4e40-8b4e-8801f2b36625)
+<br>
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/d2c37097-b748-4f93-a98f-d5f20d5348a2)
+<br>
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/01314863-2e38-425c-b358-15ca3926ddfd)
 
 <br>
+
+##### index.html second check through W3 NU Html Checker 
+<br>
+No Errors Recorded in second check.
+<br>
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/1a2631b6-0f4f-4fab-8681-24d8b6937624)
+<br>
+Site reference: https://validator.w3.org/
+<br>
+#### style.css first check through W3C CSS Validation 
+The validation of css resulted in no errors.  
+<br>
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/4b498c85-2b10-4cc9-9bd6-20e69754548b)
+<br>
+https://jigsaw.w3.org/css-validator/validator
+<br>
+#### script.js checked through jshint.com produced four warnings see below 
+<br>
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/0ee8678c-f58e-4e86-8d44-194d6bbf9536)
+<br>
+Site reference : https://jshint.com/
 #### c) Accessibility
 
 <br>

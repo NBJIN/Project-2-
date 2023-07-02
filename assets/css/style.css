@@ -45,14 +45,6 @@ body {
   font-size: 40px;
 }
 
-/* .game-title {
-  color: orange;
-  text-align: center;
-  font-family: "Montserrat", Arial;
-  font-size: 40px;
-  padding-bottom: 20px;
-} */
-
 /* hr rule under the game title */
 
 .hr-style {
@@ -199,10 +191,7 @@ body {
   gap: 1%;
   height: 800px;
   width: 800px;
-  /* padding-top: -80px; */
   padding-bottom: 20px;
-  /* padding-left: 20px;
-  padding-right: 20px; */
   background-color: darkslategray;
 }
 
@@ -216,12 +205,8 @@ body {
   box-shadow: inset 0 10px 0 7px rgba(255, 165, 0, 0.9);
   height: 200px;
   width: 200px;
-  /* left:  30%;
-  top: 45%; */
   overflow: hidden;
   position: relative;
-  /* flex: 1 0 33.33%;
-  justify-items: space-evenly; */
   border: 2px;
   background-color: darkslategray;
   display: flex;
@@ -253,125 +238,6 @@ body {
   padding-left: 20px;
 
   }
-/* .catm1 {
-  height: 100px;
-  width: 100px;
-  left: 50%;
-  position: absolute;
-  overflow: hidden;
-  transform: translate(-60%);
-  bottom: 30%;
-  animation: ease-in .2s ease-out;
-  padding-bottom: 1px;
-  padding-top: 30px;
-  padding-left: 20px;
-
-}
-
-.catm2 {
-  height: 100px;
-  width: 100px;
-  left: 50%;
-  position: absolute;
-  overflow: hidden;
-  transform: translate(-60%);
-  bottom: 30%;
-  animation: ease-in .2s ease-out;
-  padding-bottom: 1px;
-  padding-top: 30px;
-  padding-left: 20px;
-
-}
-
-.catm3 {
-  height: 100px;
-  width: 100px;
-  left: 50%;
-  position: absolute;
-  overflow: hidden;
-  transform: translate(-60%);
-  bottom: 30%;
-  animation: ease-in .2s ease-out;
-  padding-bottom: 1px;
-  padding-top: 30px;
-  padding-left: 20px;
-
-}
-
-.catm4 {
-  height: 100px;
-  width: 100px;
-  left: 50%;
-  position: absolute;
-  overflow: hidden;
-  transform: translate(-60%);
-  bottom: 30%;
-  animation: ease-in .2s ease-out;
-  padding-bottom: 1px;
-  padding-top: 30px;
-  padding-left: 20px;
-
-}
-
-.catm5 {
-  height: 100px;
-  width: 100px;
-  left: 50%;
-  position: absolute;
-  overflow: hidden;
-  transform: translate(-60%);
-  bottom: 30%;
-  animation: ease-in .2s ease-out;
-  padding-bottom: 1px;
-  padding-top: 30px;
-  padding-left: 20px;
-
-}
-
-.catm6 {
-  height: 100px;
-  width: 100px;
-  left: 50%;
-  position: absolute;
-  overflow: hidden;
-  transform: translate(-60%);
-  bottom: 30%;
-  animation: ease-in .2s ease-out;
-  padding-bottom: 1px;
-  padding-top: 30px;
-  padding-left: 20px;
-
-}
-
-.catm7 {
-  height: 100px;
-  width: 100px;
-  left: 50%;
-  position: absolute;
-  overflow: hidden;
-  transform: translate(-60%);
-  bottom: 30%;
-  animation: ease-in .2s ease-out;
-  padding-bottom: 1px;
-  padding-top: 30px;
-  padding-left: 20px;
-
-}
-
-.catm8 {
-  height: 100px;
-  width: 100px;
-  left: 50%;
-  position: absolute;
-  overflow: hidden;
-  transform: translate(-60%);
-  bottom: 30%;
-  animation: ease-in .2s ease-out;
-  padding-bottom: 1px;
-  padding-top: 30px;
-  padding-left: 20px;
-
-} */
 
 /* Styling applied to container to get images to display inside cirlce*/
 .square-container .square img {
@@ -400,9 +266,6 @@ body {
   width: 150px;
   height: 150px;
 }
-
-/* Media Queries For Large to Medium screen sizes from 1200px wide and down.  
-/* @media screen and (max-width: 1200px) { */
 
 /* For Medium Screen Sizes From 950px wide and down */
 
@@ -439,20 +302,14 @@ body {
  
   }
 
-/* .main-container {
-  width: 133%;
-} */
-
 .button-layout {
   justify-items: center;
+  padding-right: 5px;
 }
 
 #startButton {
   display: inline-block;
-  /* border-radius: 50px; */
-  padding: 20px;
-
-
+  padding: 15px;
 }
 
 .buttonstart,
@@ -460,14 +317,10 @@ body {
 .levelHard,
 .levelLabel,
 .fa-sharp {
-  /* display: flex;  */
-
-  width: 110%;
+  width: 130%;
   border-radius: 50px;
   padding: 20px;
   text-align: center;
-
-
 
   }
 
@@ -481,15 +334,15 @@ body {
 .seconds,
 .score {
   padding-left: 5px;
+  padding-right: 10px;
   font-size: 20px;
   display: inline-flex;
 }
 
  .main-container {
   width: 110%;
-  /* overflow: hidden; */
   padding-right: 4px;
-
+  width: 110%;
  }
 
  .square-container {
@@ -504,16 +357,8 @@ body {
   width: 400px;
   padding-bottom: 20px;
   padding-left: 1px;
-
   padding-right: 25px;
  }
-
-
-
-
-
-
-
 
  .square {
   height: 100px; 
@@ -528,7 +373,6 @@ body {
 
  #hr-style2 {
   width: 135%;
-  /* display: none; */
  }
 
  .paws {

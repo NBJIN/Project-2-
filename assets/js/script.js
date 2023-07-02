@@ -9,7 +9,6 @@ var countdownInterval;
 var catImg = document.createElement('img');
 catImg.src = "/assets/images/catm.png";
 var gameLevel = "";
-var currentRate;
 var gameStarted = false;
 
 const startButton = document.getElementById('startButton');
