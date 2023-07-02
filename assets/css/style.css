@@ -394,8 +394,8 @@ body {
 
     .black-cat-moon {
      
-      width: 400px;
-      height: 300px;
+      width: 100px;
+      height: 100px;
       left: 0;
     }
   
@@ -419,7 +419,7 @@ body {
       font-size: 20px;
       padding-left: 10px;
       padding-right: 10px;
-      width: 130%;
+      width: 100%;
    
     }
   
@@ -461,7 +461,7 @@ body {
   }
   
    .main-container {
-    width: 134%;
+    width: 100%;
     padding-right: 4px;
   
    }
