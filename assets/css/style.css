@@ -288,7 +288,7 @@ body {
 
   .hr-style {
     padding-top: 20px;
-    width: 135%;
+    width: 130%;
   }
 
 #catm,
@@ -298,7 +298,9 @@ body {
 
 .instructions-p {
     font-size: 15px;
-    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 120%;
  
   }
 
@@ -340,9 +342,9 @@ body {
 }
 
  .main-container {
-  width: 110%;
+  width: 130%;
   padding-right: 4px;
-  width: 110%;
+
  }
 
  .square-container {

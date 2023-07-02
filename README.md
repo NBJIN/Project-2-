@@ -118,40 +118,51 @@ On researching projects and javascript notes I reviewed a widely used game calle
 2. [Features](#features)
 
     a) Home Page of Game
+    <br>
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/022cf5ae-61cb-48c2-ad20-d4724cfe7a6d)
 
     b) Page Showing Game In Play
+    <br>
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/911fabdf-c120-44ea-8315-da28475d94c5)
 
     c) When Game Ends Message Displayed To Player 
+    <br>
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/a170e870-c4f0-4504-a107-234c3264c8e0)
 
 3. [Technologies Used](#technologies-used)
 
     a) Languages Used
-        <br>
-            - HTML5 was used to build the structure of the page - https://en.wikipedia.org/wiki/HTML5
-            <br>
-            - CSS3 was used to provide styling to the elements on the page - https://en.wikipedia.org/wiki/CSS
-            <br>
-            - Javascript was use to provide the user with functionality in order to play the game. - https://en.wikipedia.org/wiki/JavaScript
-        <br>
+    <br>
+    <br>
+    - HTML5 was used to build the structure of the page - https://en.wikipedia.org/wiki/HTML5
+    <br>
+    - CSS3 was used to provide styling to the elements on the page - https://en.wikipedia.org/wiki/CSS
+    <br>
+    - Javascript was use to provide the user with functionality in order to play the game. - https://en.wikipedia.org/wiki/JavaScript
+    <br>
 
     b) Frameworks, Libraries and Programs Used 
-            - Microsoft word was used to re-size images
-            <br>
-            - Balsamiq was used to draw up the wireframes for this project. -  https://balsamiq.com/
-            <br>
-            - Google Fonts was used to provide the font used on the site - https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap
-            <br>
-            - Google Chrome Developer Tools was used in order to inspect and test code
-            <br>
-            - Github was used to store the project code - https://github.com/
-            <br>
-            - Gitpod was used in the process of building code and then pushing it to GitHub - https://www.gitpod.io/
-            <br>
-            - FontAwesome was used for the arrow icon that is used in the project. - https://fontawesome.com/search?q=arrow&o=r
-            <br>
-            -  The color palette was done up on coolors.co website a link to this site is below along with a copy of the color palette. - https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff 
-            <br>
-            - When completing the favicon referenced the following website - https://favicon.io/
+    - Microsoft word was used to re-size images
+    <br>
+    - Balsamiq was used to draw up the wireframes for this project. -  
+    https://balsamiq.com/
+    <br>
+    - Google Fonts was used to provide the font used on the site - 
+    https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap
+    <br>
+    - Google Chrome Developer Tools was used in order to inspect and test code
+    <br>
+    - Github was used to store the project code - https://github.com/
+    <br>
+    - Gitpod was used in the process of building code and then pushing it to GitHub - https://www.gitpod.io/
+    <br>
+    - FontAwesome was used for the arrow icon that is used in the project. - 
+    https://fontawesome.com/search?q=arrow&o=r
+    <br>
+    -  The color palette was done up on coolors.co website a link to this site is below along with a copy of the color palette. - 
+    https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff 
+    <br>
+    - When completing the favicon referenced the following website - https://favicon.io/
 
 4. [Testing](#testing)
 
@@ -166,6 +177,23 @@ On researching projects and javascript notes I reviewed a widely used game calle
     e) Known Bugs 
 
 5. [Finished Product](#finished-product)
+    <br>
+    Home Page showing game set to levelHard - 20 seconds
+    <br>
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/40fa4309-ec4a-4b0a-8d69-d05667740858)
+    <br>
+    Page showing game set to levelEasy - 30 seconds
+    <br>
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/7f18168e-64e8-4e10-b8f9-d83a59045a7f)
+    <br>
+    Page showing game in play 
+    <br>
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/89646d66-a186-4a04-89de-e3982b6252df)
+    <br>
+    Page showing aleart that the game has ended and provides final score to player
+    <br>
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/9dc05776-d3b2-46a4-800c-b9c212f05e0c)
+
 
 6. [Deployment](#deployment)
 
