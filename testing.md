@@ -78,6 +78,12 @@ Samsung Galaxy S8 +
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/650d61bb-3b62-4ac9-92da-2f7bc4e14714)
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/287cd6c5-0660-4265-9330-3bcd4543264c)
 <br>
+
+iPad Air 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/eb7e036b-d371-4f82-8285-90ac48b03d5d)
+<br>
     
 - Provide a timer so that the player knows exactly what time is remaining. There is a countdown timer provided which counts down from 30 seconds if levelEasy is selected and counts down  20 seconds if if levelHard is selected.  
 <br>
@@ -158,8 +164,18 @@ script.js checked through jshint.com produced four warnings see below
 Site reference : https://jshint.com/
 
 #### c) Accessibility
-
 <br>
+Lighthouse Report For Mobile 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/f10c4d2b-e655-49e0-b6c7-02592487432b)
+<br>
+
+Lighthouse Report For Desktop
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/7894a981-7e7d-4f6d-9b48-e8144f38cafc)
+
 
 #### d) Manual Testing
 
