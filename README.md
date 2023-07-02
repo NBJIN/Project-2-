@@ -15,108 +15,116 @@ On researching projects and javascript notes I reviewed a widely used game calle
 
 1. [User Experience](#user-experience)
 
-    a) Project Goals and Target Audience 
-       <br>
-       Project Goals
-        <br>
-        Player Goals:
-        <br>
-            - A game that is easy to play and just for fun.
-            - A game that provides an appealing interactive user experience.  
-            - Different levels to be included in the game so that the player can test the different levels and is 
-              challenging. 
-            - Instruction that are easy to follow in order to play the game.  
-            - Play a game that is responsive across a number of devices.  
-        <br>
-        <br>
-        Developer Goals
-        <br>
-            - To build a game that is easy to play.
-            - To provide a positive user experience.
-            - Provide a game where the player can challenge themselves.
-            - Provide a timer so that the player can see exactly how much time they have remaining to play the game. 
-            - Provide a score counter that keeps track of scores for the player.
-            - Advise the player when the game is completed.  
-        <br>
-        <br>
-        Target Audience
-        This game can be played by all age groups to pass a little time and which is easy and interactive short game or the player can play for longer at differnt levels.  
+2. 
 
-           
+1. [User Experience](#user-experience)
+
+    a) Project Goals and Target Audience 
+    <br>
+    Project Goals For Player and Developer 
+    <br>
+    Player Goals:
+    <br>
+    - A game that is easy to play and just for fun.
+    - A game that provides an appealing interactive user experience.  
+    - Different levels to be included in the game so that the player can test the different levels and is challenging. 
+    - Instruction that are easy to follow in order to play the game.  
+    - Play a game that is responsive across a number of devices.  
+    <br>
+    Developer Goals
+    <br>
+    - To build a game that is easy to play.
+    - To provide a positive user experience.
+    - Provide a game where the player can challenge themselves.
+    - Provide a timer so that the player can see exactly how much time they have remaining to play the game. 
+    - Provide a score counter that keeps track of scores for the player.
+    - Advise the player when the game is completed.  
+    <br>
+    <br>
+    Target Audience
+    <br>
+    This game can be played by all age groups to pass a little time and which is easy and interactive short game or the player can play for longer at differnt levels.  
+
+    <br>       
 
     b) User Stories
     <br>
-        - Provide a game that is easy to play. 
-        - A game with an attractive user design.
-        - Provide a game with clear instructions for the player on how to play the game.
-        - A game that provides different levels to play at. 
-        - Address responsiveness so that the player can play the game across different devices.
-        - Provide a timer so the player knows exactly what time is reamining.
-        - Provide a score counter so that the player can see exactly their successful hits.  
-        - Provide confirmation to the player when the game is over.
-        
+    - Provide a game that is easy to play. 
+    - A game with an attractive user design.
+    - Provide a game with clear instructions for the player on how to play the game.
+    - A game that provides different levels to play at. 
+    - Address responsiveness so that the player can play the game across different devices.
+    - Provide a timer so the player knows exactly what time is reamining.
+    - Provide a score counter so that the player can see exactly their successful hits.  
+    - Provide confirmation to the player when the game is over.
+    <br>    
     c) Color Scheme
-        <br>
-        The color scheme chosen for this background was as follows: 
-        - Black is the main background color.
-        - Orange is used for the majority of the text on the page.
-        - Red is used to distinguish the time remaining.
-        - Blue is used to show the score counter.
-        - The horizontal rules at the top and the bottom of the page have a fill color of darkslategray and an orange border. 
-        - The background color for the circles is again blackslategray and orange and these circles sit on a blackslategray background.  
-        <br>
-        The color palette was done up on coolors.co website a link to this site is below along with a copy of the color palette.              
-        https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
-        <br>
-        ![image](https://github.com/NBJIN/Project-2-/assets/106515976/1ed34123-a7ee-4f00-8742-d41f15fadec2)
+    <br>
+    The color scheme chosen for this background was as follows: 
+    - Black is the main background color.
+    - Orange is used for the majority of the text on the page.
+    - Red is used to distinguish the time remaining.
+    - Blue is used to show the score counter.
+    - The horizontal rules at the top and the bottom of the page have a fill color of darkslategray and an orange border. 
+    - The background color for the circles is again blackslategray and orange and these circles sit on a blackslategray background.  
+    <br>
+    The color palette was done up on coolors.co website a link to this site is below along with a copy of the color palette.              
+    https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
+    <br>
 
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/1ed34123-a7ee-4f00-8742-d41f15fadec2)
 
-
-
+    <br>
     d) Typography
-        <br>
-        The font that was chosen throughout this project is Montserrat.  It is a very clear font and is also easy to read in the selected font color of orange, red and blue.  
+    <br>
 
-        https://en.wikipedia.org/wiki/Montserrat_(typeface)
+    The font that was chosen throughout this project is Montserrat.  It is a very clear font and is also easy to read in the selected font color of orange, red and blue.  
 
-        A link to google fonts has also been included in the head section of the index.html file. 
+    https://en.wikipedia.org/wiki/Montserrat_(typeface)
 
-        https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap 
+    A link to google fonts has also been included in the head section of the index.html file. 
 
-        The backup font which has been used is Arial again it is a very clear font and can be easily seen in the selected colors for this project.  
+    https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap 
 
-        https://en.wikipedia.org/wiki/Arial
+    The backup font which has been used is Arial again it is a very clear font and can be easily seen in the selected colors for this project.  
+
+    https://en.wikipedia.org/wiki/Arial
 
 
     e) Wireframes
-        <br>
-        Wireframes were drawn up in Balsamiq for Desktop and Mobile. 
-        <br>
-        The following are the desktop wireframes. 
-        <br>
-        ![image](https://github.com/NBJIN/Project-2-/assets/106515976/d805d531-7917-404c-91e1-ae2244052c44)
-        <br>
-        ![image](https://github.com/NBJIN/Project-2-/assets/106515976/e86dce4f-2521-4496-9842-c4aa2059b1b3)
-        <br>
-        ![image](https://github.com/NBJIN/Project-2-/assets/106515976/c90363b7-7920-4bc6-94de-a85f052d09c4)
-        <br>
-        ![image](https://github.com/NBJIN/Project-2-/assets/106515976/d7dab6b7-ef49-4de0-9d63-953cc0b059dc)
-        <br>
-        The following are the wireframe which were drawn up for mobile. 
-        <br>
-        ![image](https://github.com/NBJIN/Project-2-/assets/106515976/e3e695b6-971a-4ecf-ada3-9af99e4383dc)
-        <br>
-        ![image](https://github.com/NBJIN/Project-2-/assets/106515976/248369e0-f0ac-4421-8a8a-6e7d22ead47b)
-        <br>
-        ![image](https://github.com/NBJIN/Project-2-/assets/106515976/4f9a64d1-21c7-4b84-9e3e-7a56aae30d7e)
-        <br>
+    <br>
+    Wireframes were drawn up in Balsamiq for Desktop and Mobile. 
+    <br>
+    The following are the desktop wireframes. 
+    <br>
 
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/d805d531-7917-404c-91e1-ae2244052c44)
+    <br>
 
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/e86dce4f-2521-4496-9842-c4aa2059b1b3)
+    <br>
 
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/c90363b7-7920-4bc6-94de-a85f052d09c4)
+    <br>
 
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/d7dab6b7-ef49-4de0-9d63-953cc0b059dc)
+    <br>
+
+    The following are the wireframe which were drawn up for mobile. 
+    <br>
+    
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/e3e695b6-971a-4ecf-ada3-9af99e4383dc)
+    <br>
+    
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/248369e0-f0ac-4421-8a8a-6e7d22ead47b)
+    
+    <br>
+    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/4f9a64d1-21c7-4b84-9e3e-7a56aae30d7e)
+    
+    <br>
 
 2. [Features](#features)
-
+    <br>
     a) Home Page of Game
     <br>
     ![image](https://github.com/NBJIN/Project-2-/assets/106515976/022cf5ae-61cb-48c2-ad20-d4724cfe7a6d)
@@ -129,44 +137,106 @@ On researching projects and javascript notes I reviewed a widely used game calle
     <br>
     ![image](https://github.com/NBJIN/Project-2-/assets/106515976/a170e870-c4f0-4504-a107-234c3264c8e0)
 
+    <br>
+    Features 
+<br>
+
+- Instructions
+The game provides a detailed set of instruction for the player on how to play the game and play at the different levels provided. 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/e55cbb29-bfac-4d90-8593-cfac52a44847)
+<br>
+
+- The game provides two levels to play with. levelEasy provides the player with 30 seconds and the cat will display randomly in the circles at a rate of 1000 milliseconds.  levelHard provides the player with 20 seconds and 700 milliseconds. 
+When levelHard is selected the timer will reflect 20 seconds.
+
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/8e27158d-0d44-44fc-b07e-eae2dd6241c8)
+<br>
+
+When levelEasy is selected the timer will reflect 30 seconds on the timer and count back from there.  
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/1163f5d2-135c-4d75-90c9-3b193e9938f5)
+<br>
+
+- When the start game button is clicked the timer will begin counting down and the cat displays randomly.  Once the start button is clicked it will play the game untill the time is up.  The player can then begin the game again by choosing a level and clicking on the start button. 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/f1c7bf27-94dd-4f74-a20f-e427589a23fa)
+<br>
+
+- Once the random cat displays the player can click on the cat and each
+successfull click will add to the score couter.  
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/e790350c-2211-4c72-8ddc-01568f34496a)
+<br>
+
+- Once the game has ended an alert will display to the user advising the game has ended and gives the total score achieved.  The player can then click on the ok button and proceed to play again. 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/bb6f1b49-15b5-4499-88a4-810c8a03e7c4)
+
+
+| Summary |          |        |          
+| Feature   | Acceptance | Pass |
+|:----------|:----------|:----------|:----------|
+|  |          |          |          |
+|1. Instructions  | Detailed instructions provided so user can play game | Pass  |          | 
+|2. Levels to play with | The game provides two levels the player can play at LevelEasy and Level Hard and when each button is clicked it will reflect the time for the perferred level selected. | Pass |
+|3. Timer provided and working | When the game commences the timer will begin counting down to the end of the game.  | Pass  |
+|4. Can make a successful score and its recorded   | When the player successfully clicks on cat the score counter will change to reflect the score.   | Pass  |
+|5. Alert to advise game has completed | When the game has completed an alert will be displayed to the player advising that the game has completed and displays the final score to the player. | Pass        |
+<br>
+
+Future Features
+- Score counter for cats who have not being caught.
+- Add button to stop game and restart.
+- popup message when starting game - when start button is clicked popup displays alerting user game is about to start with an ok button and the countdown timer will then start.
+- Adding a sound effect when the cat is caught.   
+
 3. [Technologies Used](#technologies-used)
+<br>
+a) Languages Used
+<br>
+<br>
+- HTML5 was used to build the structure of the page - https://en.wikipedia.org/wiki/HTML5
+<br>
+- CSS3 was used to provide styling to the elements on the page - https://en.wikipedia.org/wiki/CSS
+<br>
+- Javascript was use to provide the user with functionality in order to play the game. - https://en.wikipedia.org/wiki/JavaScript
+<br>
 
-    a) Languages Used
-    <br>
-    <br>
-    - HTML5 was used to build the structure of the page - https://en.wikipedia.org/wiki/HTML5
-    <br>
-    - CSS3 was used to provide styling to the elements on the page - https://en.wikipedia.org/wiki/CSS
-    <br>
-    - Javascript was use to provide the user with functionality in order to play the game. - https://en.wikipedia.org/wiki/JavaScript
-    <br>
+b) Frameworks, Libraries and Programs Used 
+- Microsoft word was used to re-size images
+<br>
+- Balsamiq was used to draw up the wireframes for this project. -  
+https://balsamiq.com/
+<br>
+- Google Fonts was used to provide the font used on the site - 
+https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap
+<br>
+- Google Chrome Developer Tools was used in order to inspect and test code
+<br>
+- Github was used to store the project code - https://github.com/
+<br>
+- Gitpod was used in the process of building code and then pushing it to GitHub - https://www.gitpod.io/
+<br>
+- FontAwesome was used for the arrow icon that is used in the project. - 
+https://fontawesome.com/search?q=arrow&o=r
+<br>
+-  The color palette was done up on coolors.co website a link to this site is below along with a copy of the color palette. - 
+https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff 
+<br>
+- When completing the favicon referenced the following website - https://favicon.io/
+<br>
 
-    b) Frameworks, Libraries and Programs Used 
-    - Microsoft word was used to re-size images
-    <br>
-    - Balsamiq was used to draw up the wireframes for this project. -  
-    https://balsamiq.com/
-    <br>
-    - Google Fonts was used to provide the font used on the site - 
-    https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap
-    <br>
-    - Google Chrome Developer Tools was used in order to inspect and test code
-    <br>
-    - Github was used to store the project code - https://github.com/
-    <br>
-    - Gitpod was used in the process of building code and then pushing it to GitHub - https://www.gitpod.io/
-    <br>
-    - FontAwesome was used for the arrow icon that is used in the project. - 
-    https://fontawesome.com/search?q=arrow&o=r
-    <br>
-    -  The color palette was done up on coolors.co website a link to this site is below along with a copy of the color palette. - 
-    https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff 
-    <br>
-    - When completing the favicon referenced the following website - https://favicon.io/
+4. [Testing](#testing) - Please refer to testing.md file for detailed breakdown on testing
 
-4. [Testing](#testing)
-
-    a) Testing User Stories
+    a) Testing User Stories and Goals
 
     b) Code Validation
 
@@ -180,30 +250,37 @@ On researching projects and javascript notes I reviewed a widely used game calle
     <br>
     Home Page showing game set to levelHard - 20 seconds
     <br>
+
     ![image](https://github.com/NBJIN/Project-2-/assets/106515976/40fa4309-ec4a-4b0a-8d69-d05667740858)
     <br>
+
     Page showing game set to levelEasy - 30 seconds
     <br>
+
     ![image](https://github.com/NBJIN/Project-2-/assets/106515976/7f18168e-64e8-4e10-b8f9-d83a59045a7f)
     <br>
+
     Page showing game in play 
     <br>
+
     ![image](https://github.com/NBJIN/Project-2-/assets/106515976/89646d66-a186-4a04-89de-e3982b6252df)
     <br>
+
     Page showing aleart that the game has ended and provides final score to player
     <br>
+
     ![image](https://github.com/NBJIN/Project-2-/assets/106515976/9dc05776-d3b2-46a4-800c-b9c212f05e0c)
 
 
 6. [Deployment](#deployment)
 
     a) GitHub Pages
-        This site was deployed to GitHub pages.  The steps to deploy are the following: 
-        - In GitHub repository, navigate to the settings tab.
-        - From the source section drop-down menu, select main branch
-        - once the main branch has been selected the page will be automaticlly refreshed with a detailed ribbon display to indicate the successful deployment.  
+    This site was deployed to GitHub pages.  The steps to deploy are the following: 
+    - In GitHub repository, navigate to the settings tab.
+    - From the source section drop-down menu, select main branch
+    - once the main branch has been selected the page will be automaticlly refreshed with a detailed ribbon display to indicate the successful deployment.  
 
-        The link can be found at the following -https://github.com/NBJIN/Project-2- (gh repo clone NBJIN/Project-2-)
+    The link can be found at the following -https://github.com/NBJIN/Project-2- (gh repo clone NBJIN/Project-2-)
 
     b) Clone To Run Local 
     <br>
@@ -255,27 +332,27 @@ On researching projects and javascript notes I reviewed a widely used game calle
 
 8. [Acknowledgements](#acknowledgements)
 <br>
-    - Code Institute LMS for notes and videos and also template provided to build the project.  - https://learn.codeinstitute.net/dashboard
-    <br>
-    - Javscript tutorials as mentioned above in section 7 for ideas and guidance.
-    <br>
-    - Slack for researching and problemsolving - https://slack.com/intl/en-ie/
-    <br>
-    - Slack channel project-portfolio 2 for researching ideas and design - https://app.slack.com/
-    <br>
-    - Slack channel for lear Javascript - https://app.slack.com/
-    <br>
-    - Stack Overflow for researching issues and problems with code - https://stackoverflow.com/
-    <br>
-    - Cohort Facilitator at CI for all their support.
-    <br>
-    - Cohort Lead and class for their invaluable help, ideas and brainstorming sessions.
-    <br>
-    - Tutor Assistance at CI who were so helpfull when i encountered problems/issues on the project.  
-    <br>
-    - Student Care at CI - for All their help and support on this journey. 
-    <br>
-    - Finally to my Mentor who was so helpful in giving of their experince, ideas and time.  
+- Code Institute LMS for notes and videos and also template provided to build the project.  - https://learn.codeinstitute.net/dashboard
+<br>
+- Javscript tutorials as mentioned above in section 7 for ideas and guidance.
+<br>
+- Slack for researching and problemsolving - https://slack.com/intl/en-ie/
+<br>
+- Slack channel project-portfolio 2 for researching ideas and design - https://app.slack.com/
+<br>
+- Slack channel for lear Javascript - https://app.slack.com/
+<br>
+- Stack Overflow for researching issues and problems with code - https://stackoverflow.com/
+<br>
+- Cohort Facilitator at CI for all their support.
+<br>
+- Cohort Lead and class for their invaluable help, ideas and brainstorming sessions.
+<br>
+- Tutor Assistance at CI who were so helpfull when i encountered problems/issues on the project.  
+<br>
+- Student Care at CI - for All their help and support on this journey. 
+<br>
+- Finally to my Mentor who was so helpful in giving of their experince, ideas and time.  
 
 
 <br>
