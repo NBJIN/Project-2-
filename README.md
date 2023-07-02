@@ -15,7 +15,22 @@ On researching projects and javascript notes I reviewed a widely used game calle
 
 1. [User Experience](#user-experience)
 
-2. 
+2. [Features](#features)
+
+3. [Technologies Used](#technologies-used)
+
+4. [Testing](#testing) 
+
+5. [Finished Product](#finished-product)
+
+6. [Deployment](#deployment)
+
+7. [Credits](#credits)
+
+8. [Acknowledgements](#acknowledgements)
+#
+<br>
+
 
 1. [User Experience](#user-experience)
 
@@ -122,6 +137,7 @@ On researching projects and javascript notes I reviewed a widely used game calle
     ![image](https://github.com/NBJIN/Project-2-/assets/106515976/4f9a64d1-21c7-4b84-9e3e-7a56aae30d7e)
     
     <br>
+#
 
 2. [Features](#features)
     <br>
@@ -197,6 +213,7 @@ Future Features
 - Add button to stop game and restart.
 - popup message when starting game - when start button is clicked popup displays alerting user game is about to start with an ok button and the countdown timer will then start.
 - Adding a sound effect when the cat is caught.   
+#
 
 3. [Technologies Used](#technologies-used)
 <br>
@@ -234,6 +251,8 @@ https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
 - When completing the favicon referenced the following website - https://favicon.io/
 <br>
 
+#
+
 4. [Testing](#testing) - Please refer to testing.md file for detailed breakdown on testing
 
     a) Testing User Stories and Goals
@@ -245,6 +264,7 @@ https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
     d) Manual Testing
 
     e) Known Bugs 
+#
 
 5. [Finished Product](#finished-product)
     <br>
@@ -270,7 +290,7 @@ https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
     <br>
 
     ![image](https://github.com/NBJIN/Project-2-/assets/106515976/9dc05776-d3b2-46a4-800c-b9c212f05e0c)
-
+#
 
 6. [Deployment](#deployment)
 
@@ -291,6 +311,8 @@ https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
     <br>
     - On GitHub navigate to the repository that you want to fork. 
     - In the top right corner of the page click fork and this will fork the project.  
+
+#
 
 7. [Credits](#credits)
     <br>
@@ -329,6 +351,7 @@ https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
     - Whack A Mole game using HTML, CSS and Javascript by Divya M C M - https://medium.com/@divyamcm/whack-a-mole-game-using-html-css-and-javascript-84b108ec5c8e
     <br>
     - Code Institute template in order to build code.  
+#
 
 8. [Acknowledgements](#acknowledgements)
 <br>
