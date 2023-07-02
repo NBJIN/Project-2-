@@ -7,7 +7,7 @@ var score = document.getElementsByClassName("currentScore")[0];
 var timer = 20;
 var countdownInterval;
 var catImg = document.createElement('img');
-catImg.src = "/assets/images/catm.png";
+catImg.src = "assets/images/catm.png";
 var gameLevel = "";
 var gameStarted = false;
 
