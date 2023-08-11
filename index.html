@@ -29,17 +29,37 @@
         <hr class="hr-style">
 
         <!-- Instructions section on how to play game -->
-        <h3 class="instructions">Instructions:</h3>
-        <p class="instructions-p">Player can choose two levels.  Level Easy is where the player
-            gets 30 seconds and the cat will display at a  speed of 1000 milliseconds.  Level Hard is where the 
-            player gets 20 seconds and the cat will display at a  speed of 700 milliseconds. Once the player 
-            has chosen their desired level, the timer will reflect the chosen level. The player then clicks on
-            Start Game to begin playing the game.  Once the game starts the timer will count down and any 
-            successful trys will be recorded in the score counter.  When the game finishes an alert will 
-            display advising the player the game has finished and will also display the final score. If the 
-            player would like to play again they will select a level and click on start game and the game will 
-            start counting down again.  
-        </p>
+        <!-- <h3 class="instructions">Instructions:</h3> -->
+        <div>
+            <br>
+        <button id="modal-button">View Instructions</button>
+        </div>
+        <div class="instructions-modal">
+         
+           
+            <p class="instructions-p"> 
+                <span class="close">&times;</span> 
+               
+                <strong>Instructions For Catch The Black Cat </strong> 
+                <br>
+                Player can choose two levels.
+                <br>
+                <u>Level Easy</u> is where the player gets 30 seconds and the cat will display at a  speed of 1000 
+                milliseconds. 
+                <br> 
+                <u>Level Hard</u> is where the player gets 20 seconds and the cat will display at a  speed of 700 
+                milliseconds. 
+                <br>
+                Once the player has chosen their desired level, the timer will reflect the chosen level. 
+                The player then clicks on Start Game to begin playing the game.  Once the game starts the timer will 
+                count down and any successful trys will be recorded in the score counter.  When the game finishes an 
+                alert will display advising the player the game has finished and will also display the final score. 
+                If the player would like to play again they will select a level and click on start game and the game 
+                will start counting down again.  
+            </p>
+        
+       
+        </div>
 
         <!-- Game control section which contains buttons for game level and start game-->
         <div class="button-layout">

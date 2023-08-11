@@ -2,6 +2,9 @@
 document.addEventListener('DOMContentLoaded', function() {
 
 // Define Game Variables
+var button = document.getElementById("modal-button");
+var modal = document.querySelector(".instructions-modal");
+var closeButton = document.querySelector(".close");
 var currentScore = 0;
 var score = document.getElementsByClassName("currentScore")[0];
 var timer = 20;
@@ -18,6 +21,21 @@ const levelHard = document.getElementById('levelHard');
 var timerRemaining = document.querySelector('.timeremaining .seconds');
 var catMoveInterval;
 var rate;
+
+
+button.onclick = function() {
+  modal.style.display = "block";
+}
+
+closeButton.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+} 
 
 // Function to reset score to 0 //
 
