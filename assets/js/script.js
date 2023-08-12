@@ -37,7 +37,8 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 } 
-
+// When level button is clicked it will 
+// highlight the selected button
 levelButtons.forEach(button => {
   button.addEventListener('click', function() {
     levelButtons.forEach(btn => btn.classList.remove('active-level'));
