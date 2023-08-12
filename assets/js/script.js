@@ -18,6 +18,7 @@ const startButton = document.getElementById('startButton');
 const square = document.getElementsByClassName("square");
 const levelEasy = document.getElementById('levelEasy');
 const levelHard = document.getElementById('levelHard');
+const levelButtons = document.querySelectorAll('.levelButton');
 var timerRemaining = document.querySelector('.timeremaining .seconds');
 var catMoveInterval;
 var rate;
@@ -36,6 +37,24 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 } 
+
+levelButtons.forEach(button => {
+  button.addEventListener('click', function() {
+    levelButtons.forEach(btn => btn.classList.remove('active-level'));
+    this.classList.add('active-level');
+    level(this.getAttribute('data-level'));
+  });
+});
+
+// Function to initialize game state
+
+function initializeGame() {
+  level('levelEasy');
+  timer = 30;
+  timerRemaining.textContent = timer;
+}
+
+initializeGame();
 
 // Function to reset score to 0 //
 

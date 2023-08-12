@@ -156,6 +156,11 @@ body {
 
 /* Start Button */
 
+.levelButton.active-level {
+  background-color: orange;
+  color: white;
+}
+
 #startButton {
   justify-items: center;
 }
