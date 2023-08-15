@@ -147,7 +147,7 @@ body {
 .button-layout,
 .introduction {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 
 }
@@ -374,8 +374,8 @@ body {
   }
 
 .button-layout {
+ 
   justify-items: center;
-  padding-right: 10px;
 }
 
 #startButton {
@@ -392,6 +392,7 @@ body {
   border-radius: 50px;
   padding: 20px;
   text-align: center;
+
 
   }
 
@@ -613,4 +614,124 @@ body {
 
 
 }
+
+/* @media screen and (max-width: 767px) */
+
+@media screen and (max-width: 375px) {
+
+
+  body {
+    /* scroll-margin-block-end: 0px; */
+    /* width: 50%; */
+    padding-right: 0px;
+    /* white-space: normal; */
+    /* overflow: auto; */
+    max-width: 74%;
+ 
+    box-sizing: border-box;
+    
+  }
+
+
+#modal-button {
+  background-color: darkslategray;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: orange;
+  font-size: 15px;
+  text-align: center;
+  justify-items: center;
+  padding: 10px;
+  color: orange;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.levelLabel {
+  font-size: 15px;
+  /* margin-left: 10px; */
+  /* padding: 10px; */
+  margin-left: 70px;
+  text-align: center;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.levelEasy,
+.levelHard {
+  width: 50%;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  display: inline;
+  margin-right: 3px;
+
+}
+
+.buttonstart,
+.buttonreset {
+  width: 50%;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  margin: 2px
+}
+
+
+#startButton,
+#resetButton {
+  padding: 10px;
+}
+
+.timeremaining {
+  padding-top: 1px;
+  flex-direction: column;
+}
+
+.instructions-p {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 10px;
+  position: fixed;
+  margin-right: 30px;
+  width: 75%;
+  
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+}
+
+.timeremaining {
+  padding-bottom: 0px;
+  display: inline;
+  font-size: 20px;
+}
+
+.square {
+ padding-top: 2px;
+
+ }
+
+#hr-style2{
+  display: none;
+}
+
+.footerimage {
+  display: none;
+}
+
+
+
+
+
+
+}
+
+
 
