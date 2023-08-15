@@ -44,16 +44,18 @@
                 <br>
                 Player can choose two levels.
                 <br>
-                <u>Level Easy</u> is where the player gets 30 seconds and the cat will display at a  speed of 1000 
+                <u>Level "Easy"</u> is where the player gets 30 seconds and the cat will display at a  speed of 1000 
                 milliseconds. 
                 <br> 
-                <u>Level Hard</u> is where the player gets 20 seconds and the cat will display at a  speed of 700 
+                <u>Level "Hard"</u> is where the player gets 20 seconds and the cat will display at a  speed of 700 
                 milliseconds. 
                 <br>
                 Once the player has chosen their desired level, the timer will reflect the chosen level. 
                 The player then clicks on Start Game to begin playing the game.  Once the game starts the timer will 
                 count down and any successful trys will be recorded in the score counter.  When the game finishes an 
                 alert will display advising the player the game has finished and will also display the final score. 
+                If the player wants to reset the game they can click "Reset Game" button and this will reset the 
+                time remaining to 0 and score counter to 0.
                 If the player would like to play again they will select a level and click on start game and the game 
                 will start counting down again.  
             </p>
@@ -70,6 +72,8 @@
             <button type="button" class="levelHard levelButton" data-level="levelHard" id="levelHard">Hard</button>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
             <button type="button" class="buttonstart" id="startButton">Start Game</button>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <button type="button" class="buttonreset" id="resetButton">Reset Game</button>
         </div>
 
         <!-- Timer and score counter section to advise user how much time they have and no of scores-->

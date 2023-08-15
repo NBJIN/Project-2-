@@ -19,11 +19,12 @@ const square = document.getElementsByClassName("square");
 const levelEasy = document.getElementById('levelEasy');
 const levelHard = document.getElementById('levelHard');
 const levelButtons = document.querySelectorAll('.levelButton');
+const resetButton = document.getElementById('resetButton');
 var timerRemaining = document.querySelector('.timeremaining .seconds');
 var catMoveInterval;
 var rate;
 
-
+// Modal for displaying instructions of game
 button.onclick = function() {
   modal.style.display = "block";
 }
@@ -143,7 +144,10 @@ function resetGame() {
   score.textContent = currentScore;
   startButton.disabled = false;
   gameStarted = false;
+  levelButtons.forEach(btn=> btn.classList.remove('active-level'));
 }
+
+resetButton.addEventListener('click', resetGame);
 
 
 // Function to display a random cat //

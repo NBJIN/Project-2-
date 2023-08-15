@@ -165,7 +165,8 @@ body {
   justify-items: center;
 }
 
-.buttonstart {
+.buttonstart,
+.buttonreset {
   background-color: darkslategray;
   border-radius: 100px;
   border-style: solid;
