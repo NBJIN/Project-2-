@@ -462,26 +462,29 @@ body {
 
 .black-cat-moon {   
   width: 30%;
-  height: 30%;    
+  height: 30%;  
+  padding-bottom: 10px;  
+  margin-left: -75px;
 }
 
 #modal-button {
   margin-top: 40px;
   margin-bottom: 20px;
   margin-left: 50px;
+ 
 }
   
 .game-name,
 .game-title,
 .instructions {
-  font-size: 30px;
+  font-size: 35px;
   margin-right: 5px;
   padding-left: 5px;
   padding-right: 5px;
 }
   
 .hr-style {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   width: 135%;
 }
   
@@ -657,11 +660,14 @@ body {
   .game-name {
     font-size: 22px;
     padding-bottom: 10px;
+    margin-right: -70px;
+    padding-top: 10px;
   }
 
   .black-cat-moon {
     width: 40%;
     height: 40%;
+    margin-left: 5px;
 
   }
 
@@ -771,7 +777,9 @@ body {
   width: 420px;
   height: 350px;
   gap: 10px;
-  padding-left: 15px;
+  margin-left: 19px;
+  margin-right: 5px;
+  margin-bottom: 15px;
  }
 
  .square-container .square img {
