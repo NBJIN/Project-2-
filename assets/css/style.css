@@ -599,32 +599,10 @@ body {
 
 }
 
-@media screen and (max-width: 360px) {
 
-  body {
-    width: 100%;
-  }
 
-  .hr-style {
-    width: 110%;
-  }
 
-  .square-container {
-    width: 330px;
-    height: 350px;
-    padding-right: 10px;
-  }
 
-  .main-container {
-    width: 100%;
-    grid-template-columns: auto;
-  }
-
-  .square {
-    gap: 10%;
-    padding-right: 2px;
-  }
-}
 
 @media screen and (max-width: 375px) {
   body {
@@ -780,6 +758,87 @@ body {
 
   .main-container {
     padding-left: 10px;
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+  /* body {
+    width: 100%;
+  } */
+
+  .hr-style {
+    width: 100%;
+  }
+
+  .instructions-p {
+    position: relative;
+  }
+
+  .close:hover {
+    color: red;
+  }
+
+  .fa-solid {
+    display: none;
+  }
+
+  .levelLabel {
+    margin-right: 1px;
+    margin-left: 6px;
+  }
+
+  .levelEasy,
+  .levelHard {
+    padding: 6px;
+  }
+
+  #startButton,
+  #resetButton {
+    padding: 6px;
+  }
+
+
+
+  .square-container {
+
+    width: 306px;
+    height: 300px; 
+    gap: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .catm0,
+  .catm1,
+  .catm2,
+  .catm3,
+  .catm4,
+  .catm5,
+  .catm6,
+  .catm7,
+  .catm8 {
+
+    max-width: 75%;
+    max-height: 85%;
+    bottom: 10%;
+  }
+
+  .square-container .square img {
+    max-width: 75%;
+    max-height: 85%;
+    padding-top: 18px;
+    bottom: 10%;
+  
+
+  }
+
+  .main-container {
+    padding-left: 0rem;
   }
 }
 

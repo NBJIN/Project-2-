@@ -4,7 +4,7 @@ PUT IN IMAGE FROM RESPONSIVENESS SITE
 
 
 ## Introduction:
-#
+
 <p align="justify">
 
 On researching projects and javascript notes I reviewed a widely used game called "Whack A Mole" and decided to go with a similar idea for the project i am undertaking.  The game that i am building has a  slight twist on the "Whack A Mole" game.  I have decided to use a black cat instead of a mole and the game is called "Catch The Black Cat!" instead of "Whack A Mole".  The goal is to provide people with a fun game that the player can spends a few minutes playing or spend a bit of time playing at the different levels.  The player can play at two different levels which are easy and hard. Level Easy give the player 30 seconds and the rate that the cat appears at is 1000. Level Hard is where the player is given 20 seconds and a rate of 700 at which the cat displays.  When the player chooses the level and starts the game the countdown timer begins and successfull hits are recorded in the score section.  When the game finishes a message will be displayed to the user saying the game has finished and displys the total number of scores.  
