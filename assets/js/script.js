@@ -95,6 +95,13 @@ function level(level) {
     return;
   }
   gameLevel = level;
+  levelButtons.forEach(btn => {
+    if (btn.getAttribute('data-level') === level) {
+      btn.classList.add('active-level');
+    } else {
+      btn.classList.remove('active-level');
+    }
+  });
   if (level === 'levelEasy') {
     timer = 30;
     rate = 1000;
@@ -127,9 +134,13 @@ function endGame() {
   catImg.removeEventListener('click', incrementScore);
 
   alert('Time is up game has now ended your score is as follows: ' + currentScore);
-   
+
+  // levelButtons.forEach(btn => btn.classList.remove('active-level'));
+  gameLevel = "";
+
   startButton.disabled = false;
   gameStarted = false;
+
 }
 
 // Function to reset game //
@@ -144,7 +155,7 @@ function resetGame() {
   score.textContent = currentScore;
   startButton.disabled = false;
   gameStarted = false;
-  levelButtons.forEach(btn=> btn.classList.remove('active-level'));
+  // levelButtons.forEach(btn=> btn.classList.remove('active-level'));
 }
 
 resetButton.addEventListener('click', resetGame);
