@@ -236,7 +236,7 @@ body {
   box-shadow: inset 0 10px 0 7px rgba(255, 165, 0, 0.9);
   height: 200px;
   width: 200px;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
   border: 2px;
   background-color: darkslategray;
@@ -260,7 +260,7 @@ body {
   width: 100px;
   left: 50%;
   position: absolute;
-  overflow: hidden;
+  /* overflow: hidden; */
   transform: translate(-60%);
   bottom: 30%;
   animation: ease-in .2s ease-out;
@@ -732,10 +732,13 @@ body {
   }
 
   .square-container{
-    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    width: 340px;
     height: 350px;
-    gap: 5px;
-    margin-left: 1px;
+    gap: 0px;
+    margin-left: 10px;
     margin-right: 1px;
     margin-bottom: 15px;
     padding: 0px 1px 1px 1px;
