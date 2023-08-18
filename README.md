@@ -1,15 +1,15 @@
 # Memory Game Catch The Black Cat 
 
-PUT IN IMAGE FROM RESPONSIVENESS SITE 
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/5b57a881-d6ac-4c20-b63a-4c0917e4317c)
 
-
-## Introduction:
+#
+## Introduction
 
 <p align="justify">
-
-On researching projects and javascript notes I reviewed a widely used game called "Whack A Mole" and decided to go with a similar idea for the project i am undertaking.  The game that i am building has a  slight twist on the "Whack A Mole" game.  I have decided to use a black cat instead of a mole and the game is called "Catch The Black Cat!" instead of "Whack A Mole".  The goal is to provide people with a fun game that the player can spends a few minutes playing or spend a bit of time playing at the different levels.  The player can play at two different levels which are easy and hard. Level Easy give the player 30 seconds and the rate that the cat appears at is 1000. Level Hard is where the player is given 20 seconds and a rate of 700 at which the cat displays.  When the player chooses the level and starts the game the countdown timer begins and successfull hits are recorded in the score section.  When the game finishes a message will be displayed to the user saying the game has finished and displys the total number of scores.  
+On researching projects and javascript notes I reviewed a widely used game called "Whack A Mole" and decided to go with a similar idea for the project i am undertaking.  The game that i am building has a  slight twist on the "Whack A Mole" game.  I have decided to use a black cat instead of a mole and the game is called "Catch The Black Cat!" instead of "Whack A Mole".  The goal is to provide people with a fun game that the player can spend a few minutes playing or spend a bit of time playing at the different levels.  The player can play at two different levels which are easy and hard. Level Easy give the player 30 seconds and the rate that the cat appears at is 1000. Level Hard is where the player is given 20 seconds and a rate of 700 at which the cat displays.  When the player chooses the level and starts the game the countdown timer begins and successfull hits are recorded in the score section.  When the game finishes a message will be displayed to the user saying the game has finished and displys the total number of scores.  
 </p>
-<br>
+
+#
 
 ## Table of Contents
 
@@ -28,136 +28,155 @@ On researching projects and javascript notes I reviewed a widely used game calle
 7. [Credits](#credits)
 
 8. [Acknowledgements](#acknowledgements)
-#
 <br>
 
-
+#
 1. [User Experience](#user-experience)
+#
 
-    a) Project Goals and Target Audience 
-    <br>
-    Project Goals For Player and Developer 
-    <br>
-    Player Goals:
-    <br>
-    - A game that is easy to play and just for fun.
-    - A game that provides an appealing interactive user experience.  
-    - Different levels to be included in the game so that the player can test the different levels and is challenging. 
-    - Instruction that are easy to follow in order to play the game.  
-    - Play a game that is responsive across a number of devices.  
-    <br>
-    Developer Goals
-    <br>
-    - To build a game that is easy to play.
-    - To provide a positive user experience.
-    - Provide a game where the player can challenge themselves.
-    - Provide a timer so that the player can see exactly how much time they have remaining to play the game. 
-    - Provide a score counter that keeps track of scores for the player.
-    - Advise the player when the game is completed.  
-    <br>
-    <br>
-    Target Audience
-    <br>
-    This game can be played by all age groups to pass a little time and which is easy and interactive short game or the player can play for longer at differnt levels.  
+A. Project Goals and Target Audience 
+<br>
+Project Goals For Player and Developer 
+<br>
 
-    <br>       
+Player Goals:
 
-    b) User Stories
-    <br>
-    - Provide a game that is easy to play. 
-    - A game with an attractive user design.
-    - Provide a game with clear instructions for the player on how to play the game.
-    - A game that provides different levels to play at. 
-    - Address responsiveness so that the player can play the game across different devices.
-    - Provide a timer so the player knows exactly what time is reamining.
-    - Provide a score counter so that the player can see exactly their successful hits.  
-    - Provide confirmation to the player when the game is over.
-    <br>    
-    c) Color Scheme
-    <br>
-    The color scheme chosen for this background was as follows: 
-    - Black is the main background color.
-    - Orange is used for the majority of the text on the page.
-    - Red is used to distinguish the time remaining.
-    - Blue is used to show the score counter.
-    - The horizontal rules at the top and the bottom of the page have a fill color of darkslategray and an orange border. 
-    - The background color for the circles is again blackslategray and orange and these circles sit on a blackslategray background.  
-    <br>
-    The color palette was done up on coolors.co website a link to this site is below along with a copy of the color palette.              
-    https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
-    <br>
+- A game that is easy to play and just for fun.
+- A game that provides an appealing interactive user experience.  
+- Different levels to be included in the game so that the player can test the different levels and is challenging. 
+- Instruction that are easy to follow in order to play the game.  
+- Play a game that is responsive across a number of devices.  
+<br>
 
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/1ed34123-a7ee-4f00-8742-d41f15fadec2)
+Developer Goals:
 
-    <br>
-    d) Typography
-    <br>
+- To build a game that is easy to play.
+- To provide a positive user experience.
+- Provide a game where the player can challenge themselves.
+- Provide a timer so that the player can see exactly how much time they have remaining to play the game. 
+- Provide a score counter that keeps track of scores for the player.
+- Advise the player when the game is completed.  
+<br>
+<br>
 
-    The font that was chosen throughout this project is Montserrat.  It is a very clear font and is also easy to read in the selected font color of orange, red and blue.  
+Target Audience
+<br>
+This game can be played by all age groups to pass a little time and which is easy and interactive short game or the player can play for longer at differnt levels.  
+<br>       
+B. User Stories 
+<br>
 
-    https://en.wikipedia.org/wiki/Montserrat_(typeface)
+- Provide a game that is easy to play. 
+- A game with an attractive user design.
+- Provide a game with clear instructions for the player on how to play the game.
+- A game that provides different levels to play at. 
+- Address responsiveness so that the player can play the game across different devices.
+- Provide a timer so the player knows exactly what time is reamining.
+- Provide a score counter so that the player can see exactly their successful hits.  
+- Provide confirmation to the player when the game is over.
+<br>
+<br>
 
-    A link to google fonts has also been included in the head section of the index.html file. 
+C. Color Scheme
+<br>
 
-    https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap 
+The color scheme chosen for this background was as follows: 
 
-    The backup font which has been used is Arial again it is a very clear font and can be easily seen in the selected colors for this project.  
+- Black is the main background color.
+- Orange is used for the majority of the text on the page, borders and highlighting the different level button when a game is in play.
+- Red is used to distinguish the time remaining and is also used as a hover effect over the close button in the instructions section. 
+- Blue is used to show the score counter.
+- The horizontal rules at the top and the bottom of the page have a fill color of darkslategray and an orange border. 
+- The background color for the circles is again blackslategray and orange and these circles sit on a blackslategray background.  
+<br>
 
-    https://en.wikipedia.org/wiki/Arial
+The color palette was done up on coolors.co website a link to this site is below along with a copy of the color palette. 
 
+https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
+<br>
 
-    e) Wireframes
-    <br>
-    Wireframes were drawn up in Balsamiq for Desktop and Mobile. 
-    <br>
-    The following are the desktop wireframes. 
-    <br>
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/1ed34123-a7ee-4f00-8742-d41f15fadec2)
 
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/d805d531-7917-404c-91e1-ae2244052c44)
-    <br>
+<br>
+<br>
 
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/e86dce4f-2521-4496-9842-c4aa2059b1b3)
-    <br>
+D. Typography
+<br>
 
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/c90363b7-7920-4bc6-94de-a85f052d09c4)
-    <br>
+The font that was chosen throughout this project is Montserrat.  It is a very clear font and is also easy to read in the selected font color of orange, red and blue.  
 
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/d7dab6b7-ef49-4de0-9d63-953cc0b059dc)
-    <br>
+https://en.wikipedia.org/wiki/Montserrat_(typeface)
 
-    The following are the wireframe which were drawn up for mobile. 
-    <br>
+A link to google fonts has also been included in the head section of the index.html file. 
+
+https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap 
+
+The backup font which has been used is Arial again it is a very clear font and can be easily seen in the selected colors for this project.  
+
+https://en.wikipedia.org/wiki/Arial
+<br>
+<br>
+
+E. Wireframes
+<br>
+
+Wireframes were drawn up in Balsamiq for Desktop and Mobile. 
+<br>
+The following are the desktop wireframes. 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/d805d531-7917-404c-91e1-ae2244052c44)
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/e86dce4f-2521-4496-9842-c4aa2059b1b3)
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/c90363b7-7920-4bc6-94de-a85f052d09c4)
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/d7dab6b7-ef49-4de0-9d63-953cc0b059dc)
+<br>
+
+The following are the wireframe which were drawn up for mobile. 
+<br>
     
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/e3e695b6-971a-4ecf-ada3-9af99e4383dc)
-    <br>
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/e3e695b6-971a-4ecf-ada3-9af99e4383dc)
+<br>
     
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/248369e0-f0ac-4421-8a8a-6e7d22ead47b)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/248369e0-f0ac-4421-8a8a-6e7d22ead47b)
     
-    <br>
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/4f9a64d1-21c7-4b84-9e3e-7a56aae30d7e)
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/4f9a64d1-21c7-4b84-9e3e-7a56aae30d7e)
     
-    <br>
+<br>
+
 #
 
 2. [Features](#features)
-    <br>
-    a) Home Page of Game
-    <br>
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/022cf5ae-61cb-48c2-ad20-d4724cfe7a6d)
+#
+<br>
+A. Home Page of Game
+<br>
 
-    b) Page Showing Game In Play
-    <br>
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/911fabdf-c120-44ea-8315-da28475d94c5)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/022cf5ae-61cb-48c2-ad20-d4724cfe7a6d)
 
-    c) When Game Ends Message Displayed To Player 
-    <br>
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/a170e870-c4f0-4504-a107-234c3264c8e0)
+B. Page Showing Game In Play
+<br>
 
-    <br>
-    Features 
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/911fabdf-c120-44ea-8315-da28475d94c5)
+
+C. When Game Ends Message Displayed To Player 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/a170e870-c4f0-4504-a107-234c3264c8e0)
+
+<br>
+Features 
 <br>
 
 - Instructions
+<br>
 The game provides a detailed set of instruction for the player on how to play the game and play at the different levels provided. 
 <br>
 
@@ -196,16 +215,25 @@ successfull click will add to the score couter.
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/bb6f1b49-15b5-4499-88a4-810c8a03e7c4)
 
+<br>
 
-| Summary |          |        |          
-| Feature   | Acceptance | Pass |
-|:----------|:----------|:----------|:----------|
-|  |          |          |          |
-|1. Instructions  | Detailed instructions provided so user can play game | Pass  |          | 
-|2. Levels to play with | The game provides two levels the player can play at LevelEasy and Level Hard and when each button is clicked it will reflect the time for the perferred level selected. | Pass |
-|3. Timer provided and working | When the game commences the timer will begin counting down to the end of the game.  | Pass  |
-|4. Can make a successful score and its recorded   | When the player successfully clicks on cat the score counter will change to reflect the score.   | Pass  |
-|5. Alert to advise game has completed | When the game has completed an alert will be displayed to the player advising that the game has completed and displays the final score to the player. | Pass        |
+| Summary |          |        |           |
+
+|:--- |----------|----------|----------|
+
+| Feature   | Acceptance | Pass | Fail |
+| :--- | :--- | :--- | :--- |
+
+| 1. Instructions  | Detailed instructions provided so user can play game | Pass  |          | 
+
+|2. Levels to play with | The game provides two levels the player can play at LevelEasy and Level Hard and when each button is clicked it will reflect the time for the perferred level selected. | Pass |          |
+
+|3. Timer provided and working | When the game commences the timer will begin counting down to the end of the game.  | Pass  |          |
+
+|4. Can make a successful score and its recorded   | When the player successfully clicks on cat the score counter will change to reflect the score.   | Pass  |          |
+
+|5. Alert to advise game has completed | When the game has completed an alert will be displayed to the player advising that the game has completed and displays the final score to the player. | Pass        |          |
+
 <br>
 
 Future Features
