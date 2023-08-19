@@ -40,6 +40,7 @@ body {
   text-align: center;
   font-family: "Montserrat", Arial;
   font-size: 40px;
+  
 }
 
 /* hr rule under the game title */
@@ -114,8 +115,14 @@ body {
 }
 
 /* Button section for game and top section introduction for game */
-.button-layout,
+
 .introduction {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+}
+.button-layout {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -299,8 +306,8 @@ body {
 
 @media screen and (max-width: 950px) {
   .black-cat-moon {
-    width: 100px;
-    height: 100px;
+    width: 25%;
+    height: auto;
     /* left: 0; */
     padding-left: 5px;
   }
