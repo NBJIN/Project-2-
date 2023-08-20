@@ -42,9 +42,11 @@ window.onclick = function(event) {
 // highlight the selected button
 levelButtons.forEach(button => {
   button.addEventListener('click', function() {
+    if (!gameStarted) {
     levelButtons.forEach(btn => btn.classList.remove('active-level'));
     this.classList.add('active-level');
     level(this.getAttribute('data-level'));
+    }
   });
 });
 
