@@ -104,10 +104,9 @@ iPad Air
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/3a599802-aeaf-43b1-9826-2e2742054c8c)
 <br>
 
-| Summary |          |        |          
+#### Summary       
 | User Story   | Pass | Fail | 
 |:----------|:----------|:----------|
-|  |          |          |          |
 |1. Provide a game that is easy to play.  | Pass |  | 
 |2. A game with an attractive user design. | Pass | |
 |3. Provide a game with clear instruction for the player on how to play the game. | Pass |  |
@@ -223,10 +222,9 @@ successfull click will add to the score couter.
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/bb6f1b49-15b5-4499-88a4-810c8a03e7c4)
 
 
-| Summary |          |        |          
+#### Summary     
 | Feature   | Acceptance | Pass | Fail |
 |:----------|:----------|:----------|:----------|
-|  |          |          |          |
 |1. Instructions  | Detailed instructions provided so user can play game | Pass  |          | 
 |2. Levels to play with | The game provides two levels the player can play at LevelEasy and Level Hard and when each button is clicked it will reflect the time for the perferred level selected. | Pass |
 |3. Timer provided and working | When the game commences the timer will begin counting down to the end of the game.  | Pass  |

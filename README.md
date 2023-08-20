@@ -31,7 +31,7 @@ On researching projects and javascript notes I reviewed a widely used game calle
 <br>
 
 #
-1. [User Experience](#user-experience)
+## 1. [User Experience](#user-experience)
 #
 
 A. Project Goals and Target Audience 
@@ -153,8 +153,8 @@ The following are the wireframe which were drawn up for mobile.
 
 #
 
-2. [Features](#features)
-#
+## 2. [Features](#features)
+
 <br>
 A. Home Page of Game
 <br>
@@ -217,36 +217,29 @@ successfull click will add to the score couter.
 
 <br>
 
-| Summary |          |        |           |
-
-|:--- |----------|----------|----------|
+#### Summary of Features Below 
 
 | Feature   | Acceptance | Pass | Fail |
 | :--- | :--- | :--- | :--- |
-
 | 1. Instructions  | Detailed instructions provided so user can play game | Pass  |          | 
-
 |2. Levels to play with | The game provides two levels the player can play at LevelEasy and Level Hard and when each button is clicked it will reflect the time for the perferred level selected. | Pass |          |
-
 |3. Timer provided and working | When the game commences the timer will begin counting down to the end of the game.  | Pass  |          |
-
 |4. Can make a successful score and its recorded   | When the player successfully clicks on cat the score counter will change to reflect the score.   | Pass  |          |
-
 |5. Alert to advise game has completed | When the game has completed an alert will be displayed to the player advising that the game has completed and displays the final score to the player. | Pass        |          |
 
 <br>
 
-Future Features
+#### Future Features
 - Score counter for cats who have not being caught.
 - Add button to stop game and restart.
 - popup message when starting game - when start button is clicked popup displays alerting user game is about to start with an ok button and the countdown timer will then start.
 - Adding a sound effect when the cat is caught.   
 #
 
-3. [Technologies Used](#technologies-used)
+## 3. [Technologies Used](#technologies-used)
 <br>
+
 a) Languages Used
-<br>
 <br>
 - HTML5 was used to build the structure of the page - https://en.wikipedia.org/wiki/HTML5
 <br>
@@ -281,128 +274,158 @@ https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
 
 #
 
-4. [Testing](#testing) - Please refer to testing.md file for detailed breakdown on testing
+## 4. [Testing](#testing) - Please refer to testing.md file for detailed breakdown on testing
 
-    a) Testing User Stories and Goals
 
-    b) Code Validation
+a) Testing User Stories and Goals
 
-    c) Accessibility
+b) Code Validation
 
-    d) Manual Testing
+c) Accessibility
 
-    e) Known Bugs 
+d) Manual Testing
+
+e) Known Bugs 
 #
 
-5. [Finished Product](#finished-product)
-    <br>
-    Home Page showing game set to levelHard - 20 seconds
-    <br>
-
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/40fa4309-ec4a-4b0a-8d69-d05667740858)
-    <br>
-
-    Page showing game set to levelEasy - 30 seconds
-    <br>
-
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/7f18168e-64e8-4e10-b8f9-d83a59045a7f)
-    <br>
-
-    Page showing game in play 
-    <br>
-
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/89646d66-a186-4a04-89de-e3982b6252df)
-    <br>
-
-    Page showing aleart that the game has ended and provides final score to player
-    <br>
-
-    ![image](https://github.com/NBJIN/Project-2-/assets/106515976/9dc05776-d3b2-46a4-800c-b9c212f05e0c)
-#
-
-6. [Deployment](#deployment)
-
-    a) GitHub Pages
-    This site was deployed to GitHub pages.  The steps to deploy are the following: 
-    - In GitHub repository, navigate to the settings tab.
-    - From the source section drop-down menu, select main branch
-    - once the main branch has been selected the page will be automaticlly refreshed with a detailed ribbon display to indicate the successful deployment.  
-
-    The link can be found at the following -https://github.com/NBJIN/Project-2- (gh repo clone NBJIN/Project-2-)
-
-    b) Clone To Run Local 
-    <br>
-    - In the respository section on Github click on the Code drop-down button next to the green Gitpod button.
-    - Download ZIP file and unpackage the file locally.
-
-    d) Forking
-    <br>
-    - On GitHub navigate to the repository that you want to fork. 
-    - In the top right corner of the page click fork and this will fork the project.  
-
-#
-
-7. [Credits](#credits)
-    <br>
-    a) Content
-    <br>
-    - All content for this website in so far as text was drawn up by the owner, images were sourced from pixabay.com -https://pixabay.com/
-    <br>
-    - Font Awesome was used for the arrow icon -
-    https://fontawesome.com/search?q=arrow&o=r  
-    <br>
-    <br>
-    b) Media
-    <br>
-    - Images were sourced from pixabay.com -https://pixabay.com/
-    <br>
-    - Font was sourced from google fonts - https://fontawesome.com/search?q=arrow&o=r
-    <br>
-    - When working on the favicon referenced the following site -  https://favicon.io/
-    <br>
-    - Fontawesome was used for the arrow icon - https://fontawesome.com/
-    <br>
-    c) Code
-    <br>
-    In completing this project I accessed the following sources  : 
-    <br>
-    - Course Notes from CI LMS and the format and layout of the of the Love Maths Essentials Project - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/
-    <br>
-    - JavaScript For Dummies 4th Edition by Emily Vander Veer 
-    <br>
-    - Whac-a-mole in JavaScript Tutorial by Ania Kubow - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/
-    <br>
-    - Whack-A-Mole Game - HTML, CSS and JavaScript by Angle Brace - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/
-    <br>
-    - Whack a Mole Game in Javascript HTML CSS by Kenny Yip Coding - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/
-    <br>
-    - Whack A Mole game using HTML, CSS and Javascript by Divya M C M - https://medium.com/@divyamcm/whack-a-mole-game-using-html-css-and-javascript-84b108ec5c8e
-    <br>
-    - Code Institute template in order to build code.  
-#
-
-8. [Acknowledgements](#acknowledgements)
+## 5. [Finished Product](#finished-product)
 <br>
+Home Page showing game set to levelHard - 20 seconds
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/40fa4309-ec4a-4b0a-8d69-d05667740858)
+<br>
+
+Page showing game set to levelEasy - 30 seconds
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/7f18168e-64e8-4e10-b8f9-d83a59045a7f)
+<br>
+
+Page showing game in play 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/89646d66-a186-4a04-89de-e3982b6252df)
+<br>
+
+Page showing aleart that the game has ended and provides final score to player
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/9dc05776-d3b2-46a4-800c-b9c212f05e0c)
+#
+
+## 6. [Deployment](#deployment)
+
+a) GitHub Pages
+    This site was deployed to GitHub pages.  The steps to deploy are the following: 
+- In GitHub repository, navigate to the settings tab.
+- From the source section drop-down menu, select main branch
+- once the main branch has been selected the page will be automaticlly refreshed with a detailed ribbon display to indicate the successful deployment.  
+
+The link can be found at the following -https://github.com/NBJIN/Project-2- (gh repo clone NBJIN/Project-2-)
+
+b) Clone To Run Local 
+<br>
+
+- In the respository section on Github click on the Code drop-down button next to the green Gitpod button.
+- Download ZIP file and unpackage the file locally.
+
+c) Forking
+<br>
+
+- On GitHub navigate to the repository that you want to fork. 
+- In the top right corner of the page click fork and this will fork the project.  
+
+#
+
+## 7. [Credits](#credits)
+<br>
+
+a) Content
+<br>
+
+- All content for this website in so far as text was drawn up by the owner, images were sourced from pixabay.com -https://pixabay.com/
+<br>
+
+- Font Awesome was used for the arrow icon -
+https://fontawesome.com/search?q=arrow&o=r  
+<br>
+<br>
+b) Media
+<br>
+
+- Images were sourced from pixabay.com -https://pixabay.com/
+<br>
+
+- Font was sourced from google fonts - https://fontawesome.com/search?q=arrow&o=r
+<br>
+
+- When working on the favicon referenced the following site -  https://favicon.io/
+<br>
+
+- Fontawesome was used for the arrow icon - https://fontawesome.com/
+<br>
+
+c) Code
+<br>
+In completing this project I accessed the following sources  : 
+<br>
+
+- Course Notes from CI LMS and the format and layout of the of the Love Maths Essentials Project - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/
+<br>
+
+- JavaScript For Dummies 4th Edition by Emily Vander Veer 
+<br>
+
+- Whac-a-mole in JavaScript Tutorial by Ania Kubow - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/
+<br>
+
+- Whack-A-Mole Game - HTML, CSS and JavaScript by Angle Brace - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/
+
+<br>
+
+- Whack a Mole Game in Javascript HTML CSS by Kenny Yip Coding - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/
+<br>
+
+- Whack A Mole game using HTML, CSS and Javascript by Divya M C M - https://medium.com/@divyamcm/whack-a-mole-game-using-html-css-and-javascript-84b108ec5c8e
+<br>
+
+- Code Institute template in order to build code.  
+#
+
+## 8. [Acknowledgements](#acknowledgements)
+<br>
+
 - Code Institute LMS for notes and videos and also template provided to build the project.  - https://learn.codeinstitute.net/dashboard
 <br>
+
 - Javscript tutorials as mentioned above in section 7 for ideas and guidance.
 <br>
+
 - Slack for researching and problemsolving - https://slack.com/intl/en-ie/
 <br>
+
 - Slack channel project-portfolio 2 for researching ideas and design - https://app.slack.com/
 <br>
+
 - Slack channel for lear Javascript - https://app.slack.com/
 <br>
+
 - Stack Overflow for researching issues and problems with code - https://stackoverflow.com/
 <br>
+
 - Cohort Facilitator at CI for all their support.
 <br>
+
 - Cohort Lead and class for their invaluable help, ideas and brainstorming sessions.
 <br>
+
 - Tutor Assistance at CI who were so helpfull when i encountered problems/issues on the project.  
 <br>
+
 - Student Care at CI - for All their help and support on this journey. 
 <br>
+
 - Finally to my Mentor who was so helpful in giving of their experince, ideas and time.  
 
 
