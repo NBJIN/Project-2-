@@ -261,7 +261,6 @@ body {
   left: 50%;
   position: absolute;
   transform: translate(-60%);
-  bottom: 30%;
   animation: ease-in .2s ease-out;
   padding-bottom: 1px;
   padding-top: 30px;
@@ -270,6 +269,8 @@ body {
 
 /* Styling applied to container to get images to display inside cirlce*/
 .square-container .square img {
+  padding-top: 12px;
+  padding-left: 10px;
   max-width: 75%;
   max-height: 75%;
 }
