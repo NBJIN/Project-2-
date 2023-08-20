@@ -138,10 +138,15 @@ function endGame() {
   alert('Time is up game has now ended your score is as follows: ' + currentScore);
 
   // levelButtons.forEach(btn => btn.classList.remove('active-level'));
-  gameLevel = "";
+  // gameLevel = "";
 
-  startButton.disabled = false;
+  // startButton.disabled = false;
   gameStarted = false;
+  startButton.disabled = false;
+  currentScore = 0;
+  score.textContent = currentScore;
+
+  // start();
 
 }
 
