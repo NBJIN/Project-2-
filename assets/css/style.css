@@ -137,9 +137,9 @@ body {
   color: white;
 }
 
-#startButton {
+/* #startButton {
   justify-items: center;
-}
+} */
 
 .buttonstart,
 .buttonreset {
@@ -152,6 +152,7 @@ body {
   color: orange;
   font-size: large;
   text-align: center;
+  width: 17%;
 }
 
 /* Game Level Buttons */
@@ -349,7 +350,22 @@ body {
 
   #resetButton {
     width: 17%;
+    padding: 15px;
+    height: 60px;
   }
+
+  /* #resetButton { */
+    /* display: inline-block; */
+    /* padding: 15px; */
+    /* margin-right: 20px; */
+    /* width: 200%; */
+    /* border-radius: 50px; */
+    /* height: 60px;  */
+    /* width: 17%; */
+  /* }   */
+
+
+
 
   #startButton {
     /* display: inline-block; */
@@ -435,7 +451,7 @@ body {
   }
 
   .paws {
-    margin-left: 50%;
+    /* margin-left: 50%; */
     padding-bottom: 50px;
   }
 }
@@ -446,11 +462,11 @@ body {
 #resetButton {
   display: inline-block;
   padding: 15px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   /* width: 200%; */
   /* border-radius: 50px; */
   height: 60px; 
-  width: 8%;
+  /* width: 17%; */
 }  
 
 
@@ -515,15 +531,19 @@ body {
     border-radius: 50px;
   }
 
+  /* #resetButton {
+    width: 17%;
+  } */
+
 
   #resetButton {
     display: inline-block;
     padding: 15px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     /* width: 200%; */
     /* border-radius: 50px; */
     height: 60px; 
-    width: 17%;
+    /* width: 17%; */
   }  
 
 
@@ -607,7 +627,7 @@ body {
   }
   
   .paws {
-    margin-left: 50%;
+    /* margin-left: 50%; */
     padding-bottom: 50px;
   }
   
@@ -620,12 +640,14 @@ body {
   #resetButton,
   #startButton {
     display: inline-block;
-    padding: 15px;
+    padding: 20px;
     margin-right: 20px;
     /* width: 200%; */
     /* border-radius: 50px; */
     height: 60px; 
     width: 17%;
+    font-size: medium;
+    font: bold;
   }  
 
 }
@@ -662,7 +684,7 @@ body {
   .levelEasy,
   .levelHard {
     width: 10%;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
 
@@ -755,6 +777,7 @@ body {
     padding: 10px;
     text-align: center;
   }
+  
 
 
 }
@@ -821,45 +844,34 @@ body {
     margin: 0 5px;
   }
 
+  .paws {
+    float: left;
+  }
+
 
 }
 
 /* media query at 530px */
 @media screen and (max-width: 530px) {
-  .buttonstart,
+  /* .buttonstart,
   .levelEasy,
   .levelHard,
   .buttonreset {
     font-size: medium;
     padding: 10px;
-  }
-
-
-
-}
-
-
-/* media query at 500px */
-@media screen and (max-width: 500px) {
-  .buttonstart,
-  .levelEasy,
-  .levelHard,
-  .buttonreset {
-    font-size: medium;
-    padding: 10px;
-  }
-
-
-
-}
-
-/* media query at 410px */
-@media screen and (max-width: 410px) {
+  } */
+  /* .black-cat-moon {
+    display: none;
+  } */
   
     #modal-button {
       padding: 10px;
       font-size: medium;
     }
+
+    /* .fa-solid {
+      display: none;
+    } */
   
     .buttonstart,
     .levelEasy,
@@ -867,152 +879,69 @@ body {
     .buttonreset {
       font-size: small;
       padding: 10px;
+      width: 50px;
+      gap: 5px;
+      box-sizing: border-box;
+    }
+
+    #resetButton,
+    #startButton {
+      padding: 8px;
+      height: auto;
+      margin-right: 0px;
+    }
+
+    #startButton {
+      padding: 10px !important;
     }
   
     .levelLabel {
       font-size: small;
+      justify-content: left;
+      margin-left: 0;
+    }
+
+    .square {
+      width: 100px;
+      height: 100px;
+      padding-left: 2px;
+      padding-right: 10px;
+      gap: 1px;
+      display: flex;
+      margin: 0 5px;
     }
   
+  
+    .square-container {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      background-color: black;
+      grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      height: 350px;
+      width: 302px;
+      padding-bottom: 20px;
+      padding-left: 1px;
+      padding-right: 1px;
+    }
+
+    #hr-style2 {
+      display: none;
+    }
     
-  }
-
-/* media query at 375px */
-@media screen and (max-width: 375px) {
-
-  .black-cat-moon {
-    display: none;
-  }
-  
-  #modal-button {
-    padding: 10px;
-    font-size: medium;
-  }
-
-  .fa-solid {
-    display: none; 
-  }
+    .paws {
+      display: none;
+    }
+   
 
 
-  .levelEasy,
-  .levelHard {
-    font-size: small;
-    padding: 4px;
-  }
-
-
-  .buttonstart,
-  /* .levelEasy,
-  .levelHard, */
-  .buttonreset {
-    font-size: small;
-    padding: 10px;
-  }
-
-  .levelLabel {
-    font-size: small;
-  }
-
-  #hr-style2 {
-    display: none;
-  }
-  
-  .paws {
-    display: none;
-  }
-
-
-  
-}
-
-/* media query at 348px */
-@media screen and (max-width: 348px) {
-
-  .black-cat-moon {
-    display: none;
-  }
-
-  .fa-solid {
-    display: none; 
-  }
-  
-  #modal-button {
-    padding: 10px;
-    font-size: medium;
-  }
-
-  .fa-solid {
-    display: none; 
-  }
-
-  .buttonstart,
-  .levelEasy,
-  .levelHard,
-  .buttonreset {
-    font-size: small;
-    padding: 10px;
-  }
-
-  #resetButton,
-  #startButton {
-    padding: 8px;
-    height: auto;
-  }
-
-
-
-  .levelLabel {
-    font-size: small;
-  }
-
-
-  .square {
-    width: 100px;
-    height: 100px;
-    padding-left: 2px;
-    padding-right: 10px;
-    gap: 1px;
-    display: flex;
-    margin: 0 5px;
-  }
-
-
-  .square-container {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    background-color: black;
-    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    height: 400px;
-    width: 400px;
-    padding-bottom: 20px;
-    padding-left: 1px;
-    padding-right: 0px;
-  }
-
-  #hr-style2 {
-    display: none;
-  }
-  
-  .paws {
-    display: none;
-  }
-
-
-  
 }
 
 
-
-
-
-
-
-
-
-@media screen and (max-width: 320px) {
-  /* body {
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    /* body {
     width: 100%;
   } */
 
@@ -1091,7 +1020,13 @@ body {
   } */
 
 
+/* .score {
+  margin-right: 5px;
+} */
 
+.currentScore {
+  padding-left: 5px;
+}
 
   #modal-button {
     padding: 10px;
@@ -1109,16 +1044,23 @@ body {
     font-size: small;
     padding: 10px;
     width: 50px;
-   gap: 5px;
+    gap: 5px;
+    box-sizing: border-box;
   }
 
   #resetButton,
   #startButton {
-    padding: 8px;
+    /* padding: 10px; */
     height: auto;
     margin-right: 0px;
+    font-size: small;
+    padding: 10px !important;
+    /* box-sizing: border-box; */
   }
 
+  /* #startButton {
+    padding: 10px !important;
+  } */
 
 
   .levelLabel {
@@ -1161,9 +1103,4 @@ body {
   .paws {
     display: none;
   }
-
-
 }
-
-
-
