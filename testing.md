@@ -203,13 +203,13 @@ script.js checked again on resubmission no errors found.
 Lighthouse Report For Mobile 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/f10c4d2b-e655-49e0-b6c7-02592487432b)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/a873d6ac-94a0-47e4-bf32-615304858dca)
 <br>
 
 Lighthouse Report For Desktop
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/7894a981-7e7d-4f6d-9b48-e8144f38cafc)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/3f15a3e8-9081-4143-a411-5378eb0529dd)
 
 
 #### d) Manual Testing
@@ -266,6 +266,21 @@ Once the game has ended an alert will display to the user advising the game has 
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/7ec6834f-8136-4f58-a31c-460b77ac2f23)
 
+- Start Game Button 
+<br>
+When the player clicks on the start button this will initiate the game at the level that the player has chosen. 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/d5b75f54-4fc2-457e-8258-dcb3aa3275fe)
+
+- Reset Game Button 
+<br>
+When the player clicks on the reset game button while the player is in the middle of a game this will reset the game back to 0. 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/d5b75f54-4fc2-457e-8258-dcb3aa3275fe)
+
+
 
 #### Summary     
 | Feature   | Acceptance | Pass | Fail |
@@ -275,6 +290,8 @@ Once the game has ended an alert will display to the user advising the game has 
 |3. Timer provided and working | When the game commences the timer will begin counting down to the end of the game.  | Pass  |
 |4. Can make a successful score and its recorded   | When the player successfully clicks on cat the score counter will change to reflect the score.   | Pass  |
 |5. Game Completion Alert to advise game has completed | When the game has completed an alert will be displayed to the player advising that the game has completed and displays the final score to the player. | Pass        |
+|6. Start Game Button so the player can choose when to play | There is a start game button provided and when the user clicks on same will will start the countdown timer for the chosen game level.   | Pass        |
+|7. Reset Game Button so the player can choose to reset the game | When the player is in the middle of a game they can click on the reset game button and this will reset the timer and score for the game back to 0.    | Pass        |
 <br>
 
 #### e) Known Bugs
