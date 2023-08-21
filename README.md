@@ -183,7 +183,7 @@ B. Page Showing Game In Play
 C. When Game Ends Message Displayed To Player 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/a170e870-c4f0-4504-a107-234c3264c8e0)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/9d84e024-0caf-4682-a2c8-66d7e9d027b3)
 
 <br>
 Features 
@@ -194,7 +194,7 @@ Features
 The game provides a detailed set of instruction for the player on how to play the game and play at the different levels provided. 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/e55cbb29-bfac-4d90-8593-cfac52a44847)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/5f523b9f-7ee3-461b-a12e-6dae6aac7929)
 <br>
 
 - The game provides two levels to play with. levelEasy provides the player with 30 seconds and the cat will display randomly in the circles at a rate of 1000 milliseconds.  levelHard provides the player with 20 seconds and 700 milliseconds. 
@@ -202,32 +202,34 @@ When levelHard is selected the timer will reflect 20 seconds.
 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/8e27158d-0d44-44fc-b07e-eae2dd6241c8)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/1a7af74d-e012-4e2d-9380-48b498ac466e)
 <br>
 
-When levelEasy is selected the timer will reflect 30 seconds on the timer and count back from there.  
+- When levelEasy is selected the timer will reflect 30 seconds on the timer and count back from there.  
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/1163f5d2-135c-4d75-90c9-3b193e9938f5)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/16b93621-db81-4752-a4af-99e720f5ab90)
 <br>
 
-- When the start game button is clicked the timer will begin counting down and the cat displays randomly.  Once the start button is clicked it will play the game untill the time is up.  The player can then begin the game again by choosing a level and clicking on the start button. 
+- When the start game button is clicked the timer will begin counting down and the cat displays randomly and will continue  untill the time runs out.  If the player wants to play at the same level again they can just click on start game else they can choose 
+the hard level and click on start game.  
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/f1c7bf27-94dd-4f74-a20f-e427589a23fa)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/08fd1fc7-26f5-462a-9fef-626a074309aa)
 <br>
 
 - Once the random cat displays the player can click on the cat and each
 successfull click will add to the score couter.  
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/e790350c-2211-4c72-8ddc-01568f34496a)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/3e7f75ea-0e71-443b-9a5c-1a2355e1d3d6)
+
 <br>
 
 - Once the game has ended an alert will display to the user advising the game has ended and gives the total score achieved.  The player can then click on the ok button and proceed to play again. 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/bb6f1b49-15b5-4499-88a4-810c8a03e7c4)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/5ca84c92-9442-4512-9115-f4e4b2bf47fa)
 
 <br>
 
@@ -240,13 +242,14 @@ successfull click will add to the score couter.
 |3. Timer provided and working | When the game commences the timer will begin counting down to the end of the game.  | Pass  |          |
 |4. Can make a successful score and its recorded   | When the player successfully clicks on cat the score counter will change to reflect the score.   | Pass  |          |
 |5. Alert to advise game has completed | When the game has completed an alert will be displayed to the player advising that the game has completed and displays the final score to the player. | Pass        |          |
-
+|6. Start Button | A start button is provided to user to start the game when they wish. | Pass        |          |
+|7. Reset Button | A reset button is provided to user to reset the game if they are in the middle of playing a game. | Pass        |          |
 <br>
 
 #### Future Features
 - Score counter for cats who have not being caught.
-- Add button to stop game and restart.
-- popup message when starting game - when start button is clicked popup displays alerting user game is about to start with an ok button and the countdown timer will then start.
+- Add button to stop game.
+- Popup message when starting game - when start button is clicked popup displays alerting user game is about to start with an ok button and the countdown timer will then start.
 - Adding a sound effect when the cat is caught.   
 #
 
@@ -288,7 +291,9 @@ https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
 
 #
 
-## 4. [Testing](#testing) - Please refer to testing.md file for detailed breakdown on testing
+## 4. [Testing](#testing) 
+
+Please refer to testing.md file for detailed breakdown on testing
 
 
 a) Testing User Stories and Goals
@@ -302,30 +307,31 @@ d) Manual Testing
 e) Known Bugs 
 #
 
-## 5. [Finished Product](#finished-product)
+## 5. [Finished Product On Desktop And Mobile](#finished-product)
 <br>
-Home Page showing game set to levelHard - 20 seconds
-<br>
-
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/40fa4309-ec4a-4b0a-8d69-d05667740858)
+Home Page showing game set to levelHard - 30 seconds
 <br>
 
-Page showing game set to levelEasy - 30 seconds
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/f316ffc6-2ef0-4e89-a526-1658e9e18209)
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/7f18168e-64e8-4e10-b8f9-d83a59045a7f)
+Page showing game set to levelEasy - 20 seconds
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/953923d8-40e7-49e3-ab3a-cb94a27b7d46)
 <br>
 
 Page showing game in play 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/89646d66-a186-4a04-89de-e3982b6252df)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/2a4f994c-7663-4a8d-acc9-0283b16c7427)
 <br>
 
-Page showing aleart that the game has ended and provides final score to player
+Page showing alert that the game has ended and provides final score to player
+
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/9dc05776-d3b2-46a4-800c-b9c212f05e0c)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/31d6248f-fcce-4d09-b38a-052e8c50c2d1)
 #
 
 ## 6. [Deployment](#deployment)
@@ -365,6 +371,7 @@ a) Content
 https://fontawesome.com/search?q=arrow&o=r  
 <br>
 <br>
+
 b) Media
 <br>
 
@@ -422,7 +429,7 @@ In completing this project I accessed the following sources  :
 - Slack channel project-portfolio 2 for researching ideas and design - https://app.slack.com/
 <br>
 
-- Slack channel for lear Javascript - https://app.slack.com/
+- Slack channel for learning Javascript - https://app.slack.com/
 <br>
 
 - Stack Overflow for researching issues and problems with code - https://stackoverflow.com/
@@ -434,7 +441,7 @@ In completing this project I accessed the following sources  :
 - Cohort Lead and class for their invaluable help, ideas and brainstorming sessions.
 <br>
 
-- Tutor Assistance at CI who were so helpfull when i encountered problems/issues on the project.  
+- Tutor Assistance at CI who were so helpfull when i encountered problems and issues on the project.  
 <br>
 
 - Student Care at CI - for All their help and support on this journey. 
