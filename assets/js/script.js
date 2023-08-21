@@ -118,15 +118,23 @@ function level(level) {
 // Function for countdown timer //
 
 function countdown() {
-  if (timer > 0) {
-    timer--;
-    timerRemaining.textContent = timer;
-  }
 
   if (timer === 0) {
     endGame();
+  } else {
+    timer--;
+    timerRemaining.textContent = timer;
   }
-}
+  }
+  // if (timer > 0) {
+    // timer--;
+    // timerRemaining.textContent = timer;
+  // }
+
+  // if (timer === 0) {
+    // endGame();
+  // }
+// }
 
 // Function that ends the game //
 
