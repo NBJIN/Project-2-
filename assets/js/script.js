@@ -1,4 +1,4 @@
-// Load HTML content before JS // 
+// Load HTML content before JS 
 document.addEventListener('DOMContentLoaded', function() {
 
 // Define Game Variables
@@ -13,7 +13,6 @@ var catImg = document.createElement('img');
 catImg.src = "assets/images/catm.png";
 var gameLevel = "";
 var gameStarted = false;
-
 const startButton = document.getElementById('startButton');
 const square = document.getElementsByClassName("square");
 const levelEasy = document.getElementById('levelEasy');
@@ -24,22 +23,23 @@ var timerRemaining = document.querySelector('.timeremaining .seconds');
 var catMoveInterval;
 var rate;
 
-// Modal for displaying instructions of game
+// Modal for displaying instructions of game 
 button.onclick = function() {
   modal.style.display = "block";
-}
+};
 
 closeButton.onclick = function() {
   modal.style.display = "none";
-}
+};
 
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-} 
+}; 
+
 // When level button is clicked it will 
-// highlight the selected button
+// highlight the selected button 
 levelButtons.forEach(button => {
   button.addEventListener('click', function() {
     if (!gameStarted) {
@@ -50,8 +50,7 @@ levelButtons.forEach(button => {
   });
 });
 
-// Function to initialize game state
-
+// Function to initialize game state 
 function initializeGame() {
   level('levelEasy');
   timer = 30;
@@ -60,14 +59,13 @@ function initializeGame() {
 
 initializeGame();
 
-// Function to reset score to 0 //
-
+// Function to reset score to 0 
 function resetScore() {
   currentScore = 0;
   score.textContent = currentScore;
 }
 
-// Function to start game and play at levelEasy or levelHard //
+// Function to start game and play at levelEasy or levelHard 
 function start() {
   if (gameStarted) {
     return;
@@ -91,7 +89,7 @@ function start() {
   }
 }
 
-// Function for two levels levelEasy and Level Hard //
+// Function for two levels levelEasy and Level Hard 
 function level(level) {
   if (gameStarted) {
     return;
@@ -115,10 +113,8 @@ function level(level) {
   resetScore();
 }
 
-// Function for countdown timer //
-
+// Function for countdown timer 
 function countdown() {
-
   if (timer === 0) {
     endGame();
   } else {
@@ -126,18 +122,8 @@ function countdown() {
     timerRemaining.textContent = timer;
   }
   }
-  // if (timer > 0) {
-    // timer--;
-    // timerRemaining.textContent = timer;
-  // }
 
-  // if (timer === 0) {
-    // endGame();
-  // }
-// }
-
-// Function that ends the game //
-
+// Function that ends the game 
 function endGame() {
   clearInterval(countdownInterval);
   clearInterval(catMoveInterval);
@@ -145,21 +131,13 @@ function endGame() {
 
   alert('Time is up game has now ended your score is as follows: ' + currentScore);
 
-  // levelButtons.forEach(btn => btn.classList.remove('active-level'));
-  // gameLevel = "";
-
-  // startButton.disabled = false;
   gameStarted = false;
   startButton.disabled = false;
   currentScore = 0;
   score.textContent = currentScore;
+ }
 
-  // start();
-
-}
-
-// Function to reset game //
-
+// Function to reset game 
 function resetGame() {
   clearInterval(countdownInterval);
   clearInterval(catMoveInterval);
@@ -170,54 +148,39 @@ function resetGame() {
   score.textContent = currentScore;
   startButton.disabled = false;
   gameStarted = false;
-  // levelButtons.forEach(btn=> btn.classList.remove('active-level'));
 }
 
 resetButton.addEventListener('click', resetGame);
 
-
-// Function to display a random cat //
-
-function displayCat() {
-  
+// Function to display a random cat 
+function displayCat() { 
   for (var i = 0; i < square.length; i++) {
       square[i].innerHTML = '';
       }
-
   if (timer > 0) {
-
     var randomIndex = Math.floor(Math.random() * square.length);
    
     square[randomIndex].appendChild(catImg);
     square[randomIndex].addEventListener('click', incrementScore);
-    
   }
 }
 
-// Function to increment score //
-
+// Function to increment score 
 function incrementScore(event) {
   var clickedElement = event.target;
   if (clickedElement.contains(catImg)) {
-  
     currentScore++;
     score.textContent = currentScore;
     clickedElement.parentNode.removeEventListener('click', incrementScore);
   }
 }
 
-// Event Listeners for startbutton, leveleasy and levelhard //
-
+// Event Listeners for startbutton, leveleasy and levelhard 
 startButton.addEventListener('click', start);
-
 levelEasy.addEventListener('click', function() {
   level('levelEasy');
 });
-
 levelHard.addEventListener('click', function() {
   level('levelHard');
 });
-
-
-
 });

@@ -179,6 +179,11 @@ The validation of css resulted in no errors.
 https://jigsaw.w3.org/css-validator/validator
 <br>
 
+style.css checked again on resubmission no errors found. 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/8078a356-850a-42d4-b68c-d8f349e735dc)
+
 script.js checked through jshint.com produced four warnings see below 
 <br>
 
@@ -186,6 +191,12 @@ script.js checked through jshint.com produced four warnings see below
 <br>
 
 Site reference : https://jshint.com/
+
+<br>
+
+script.js checked again on resubmission no errors found.
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/adb846bb-129a-4245-b55d-13bec4fc8557)
 
 #### c) Accessibility
 <br>
