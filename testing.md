@@ -165,6 +165,10 @@ No Errors Recorded in second check.
 Site reference: https://validator.w3.org/
 <br>
 
+Index.html checked again on resubmission  and no errors found. 
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/c41cb357-182e-4d59-8612-149d4c7aec5e)
+
 style.css first check through W3C CSS Validation 
 The validation of css resulted in no errors.  
 <br>
