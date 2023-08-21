@@ -12,16 +12,18 @@
 | Player Goals |          |          |          |
 |1. A game that is easy to play and just for fun. | The Catch The Black Cat game is very easy to play and the clear visuals on the page like instructions and buttons guides the user on how to play. | Pass |          |
 |2. A game that provides an appealing interactive user experinece. | The design and interface of the game is very appealing, striking and inviting for the player to play the game. | Pass |          |
-|3. Different levels to be included in the game so that the player can test the different levels and is challeging. | The game has two levels levelEasy and levelHard. levelEasy is played at 30 seconds and the cate display at a rate of 1000 of a second and levelHard is more challenging as there is less time of 20 seconds and the cat displays at a rate of 700 of a second. | Pass |          |
-|4. Instructions that a easy to follow in order to play the game.  | There is a detailed set of instructions before the game which advises the player on how exactly to play the game.  | Pass |    |
-|5. Play a game that is responsive across a number of devices | The game was tested on desktop / laptop / iphone 6/7/8 and Samsung Galaxy S8 and all are responsive and the game can be easily played. | Pass |          |
+|3. Different levels to be included in the game so that the player can test the different levels and the game is challeging. | The game has two levels levelEasy and levelHard. levelEasy is played at 30 seconds and the cat displays at a rate of 1000 of a second and levelHard is more challenging as there is less time of 20 seconds and the cat displays at a rate of 700 of a second. | Pass |          |
+|4. Instructions that are easy to follow in order to play the game.  | A detailed set of instructions can be accessed before playing the game by clicking on view instructions button. These instructions advises the player on how to exactly play the game.  | Pass |    |
+|5. Play a game that is responsive across a number of devices | The game was tested on desktop / laptop / iphone 6/7/8 and Samsung Galaxy S8 aswell as i pad air and i pad mini and all are responsive and the game can be easily played across all these screen sizes. | Pass |          |
 | Developer Goals |          |          |          |
-|1. To build a gmae that is easy to play. | The game is very easy to play for any player and has clear instructions.  | Pass |          |
+|1. To build a game that is easy to play. | The game is very easy to play for any player and has clear instructions that the player can acess by clicking on the view instructions button.  | Pass |          |
 |2. To Provide a positive user experience. | The games interface is very inviting to a player with colors, images and text all contrasting each other.  | Pass |          |
-|3. Provide a game where the player can challenge themselves. | The game provides two levels that the player can play at Easy has 30 seconds and a display rate of a 1000 and hard has 20 seconds and a display rate of 700. | Pass |          |
+|3. Provide a game where the player can challenge themselves. | The game provides two levels that the player can play at Easy has 30 seconds and a display rate of a 1000 and level hard has 20 seconds and a display rate of 700. | Pass |          |
 |4. Provide a timer so that the player can see exactly how much time they have remianing to play the game.| When the game starts the countdown timer begins counting down so that the player knows exactly how much time they have left to play the game.  | Pass |          |
 |5. Provide a score counter that keeps track of scores for the player. | When the game commences and with each successful hit the score counter is incremented  so the player can see their no of scores.  | Pass |          |
 |6. Advise the player when the game is completed.  | When the game has finished an alert will display advising the player that the game has completed and it also gives the final score.  | Pass |          | 
+|7. Allow the player to start the game when they like.  | The game has a start button which the player can click on when they wish.    | Pass |          | 
+|8. Allow the player to reset the game.  | The game has a reset button which allows the player to reset a game.    | Pass |          | 
 <br>
 
 ## User Story Testing
@@ -29,24 +31,27 @@
 - Provide a game that is easy to play.  The catch a black cat game is easy to play and with the provision of easy navigational buttons it allows the player to start playing the game immediately.  
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/1b11db29-2bb6-4dbf-99ae-5a48929e60db)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/74aeffbc-484f-4ee4-9502-b80174696b4f)
 <br>
 
 - A game with an attractive user design.  This game provides a very attractive interface and design and is inviting to the player.  The colors,
 images and text all compliment each other which provides a positive experience.  
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/1b11db29-2bb6-4dbf-99ae-5a48929e60db)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/74aeffbc-484f-4ee4-9502-b80174696b4f)
 
-- Provide a game with clear instructions for the player on how to play the game.  There are clear instruction provided to the player on how to play the game at the top of the page.  
+- Provide a game with clear instructions for the player on how to play the game.  There are clear instructions provided to the player on how to play the game and these can be accessed through the view instructions button.  
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/ee3159b9-e57e-4222-8782-7a543b88b12d)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/1627f358-69ab-4da9-acd2-34149f456821)
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/e3556d0d-5d23-4e2a-9f42-18baa234d1b3)
 
 - A game that provides different levels to play at.  The game provides the player to play levelEasy or levelHard. LevelEasy plays at 30 seconds and 1000 milliseconds and levelHard plays at 20 seconds and 700 milliseconds.
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/0d6397d6-0f3c-4af3-8622-55475845b003)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/6f8e030e-509a-43bd-a273-66ffc8de9afc)
+
 <br>
 
 - Address responsiveness so that the player can play the game across different devices.
@@ -55,53 +60,68 @@ images and text all compliment each other which provides a positive experience.
 Desktop
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/808873d4-5c35-40ed-8544-e5c15db469ee)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/b1cee8b9-03e9-4e3d-9367-ddb79db6d0f4)
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/9cceec0c-a58c-4c70-bc59-23f8e4d1ce0d)
 <br>
 
 Laptop
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/564e9625-0652-48c3-9045-c092ff55ab6a)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/b405e7dd-9a73-4ab9-bbf5-2cf37d967f28)
      
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/01b1bd8d-279e-4694-ac43-981ed288bd61)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/d8c74b23-84d6-40dc-9217-d608efad134c)
 <br>
 
 Iphone 6/7/8
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/a4b2b1bb-93ed-46c2-a703-3f0f2799c81c)
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/88971cea-9152-4316-a29d-be8a55f0ad7e)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/59033572-4ce8-4524-b56c-b83e8295da92)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/1b517b90-164d-4075-b5d3-9458587f74c7)
 <br>
 
 Samsung Galaxy S8 +
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/650d61bb-3b62-4ac9-92da-2f7bc4e14714)
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/287cd6c5-0660-4265-9330-3bcd4543264c)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/d74995d6-ac7c-4b24-9c34-f78538ee9009)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/e5574b71-ad48-414a-a029-a2bba4c51fa2)
 <br>
 
 iPad Air 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/eb7e036b-d371-4f82-8285-90ac48b03d5d)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/5d273ad2-fb1d-4cba-b65d-f0ab486b1ef6)
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/a0d6aa55-3c36-4636-9195-d0feb5ab07dd)
 <br>
+
+iPad Mini 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/e5a0495c-d616-44a1-b11e-847bd4805221)
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/8c8bbc0f-afc9-4c2b-89b2-f5fe2e148e26)
+
     
 - Provide a timer so that the player knows exactly what time is remaining. There is a countdown timer provided which counts down from 30 seconds if levelEasy is selected and counts down  20 seconds if if levelHard is selected.  
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/71aacdfd-2af3-48fa-8546-cbf7b849ee6e)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/dd5e0964-2128-42c3-8306-6c0b92dd6c59)
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/02196a17-8c63-49fa-98a7-3c212c69000b)
+
 <br>
 
-- Provide a score counter so that the player can see exactly their successful hits.  When a palyer makes a successful hit the score is recorded in the score counter automatically.  
+- Provide a score counter so that the player can see exactly their successful hits.  When a player makes a successful hit the score is recorded in the score counter automatically.  
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/5d582d89-59b8-4932-822b-e8c1d62dfd44)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/b71935b7-ece1-42cd-8ea6-68b38cde50ff)
 <br>
 
 - Provide confirmation to the player when the game is over. When the game is over an alert displays to the player advising them the game has finished and also provides the final score to the player. 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/3a599802-aeaf-43b1-9826-2e2742054c8c)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/b4fb0270-f9e6-4048-b7cd-f257abc8d7be)
 <br>
 
 #### Summary       
@@ -183,37 +203,38 @@ Features
 <br>
 
 - Instructions
-The game provides a detailed set of instruction for the player on how to play the game and play at the different levels provided. 
+The game provides a detailed set of instruction for the player on how to play the game and play at the different levels provided. These instructions can be accessed by clicking on view instructions.  
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/e55cbb29-bfac-4d90-8593-cfac52a44847)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/c666ff2c-5a90-4492-ad6c-ac688c073b16)
 <br>
 
 - The game provides two levels to play with. levelEasy provides the player with 30 seconds and the cat will display randomly in the circles at a rate of 1000 milliseconds.  levelHard provides the player with 20 seconds and 700 milliseconds. 
-When levelHard is selected the timer will reflect 20 seconds.
+When levelEasy is selected the timer will reflect 30 seconds. Also the button for this level will be highlighted in orange so that the player knows what level they are playing at. 
 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/8e27158d-0d44-44fc-b07e-eae2dd6241c8)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/98723af5-0a19-4cee-8832-86422aa68803)
 <br>
 
-When levelEasy is selected the timer will reflect 30 seconds on the timer and count back from there.  
+When levelHard is selected the timer will reflect 20 seconds on the timer and count back from there.
+Also the button for this level will be highlighted in orange so that the player knows what level they are playing at.    
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/1163f5d2-135c-4d75-90c9-3b193e9938f5)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/00910cdc-9e04-4eee-867c-a30b1c325cb7)
 <br>
 
-- When the start game button is clicked the timer will begin counting down and the cat displays randomly.  Once the start button is clicked it will play the game untill the time is up.  The player can then begin the game again by choosing a level and clicking on the start button. 
+- When the start game button is clicked the timer will begin counting down and the cat displays randomly.  Once the start button is clicked it will play the game untill the time is up.  The player can then begin the game again by just simply clicking on the start button. 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/f1c7bf27-94dd-4f74-a20f-e427589a23fa)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/fe55ee6a-b4ed-48cf-9c5b-5e0351165008)
 <br>
 
 - Once the random cat displays the player can click on the cat and each
 successfull click will add to the score couter.  
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/e790350c-2211-4c72-8ddc-01568f34496a)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/18a23ebe-12b8-4c8d-950e-3bdb10574570)
 <br>
 
 - Once the game has ended an alert will display to the user advising the game has ended and gives the total score achieved.  The player can then click on the ok button and proceed to play again. 

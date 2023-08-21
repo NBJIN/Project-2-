@@ -197,7 +197,9 @@ The game provides a detailed set of instruction for the player on how to play th
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/5f523b9f-7ee3-461b-a12e-6dae6aac7929)
 <br>
 
-- The game provides two levels to play with. levelEasy provides the player with 30 seconds and the cat will display randomly in the circles at a rate of 1000 milliseconds.  levelHard provides the player with 20 seconds and 700 milliseconds. 
+- levels
+<br>
+ The game provides two levels to play with. levelEasy provides the player with 30 seconds and the cat will display randomly in the circles at a rate of 1000 milliseconds.  levelHard provides the player with 20 seconds and 700 milliseconds. 
 When levelHard is selected the timer will reflect 20 seconds.
 
 <br>
@@ -205,20 +207,23 @@ When levelHard is selected the timer will reflect 20 seconds.
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/1a7af74d-e012-4e2d-9380-48b498ac466e)
 <br>
 
-- When levelEasy is selected the timer will reflect 30 seconds on the timer and count back from there.  
+- Timer 
+<br>
+ When levelEasy is selected the timer will reflect 30 seconds on the timer and count back from there.  
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/16b93621-db81-4752-a4af-99e720f5ab90)
 <br>
 
-- When the start game button is clicked the timer will begin counting down and the cat displays randomly and will continue  untill the time runs out.  If the player wants to play at the same level again they can just click on start game else they can choose 
-the hard level and click on start game.  
+ When the start game button is clicked the timer will begin counting down and the cat displays randomly and will continue  untill the time runs out.  If the player wants to play at the same level again they can just click on start game else they can choose the hard level and click on start game.  
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/08fd1fc7-26f5-462a-9fef-626a074309aa)
 <br>
 
-- Once the random cat displays the player can click on the cat and each
+- Score Counter 
+<br>
+ Once the random cat displays the player can click on the cat and each
 successfull click will add to the score couter.  
 <br>
 
@@ -226,25 +231,33 @@ successfull click will add to the score couter.
 
 <br>
 
-- Once the game has ended an alert will display to the user advising the game has ended and gives the total score achieved.  The player can then click on the ok button and proceed to play again. 
+- Game Completion 
+<br>
+
+ Once the game has ended an alert will display to the user advising the game has ended and gives the total score achieved.  The player can then click on the ok button and proceed to play again. 
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/5ca84c92-9442-4512-9115-f4e4b2bf47fa)
 
 <br>
 
-#### Summary of Features Below 
-
-| Feature   | Acceptance | Pass | Fail |
-| :--- | :--- | :--- | :--- |
-| 1. Instructions  | Detailed instructions provided so user can play game | Pass  |          | 
-|2. Levels to play with | The game provides two levels the player can play at LevelEasy and Level Hard and when each button is clicked it will reflect the time for the perferred level selected. | Pass |          |
-|3. Timer provided and working | When the game commences the timer will begin counting down to the end of the game.  | Pass  |          |
-|4. Can make a successful score and its recorded   | When the player successfully clicks on cat the score counter will change to reflect the score.   | Pass  |          |
-|5. Alert to advise game has completed | When the game has completed an alert will be displayed to the player advising that the game has completed and displays the final score to the player. | Pass        |          |
-|6. Start Button | A start button is provided to user to start the game when they wish. | Pass        |          |
-|7. Reset Button | A reset button is provided to user to reset the game if they are in the middle of playing a game. | Pass        |          |
+- Start Game
 <br>
+
+The game provides a start button in which the user can play the game when they wish.  
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/c0440c57-7af4-4d49-932a-c5f0b0cde5cf)
+
+<br>
+
+- Reset Game 
+<br>
+The game provides a reset button whereby if a player is in the middle of a game they can reset the game by clicking on this button.  
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/c0440c57-7af4-4d49-932a-c5f0b0cde5cf)
+
 
 #### Future Features
 - Score counter for cats who have not being caught.
