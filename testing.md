@@ -203,13 +203,16 @@ Features
 <br>
 
 - Instructions
+<br>
 The game provides a detailed set of instruction for the player on how to play the game and play at the different levels provided. These instructions can be accessed by clicking on view instructions.  
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/c666ff2c-5a90-4492-ad6c-ac688c073b16)
 <br>
 
-- The game provides two levels to play with. levelEasy provides the player with 30 seconds and the cat will display randomly in the circles at a rate of 1000 milliseconds.  levelHard provides the player with 20 seconds and 700 milliseconds. 
+- Levels 
+<br>
+The game provides two levels to play with. levelEasy provides the player with 30 seconds and the cat will display randomly in the circles at a rate of 1000 milliseconds.  levelHard provides the player with 20 seconds and 700 milliseconds. 
 When levelEasy is selected the timer will reflect 30 seconds. Also the button for this level will be highlighted in orange so that the player knows what level they are playing at. 
 
 <br>
@@ -224,23 +227,29 @@ Also the button for this level will be highlighted in orange so that the player 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/00910cdc-9e04-4eee-867c-a30b1c325cb7)
 <br>
 
-- When the start game button is clicked the timer will begin counting down and the cat displays randomly.  Once the start button is clicked it will play the game untill the time is up.  The player can then begin the game again by just simply clicking on the start button. 
+- Timer 
+<br>
+When the start game button is clicked the timer will begin counting down and the cat displays randomly.  Once the start button is clicked it will play the game untill the time is up.  The player can then begin the game again by just simply clicking on the start button. 
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/fe55ee6a-b4ed-48cf-9c5b-5e0351165008)
 <br>
 
-- Once the random cat displays the player can click on the cat and each
+- Score 
+<br>
+Once the random cat displays the player can click on the cat and each
 successfull click will add to the score couter.  
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/18a23ebe-12b8-4c8d-950e-3bdb10574570)
 <br>
 
-- Once the game has ended an alert will display to the user advising the game has ended and gives the total score achieved.  The player can then click on the ok button and proceed to play again. 
+- Game Completion Alert 
+<br>
+Once the game has ended an alert will display to the user advising the game has ended and gives the total score achieved.  The player can then click on the ok button and proceed to play again. 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/bb6f1b49-15b5-4499-88a4-810c8a03e7c4)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/7ec6834f-8136-4f58-a31c-460b77ac2f23)
 
 
 #### Summary     
@@ -250,7 +259,7 @@ successfull click will add to the score couter.
 |2. Levels to play with | The game provides two levels the player can play at LevelEasy and Level Hard and when each button is clicked it will reflect the time for the perferred level selected. | Pass |
 |3. Timer provided and working | When the game commences the timer will begin counting down to the end of the game.  | Pass  |
 |4. Can make a successful score and its recorded   | When the player successfully clicks on cat the score counter will change to reflect the score.   | Pass  |
-|5. Alert to advise game has completed | When the game has completed an alert will be displayed to the player advising that the game has completed and displays the final score to the player. | Pass        |
+|5. Game Completion Alert to advise game has completed | When the game has completed an alert will be displayed to the player advising that the game has completed and displays the final score to the player. | Pass        |
 <br>
 
 #### e) Known Bugs

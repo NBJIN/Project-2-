@@ -1,108 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4ac481fc67.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Catch The Black Cat Game!</title>
+</head>
+<body>
+    <!-- Top section containing name of game and images and hr rule-->
+    <div class="imagetopright">
+        <img class="paws" src="assets/images/paws.png" alt="paws-image">
+    </div>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/4ac481fc67.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-        <link rel="icon" href="favicon.ico">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>Catch The Black Cat!</title>
-    </head>
+    <div class="introduction">
+        <img class="black-cat-moon" src="assets/images/blackcatmoon.jpg" alt="black-cat-moon-image">
+        <h1 class="game-name">Welcome To Catch The Black Cat Game</h1>
+        <img id="catm" src="assets/images/catm.png" alt="cat-image">
+    </div>
 
-    <body>
-        <!-- Top section containing name of game and images and hr rule-->
-        <div class="imagetopright">
-            <img class="paws" src="assets/images/paws.png" alt="paws-image">
+    <hr class="hr-style">
+
+    <!-- Instructions section on how to play game -->
+    <div>
+        <button id="modal-button">View Instructions</button>
+    </div>
+
+    <div class="instructions-modal">            
+        <p class="instructions-p"> 
+            <span class="close">&times;</span> 
+            <strong>Instructions For Catch The Black Cat Game </strong> 
+            <br>
+            The player can choose to play at two levels. When the page loads the easy level will be preselected
+            but the player can easily choose the hard level by clicking on the hard button.   
+            <br>
+            <u>Level "Easy"</u> is where the player gets 30 seconds and the cat will display at a  speed of 1000 
+            milliseconds. 
+            <br> 
+            <u>Level "Hard"</u> is where the player gets 20 seconds and the cat will display at a  speed of 700 
+            milliseconds. 
+            <br>
+            Once the player has chosen their desired level, the timer will reflect the chosen level.  The player
+            then clicks on Start Game to begin playing the game.  Once the game starts the timer will count down 
+            and any successful trys will be recorded in the score counter.  When the game finishes an alert will 
+            display advising the player the game has finished and will also display the final score. If the player 
+            would like to play again at the same level they just click on start game again and the game will start 
+            counting down.  If the player wants to reset the game they can click Reset Game button and this will 
+            reset the time remaining to 0 and score counter to 0.  Then they can choose to play at the level 
+            selected or at the alternative level.  
+        </p>
+    </div>
+
+    <!-- Game control section which contains buttons for game level and start game-->
+    <div class="button-layout">
+        <label class="levelLabel">Choose A Level &nbsp;<i class="fa-solid fa-arrow-right" style="color: #2f4f4f;"></i></label>
+        <button type="button" class="levelEasy levelButton active-level" data-level="levelEasy" id="levelEasy">Easy</button>
+        <button type="button" class="levelHard levelButton" data-level="levelHard" id="levelHard">Hard</button>
+        <button type="button" class="buttonstart" id="startButton">Start Game</button>
+        <button type="button" class="buttonreset" id="resetButton">Reset Game</button>
+    </div>
+
+    <!-- Timer and score counter section to advise user how much time they have and no of scores-->
+    <div class="game-status">
+        <div class="timeremaining">
+            Time Remaining:&nbsp;<div class="seconds">&nbsp;20</div>
+            &nbsp; &nbsp; &nbsp;
+            <p class="score">Score: &nbsp;<span class="currentScore">&nbsp;0</span></p>
         </div>
+    </div>
 
-        <div class="introduction">
-            <img class="black-cat-moon" src="assets/images/blackcatmoon.jpg" alt="black-cat-moon-image">
-            <h1 class="game-name">Welcome To Catch The Black Cat Game</h1>
-            <img id="catm" src="assets/images/catm.png" alt="cat-image">
+    <!-- Game section where an array of cirles are presented and a cat display randomly inside of each -->
+    <div class="main-container">
+        <div class="square-container">
+            <div class="square"><img src="assets/images/catm.png" class="catm0" onclick="clicked()" alt="cat-image"></div>
+            <div class="square"><img src="assets/images/catm.png" class="catm1" onclick="clicked()" alt="cat-image"></div>
+            <div class="square"><img src="assets/images/catm.png" class="catm2" onclick="clicked()" alt="cat-image"></div>
+            <div class="square"><img src="assets/images/catm.png" class="catm3" onclick="clicked()" alt="cat-image"></div>
+            <div class="square"><img src="assets/images/catm.png" class="catm4" onclick="clicked()" alt="cat-image"></div>
+            <div class="square"><img src="assets/images/catm.png" class="catm5" onclick="clicked()" alt="cat-image"></div>
+            <div class="square"><img src="assets/images/catm.png" class="catm6" onclick="clicked()" alt="cat-image"></div>
+            <div class="square"><img src="assets/images/catm.png" class="catm7" onclick="clicked()" alt="cat-image"></div>
+            <div class="square"><img src="assets/images/catm.png" class="catm8" onclick="clicked()" alt="cat-image"></div>
         </div>
+    </div>
 
-        <hr class="hr-style">
+    <br>
+    <br>
 
-        <!-- Instructions section on how to play game -->
-        <div>
-            <button id="modal-button">View Instructions</button>
-        </div>
-        <div class="instructions-modal">
-                    
-            <p class="instructions-p"> 
-                <span class="close">&times;</span> 
-               
-                <strong>Instructions For Catch The Black Cat Game </strong> 
-                <br>
-                    The player can choose to play at two levels. When the page loads the easy level will be preselected
-                    but the player can easily choose the hard level by clicking on the hard button.   
-                <br>
-                    <u>Level "Easy"</u> is where the player gets 30 seconds and the cat will display at a  speed of 1000 
-                    milliseconds. 
-                <br> 
-                    <u>Level "Hard"</u> is where the player gets 20 seconds and the cat will display at a  speed of 700 
-                    milliseconds. 
-                <br>
-                    Once the player has chosen their desired level, the timer will reflect the chosen level.  The player
-                    then clicks on Start Game to begin playing the game.  Once the game starts the timer will count down 
-                    and any successful trys will be recorded in the score counter.  When the game finishes an alert will 
-                    display advising the player the game has finished and will also display the final score. 
-                    If the player would like to play again at the same level they just click on start game again and the 
-                    game will start counting down.  If the player wants to reset the game they can click Reset Game button 
-                    and this will reset the time remaining to 0 and score counter to 0.  Then they can choose to play at
-                    the level selected or at the alternative level.  
-            </p>
-        </div>
+    <!-- Bottom section which contains hr rule and image.-->
+    <hr id="hr-style2">
+    <br>
+    <br>
 
-        <!-- Game control section which contains buttons for game level and start game-->
-        <div class="button-layout">
-            <label class="levelLabel">Choose A Level &nbsp;<i class="fa-solid fa-arrow-right" style="color: #2f4f4f;"></i></label>
-            <button type="button" class="levelEasy levelButton active-level" data-level="levelEasy" id="levelEasy">Easy</button>
-            <button type="button" class="levelHard levelButton" data-level="levelHard" id="levelHard">Hard</button>
-            <button type="button" class="buttonstart" id="startButton">Start Game</button>
-            <button type="button" class="buttonreset" id="resetButton">Reset Game</button>
-        </div>
-
-        <!-- Timer and score counter section to advise user how much time they have and no of scores-->
-        <div class="game-status">
-            <div class="timeremaining">Time Remaining:&nbsp;<div class="seconds">&nbsp;20</div>
-                &nbsp; &nbsp; &nbsp;
-                <p class="score">Score: &nbsp;<span class="currentScore">&nbsp;0</span></p>
-            </div>
-        </div>
-
-        <!-- Game section where an array of cirles are presented and a cat display randomly inside of each -->
-        <div class="main-container">
-            <div class="square-container">
-                <div class="square"><img src="assets/images/catm.png" class="catm0" onclick="clicked()" alt="cat-image"></div>
-                <div class="square"><img src="assets/images/catm.png" class="catm1" onclick="clicked()" alt="cat-image"></div>
-                <div class="square"><img src="assets/images/catm.png" class="catm2" onclick="clicked()" alt="cat-image"></div>
-                <div class="square"><img src="assets/images/catm.png" class="catm3" onclick="clicked()" alt="cat-image"></div>
-                <div class="square"><img src="assets/images/catm.png" class="catm4" onclick="clicked()" alt="cat-image"></div>
-                <div class="square"><img src="assets/images/catm.png" class="catm5" onclick="clicked()" alt="cat-image"></div>
-                <div class="square"><img src="assets/images/catm.png" class="catm6" onclick="clicked()" alt="cat-image"></div>
-                <div class="square"><img src="assets/images/catm.png" class="catm7" onclick="clicked()" alt="cat-image"></div>
-                <div class="square"><img src="assets/images/catm.png" class="catm8" onclick="clicked()" alt="cat-image"></div>
-            </div>
-        </div>
-
-        <br>
-        <br>
-
-
-        <!-- Bottom section which contains hr rule and image.-->
-        <hr id="hr-style2">
-        <br>
-        <br>
-
-        <div class="footerimage">
-            <img class="paws" src="assets/images/paws.png" alt="paws-image">
-        </div>
-            <script src="./assets/js/script.js"></script>
-    </body>
+    <div class="footerimage">
+        <img class="paws" src="assets/images/paws.png" alt="paws-image">
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
 </html>
