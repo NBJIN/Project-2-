@@ -1,12 +1,13 @@
-# Memory Game Catch The Black Cat 
+# Catch The Black Cat Game
+<br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/5b57a881-d6ac-4c20-b63a-4c0917e4317c)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/47941626-5022-4044-a1b9-ab1770e947d3)
 
 #
 ## Introduction
 
 <p align="justify">
-On researching projects and javascript notes I reviewed a widely used game called "Whack A Mole" and decided to go with a similar idea for the project i am undertaking.  The game that i am building has a  slight twist on the "Whack A Mole" game.  I have decided to use a black cat instead of a mole and the game is called "Catch The Black Cat!" instead of "Whack A Mole".  The goal is to provide people with a fun game that the player can spend a few minutes playing or spend a bit of time playing at the different levels.  The player can play at two different levels which are easy and hard. Level Easy give the player 30 seconds and the rate that the cat appears at is 1000. Level Hard is where the player is given 20 seconds and a rate of 700 at which the cat displays.  When the player chooses the level and starts the game the countdown timer begins and successfull hits are recorded in the score section.  When the game finishes a message will be displayed to the user saying the game has finished and displys the total number of scores.  
+On researching projects and javascript notes I reviewed a widely used game called "Whack A Mole" and decided to go with a similar idea for the project i am undertaking.  The game that i am building has a  slight twist on the "Whack A Mole" game.  I have decided to use a black cat instead of a mole and the game is called "Catch The Black Cat Game" instead of "Whack A Mole".  The goal is to provide people with a fun game that the player can spend a few minutes playing or spend a bit of time playing at the different levels.  The player can play at two different levels which are easy and hard. Level Easy give the player 30 seconds and the rate that the cat appears at is 1000. Level Hard is where the player is given 20 seconds and a rate of 700 at which the cat displays.  When the player chooses the level and starts the game the countdown timer begins and successfull hits are recorded in the score section.  When the game finishes a message will be displayed to the user saying the game has finished and displys the total number of scores. The user can click ok on this message and then play the game again if they wish.    
 </p>
 
 #
@@ -32,7 +33,7 @@ On researching projects and javascript notes I reviewed a widely used game calle
 
 #
 ## 1. [User Experience](#user-experience)
-#
+
 
 A. Project Goals and Target Audience 
 <br>
@@ -44,7 +45,7 @@ Player Goals:
 - A game that is easy to play and just for fun.
 - A game that provides an appealing interactive user experience.  
 - Different levels to be included in the game so that the player can test the different levels and is challenging. 
-- Instruction that are easy to follow in order to play the game.  
+- Instructions that are easy to follow in order to play the game.  
 - Play a game that is responsive across a number of devices.  
 <br>
 
@@ -84,10 +85,10 @@ The color scheme chosen for this background was as follows:
 
 - Black is the main background color.
 - Orange is used for the majority of the text on the page, borders and highlighting the different level button when a game is in play.
-- Red is used to distinguish the time remaining and is also used as a hover effect over the close button in the instructions section. 
+- Red is used to show the time remaining and is also used as a hover effect over the close button in the instructions section. 
 - Blue is used to show the score counter.
 - The horizontal rules at the top and the bottom of the page have a fill color of darkslategray and an orange border. 
-- The background color for the circles is again blackslategray and orange and these circles sit on a blackslategray background.  
+- The background color for the circles is again blackslategray and orange and these circles have an organe shadow effect and  sit on a blackslategray background.  
 <br>
 
 The color palette was done up on coolors.co website a link to this site is below along with a copy of the color palette. 
@@ -125,31 +126,44 @@ Wireframes were drawn up in Balsamiq for Desktop and Mobile.
 The following are the desktop wireframes. 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/d805d531-7917-404c-91e1-ae2244052c44)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/20c29c41-8c35-4f8f-920d-056276de5a7b)
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/e86dce4f-2521-4496-9842-c4aa2059b1b3)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/e90b8b09-f6da-4b18-a8af-7d724d23b2e8)
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/c90363b7-7920-4bc6-94de-a85f052d09c4)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/334235c4-a343-4a0e-aaeb-fefb5cc51512)
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/d7dab6b7-ef49-4de0-9d63-953cc0b059dc)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/4b48b789-7df7-407e-84db-ac9d003aab6e)
+
 <br>
+
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/b490ac34-9fb1-472a-aee0-667ead963d3e)
+
+<br>
+
 
 The following are the wireframe which were drawn up for mobile. 
 <br>
-    
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/e3e695b6-971a-4ecf-ada3-9af99e4383dc)
-<br>
-    
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/248369e0-f0ac-4421-8a8a-6e7d22ead47b)
-    
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/9ad86f51-0330-45e8-97c5-e2012fb27049)
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/4f9a64d1-21c7-4b84-9e3e-7a56aae30d7e)
-    
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/9bc83141-3197-4751-a451-2dcefc7981c6)
+
 <br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/dd7d5ace-fa46-49df-96b2-1c5c9f30e056)
+
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/27ddd65e-871d-4f1a-a615-44a68500cd0a)
+
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/c06ff6a0-7629-42bb-ac6f-488946e28bc2)
 
 #
 
@@ -159,12 +173,12 @@ The following are the wireframe which were drawn up for mobile.
 A. Home Page of Game
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/022cf5ae-61cb-48c2-ad20-d4724cfe7a6d)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/1da332b5-679a-4fe7-b754-ac3acdd71b51)
 
 B. Page Showing Game In Play
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/911fabdf-c120-44ea-8315-da28475d94c5)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/bf1b8c4d-9c0d-49a3-a6a4-f55987811cd4)
 
 C. When Game Ends Message Displayed To Player 
 <br>
