@@ -18,7 +18,7 @@ On researching projects and javascript notes I reviewed a widely used game calle
 2. [Features](#2-features)
 3. [Technologies Used](#3-technologies-used)
 4. [Testing](#4-testing) 
-5. [Finished Product](#5-finished-product)
+5. [Finished Product On Desktop And Mobile](#5-finished-product-on-desktop-and-mobile) 
 6. [Deployment](#6-deployment)
 7. [Credits](#7-credits)
 8. [Acknowledgements](#8-acknowledgements)
@@ -163,6 +163,9 @@ The following are the wireframe which were drawn up for mobile.
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/c06ff6a0-7629-42bb-ac6f-488946e28bc2)
 
+<br>
+
+[Back to Table of Contents](#table-of-contents)
 #
 
 ## 2. Features
@@ -189,7 +192,7 @@ Features
 
 - Instructions
 <br>
-The game provides a detailed set of instruction for the player on how to play the game and play at the different levels provided. 
+The game provides a detailed set of instructions for the player on how to play the game and play at the different levels provided. 
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/5f523b9f-7ee3-461b-a12e-6dae6aac7929)
@@ -262,6 +265,10 @@ The game provides a reset button whereby if a player is in the middle of a game 
 - Add button to stop game.
 - Popup message when starting game - when start button is clicked popup displays alerting user game is about to start with an ok button and the countdown timer will then start.
 - Adding a sound effect when the cat is caught.   
+
+<br>
+
+[Back to Table of Contents](#table-of-contents)
 #
 
 ## 3. Technologies Used
@@ -300,6 +307,7 @@ https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
 - When completing the favicon referenced the following website - https://favicon.io/
 <br>
 
+[Back to Table of Contents](#table-of-contents)
 #
 
 ## 4. Testing
@@ -318,6 +326,10 @@ c) Accessibility
 d) Manual Testing
 
 e) Known Bugs 
+
+<br>
+
+[Back to Table of Contents](#table-of-contents)
 #
 
 ## 5. Finished Product On Desktop And Mobile
@@ -384,6 +396,10 @@ Mobile - Game completion alert which displays when game has ended
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/fcfb2df0-4615-4e64-b6ae-8ebcdbf513ff)
 
+<br>
+
+[Back to Table of Contents](#table-of-contents)
+
 #
 
 ## 6. Deployment
@@ -406,7 +422,11 @@ c) Forking
 <br>
 
 - On GitHub navigate to the repository that you want to fork. 
-- In the top right corner of the page click fork and this will fork the project.  
+- In the top right corner of the page click fork and this will fork the project. 
+
+<br>
+
+[Back to Table of Contents](#table-of-contents)
 
 #
 
@@ -464,6 +484,11 @@ In completing this project I accessed the following sources  :
 <br>
 
 - Code Institute template in order to build code.  
+
+<br>
+
+[Back to Table of Contents](#table-of-contents)
+
 #
 
 ## 8. Acknowledgements
@@ -503,5 +528,9 @@ In completing this project I accessed the following sources  :
 
 
 <br>
+
+<br>
+
+[Back to Table of Contents](#table-of-contents)
 <br>
 <br>
