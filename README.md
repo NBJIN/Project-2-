@@ -165,7 +165,7 @@ The following are the wireframe which were drawn up for mobile.
 
 #
 
-## 2. [Features](#features)
+## 2. [Features]
 
 <br>
 A. Home Page of Game
