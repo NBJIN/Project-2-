@@ -15,19 +15,12 @@ On researching projects and javascript notes I reviewed a widely used game calle
 ## Table of Contents
 
 1. [User Experience](#user-experience)
-
 2. [Features](#features)
-
 3. [Technologies Used](#technologies-used)
-
 4. [Testing](#testing) 
-
 5. [Finished Product](#finished-product)
-
 6. [Deployment](#deployment)
-
 7. [Credits](#credits)
-
 8. [Acknowledgements](#acknowledgements)
 <br>
 
