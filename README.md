@@ -7,7 +7,7 @@
 ## Introduction
 
 <p align="justify">
-On researching projects and javascript notes I reviewed a widely used game called "Whack A Mole" and decided to go with a similar idea for the project i am undertaking.  The game that i am building has a  slight twist on the "Whack A Mole" game.  I have decided to use a black cat instead of a mole and the game is called "Catch The Black Cat Game" instead of "Whack A Mole".  The goal is to provide people with a fun game that the player can spend a few minutes playing or spend a bit of time playing at the different levels.  The player can play at two different levels which are easy and hard. Level Easy give the player 30 seconds and the rate that the cat appears at is 1000. Level Hard is where the player is given 20 seconds and a rate of 700 at which the cat displays.  When the player chooses the level and starts the game the countdown timer begins and successfull hits are recorded in the score section.  When the game finishes a message will be displayed to the user saying the game has finished and displys the total number of scores. The user can click ok on this message and then play the game again if they wish.    
+On researching projects and javascript notes I reviewed a widely used game called "Whack A Mole" and decided to go with a similar idea for the project i am undertaking.  The game that i am building has a  slight twist on the "Whack A Mole" game.  I have decided to use a black cat instead of a mole and the game is called "Catch The Black Cat Game" instead of "Whack A Mole".  The goal is to provide people with a fun game that the player can spend a few minutes playing or spend a bit of time playing at the different levels.  The player can play at two different levels which are level easy and level hard. Level Easy gives the player 30 seconds and the rate that the cat appears at is 1000. Level Hard is where the player is given 20 seconds and a rate of 700 at which the cat displays.  When the player chooses the level and starts the game the countdown timer begins and successfull hits are recorded in the score section.  When the game finishes an alert message will be displayed to the user saying the game has finished and displys the total number of scores. The user can click ok on this message and then play the game again if they wish.    
 </p>
 
 #
@@ -29,9 +29,8 @@ On researching projects and javascript notes I reviewed a widely used game calle
 
 
 A. Project Goals and Target Audience 
-<br>
+
 Project Goals For Player and Developer 
-<br>
 
 Player Goals:
 
@@ -55,13 +54,14 @@ Developer Goals:
 
 Target Audience
 <br>
-This game can be played by all age groups to pass a little time and which is easy and interactive short game or the player can play for longer at differnt levels.  
-<br>       
+- This game can be played by all age groups to pass a little time. It is an easy and interactive short game and the player can play for longer at differnt levels.  
+<br>  
+
 B. User Stories 
 <br>
 
 - Provide a game that is easy to play. 
-- A game with an attractive user design.
+- A game with an attractive user design/interface.
 - Provide a game with clear instructions for the player on how to play the game.
 - A game that provides different levels to play at. 
 - Address responsiveness so that the player can play the game across different devices.
@@ -80,8 +80,8 @@ The color scheme chosen for this background was as follows:
 - Orange is used for the majority of the text on the page, borders and highlighting the different level button when a game is in play.
 - Red is used to show the time remaining and is also used as a hover effect over the close button in the instructions section. 
 - Blue is used to show the score counter.
-- The horizontal rules at the top and the bottom of the page have a fill color of darkslategray and an orange border. 
-- The background color for the circles is again blackslategray and orange and these circles have an organe shadow effect and  sit on a blackslategray background.  
+- The horizontal rule at the top and the bottom of the page have a fill color of darkslategray and an orange border. 
+- The background color for the circles is again blackslategray and orange and these circles have an orange shadow effect and  sit on a blackslategray background.  
 <br>
 
 The color palette was done up on coolors.co website a link to this site is below along with a copy of the color palette. 
@@ -97,7 +97,7 @@ https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
 D. Typography
 <br>
 
-The font that was chosen throughout this project is Montserrat.  It is a very clear font and is also easy to read in the selected font color of orange, red and blue.  
+The font that was chosen throughout this project is Montserrat.  It is a very clear font and is also easy to read in the selected font colors of orange, red and blue.  
 
 https://en.wikipedia.org/wiki/Montserrat_(typeface)
 
@@ -109,8 +109,10 @@ The backup font which has been used is Arial again it is a very clear font and c
 
 https://en.wikipedia.org/wiki/Arial
 
-The only exception is for the instructions section Arial is used as the main font but if this should not be available there are fallback fonts of Helvetica and sans-serif.  Helvetica is a very clear and easy to understand font.  
+The only exception is for the instructions section. Arial is used as the main font but if this should not be available there are fallback fonts of Helvetica and sans-serif.  Helvetica is a clear font and can be easily 
+read with the colors on the website.   
 https://en.wikipedia.org/wiki/Helvetica
+
 Again sans-serif is a very clear font and easy to read.  
 https://en.wikipedia.org/wiki/List_of_sans_serif_typefaces
 <br>
@@ -143,7 +145,7 @@ The following are the desktop wireframes.
 <br>
 
 
-The following are the wireframe which were drawn up for mobile. 
+The following are the wireframes which were drawn up for mobile. 
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/9ad86f51-0330-45e8-97c5-e2012fb27049)
@@ -210,14 +212,12 @@ The game provides a detailed set of instructions for the player on how to play t
 
 - Timer 
 <br>
- When levelEasy is selected the timer will reflect 30 seconds on the timer and count back from there.  If levelHard was selected the timer would reflect 20 seconds and count back.  
+ When levelEasy is selected the timer will reflect 30 seconds on the timer and count back from there.  If levelHard is selected the timer will reflect 20 seconds and count back.  
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/16b93621-db81-4752-a4af-99e720f5ab90)
 <br>
-
- When the start game button is clicked the timer will begin counting down and the cat displays randomly and will continue  untill the time runs out.  If the player wants to play at the same level again they can just click on start game else they can choose the hard level and click on start game.  
-<br>
+When the start game button is clicked the timer will begin counting down and the cat displays randomly and will continue  untill the time runs out.  If the player wants to play at the same level again they can just click on start game else they can choose the hard level and click on start game.</p>  
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/08fd1fc7-26f5-462a-9fef-626a074309aa)
 <br>
@@ -234,7 +234,6 @@ successfull click will add to the score couter.
 
 - Game Completion 
 <br>
-
  Once the game has ended an alert will display to the user advising the game has ended and gives the total score achieved.  The player can then click on the ok button and proceed to play again. 
 <br>
 
