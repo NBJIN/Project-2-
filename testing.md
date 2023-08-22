@@ -227,9 +227,7 @@ The game provides a detailed set of instruction for the player on how to play th
 
 - Levels 
 <br>
-The game provides two levels to play with. levelEasy provides the player with 30 seconds and the cat will display randomly in the circles at a rate of 1000 milliseconds.  levelHard provides the player with 20 seconds and 700 milliseconds. 
-When levelEasy is selected the timer will reflect 30 seconds. Also the button for this level will be highlighted in orange so that the player knows what level they are playing at. 
-
+The game provides two levels to play with. levelEasy provides the player with 30 seconds and the cat will display randomly in the circles at a rate of 1000 milliseconds. The level button is highlighted in orange while the game is in play at level easy.   
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/98723af5-0a19-4cee-8832-86422aa68803)

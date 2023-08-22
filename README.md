@@ -105,7 +105,7 @@ A link to google fonts has also been included in the head section of the index.h
 
 https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap 
 
-The backup font which has been used is Arial again it is a very clear font and can be easily seen in the selected colors for this project.  
+The backup font which has been used is Arial again it is a very clear font and can be easily seen with the selected colors for this project.  
 
 https://en.wikipedia.org/wiki/Arial
 
@@ -175,14 +175,15 @@ The following are the wireframes which were drawn up for mobile.
 <br>
 A. Home Page of Game
 <br>
+<br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/1da332b5-679a-4fe7-b754-ac3acdd71b51)
-
+<br>
 B. Page Showing Game In Play
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/bf1b8c4d-9c0d-49a3-a6a4-f55987811cd4)
-
+<br>
 C. When Game Ends Message Displayed To Player 
 <br>
 
@@ -190,6 +191,7 @@ C. When Game Ends Message Displayed To Player
 
 <br>
 Features 
+<br>
 <br>
 
 - Instructions
@@ -217,8 +219,9 @@ The game provides a detailed set of instructions for the player on how to play t
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/16b93621-db81-4752-a4af-99e720f5ab90)
 <br>
+<br>
 When the start game button is clicked the timer will begin counting down and the cat displays randomly and will continue  untill the time runs out.  If the player wants to play at the same level again they can just click on start game else they can choose the hard level and click on start game.</p>  
-
+<br>
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/08fd1fc7-26f5-462a-9fef-626a074309aa)
 <br>
 
@@ -234,7 +237,9 @@ successfull click will add to the score couter.
 
 - Game Completion 
 <br>
+<br>
  Once the game has ended an alert will display to the user advising the game has ended and gives the total score achieved.  The player can then click on the ok button and proceed to play again. 
+<br>
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/5ca84c92-9442-4512-9115-f4e4b2bf47fa)
@@ -280,6 +285,7 @@ a) Languages Used
 - CSS3 was used to provide styling to the elements on the page - https://en.wikipedia.org/wiki/CSS
 <br>
 - Javascript was use to provide the user with functionality in order to play the game. - https://en.wikipedia.org/wiki/JavaScript
+<br>
 <br>
 
 b) Frameworks, Libraries and Programs Used 
@@ -335,7 +341,9 @@ e) Known Bugs
 
 Responsiveness was checkeked between 320px to 1920px 
 <br>
+<br>
 Desktop - Home Page showing game set to levelHard - 30 seconds
+<br>
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/f316ffc6-2ef0-4e89-a526-1658e9e18209)
