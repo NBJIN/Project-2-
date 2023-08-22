@@ -25,7 +25,7 @@ On researching projects and javascript notes I reviewed a widely used game calle
 <br>
 
 #
-## 1. [User Experience](#user-experience)
+## 1. User Experience
 
 
 A. Project Goals and Target Audience 
@@ -165,7 +165,7 @@ The following are the wireframe which were drawn up for mobile.
 
 #
 
-## 2. [Features]
+## 2. Features
 
 <br>
 A. Home Page of Game
