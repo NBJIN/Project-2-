@@ -115,6 +115,11 @@ https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap
 The backup font which has been used is Arial again it is a very clear font and can be easily seen in the selected colors for this project.  
 
 https://en.wikipedia.org/wiki/Arial
+
+The only exception is for the instructions section Arial is used as the main font but if this should not be available there are fallback fonts of Helvetica and sans-serif.  Helvetica is a very clear and easy to understand font.  
+https://en.wikipedia.org/wiki/Helvetica
+Again sans-serif is a very clear font and easy to read.  
+https://en.wikipedia.org/wiki/List_of_sans_serif_typefaces
 <br>
 <br>
 
@@ -199,17 +204,17 @@ The game provides a detailed set of instruction for the player on how to play th
 
 - levels
 <br>
- The game provides two levels to play with. levelEasy provides the player with 30 seconds and the cat will display randomly in the circles at a rate of 1000 milliseconds.  levelHard provides the player with 20 seconds and 700 milliseconds. 
-When levelHard is selected the timer will reflect 20 seconds.
+ The game provides two levels to play with. levelEasy provides the player with 30 seconds and the cat will display randomly in the circles at a rate of 1000 milliseconds.  When levelEasy is selected the level button is highlighted in orange and the timer will reflect the game levels time.  levelHard provides the player with 20 seconds and 700 milliseconds. When levelHard is selected the timer will reflect 20 seconds and the 
+ levelHard game button will be hightlighted for the duration of the game. 
 
 <br>
 
-![image](https://github.com/NBJIN/Project-2-/assets/106515976/1a7af74d-e012-4e2d-9380-48b498ac466e)
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/787e7f3a-5ec4-4786-8580-72e1dc098e3b)
 <br>
 
 - Timer 
 <br>
- When levelEasy is selected the timer will reflect 30 seconds on the timer and count back from there.  
+ When levelEasy is selected the timer will reflect 30 seconds on the timer and count back from there.  If levelHard was selected the timer would reflect 20 seconds and count back.  
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/16b93621-db81-4752-a4af-99e720f5ab90)
@@ -321,30 +326,69 @@ e) Known Bugs
 #
 
 ## 5. [Finished Product On Desktop And Mobile](#finished-product)
+
+Responsiveness was checkeked between 320px to 1920px 
 <br>
-Home Page showing game set to levelHard - 30 seconds
+Desktop - Home Page showing game set to levelHard - 30 seconds
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/f316ffc6-2ef0-4e89-a526-1658e9e18209)
 <br>
 
-Page showing game set to levelEasy - 20 seconds
+Desktop - Page showing game set to levelEasy - 20 seconds
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/953923d8-40e7-49e3-ab3a-cb94a27b7d46)
 <br>
 
-Page showing game in play 
+Desktop - Page showing game in play 
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/2a4f994c-7663-4a8d-acc9-0283b16c7427)
 <br>
 
-Page showing alert that the game has ended and provides final score to player
+Desktop Page showing alert that the game has ended and provides final score to player
 
 <br>
 
 ![image](https://github.com/NBJIN/Project-2-/assets/106515976/31d6248f-fcce-4d09-b38a-052e8c50c2d1)
+<br>
+
+Mobile - Home Page showing game set to levelEasy which is the preselected level - 30 seconds with levelEasy highlighted so that the player knows at all times during the game what level they are playing at. 
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/ee7475cc-4641-40e2-891f-eaa234be4b7e)
+
+<br>
+
+Mobile - Page showing levelHard selected where the button level is highlighted in orange and the timer reflects 20 seconds.  
+
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/f54d240d-b355-46fd-99e7-788d13ffa7aa)
+
+<br>
+
+Mobile - Page which shows detailed instructions to the player.
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/e20ebe4f-f365-453a-aea6-25603bcaad25)
+
+<br>
+
+Mobile - Page showing the game in play and successfull scores.
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/71dce4c5-7b25-42ab-a19b-385dcbc46136)
+
+<br>
+
+Mobile - Game completion alert which displays when game has ended
+
+<br>
+
+![image](https://github.com/NBJIN/Project-2-/assets/106515976/fcfb2df0-4615-4e64-b6ae-8ebcdbf513ff)
+
 #
 
 ## 6. [Deployment](#deployment)
