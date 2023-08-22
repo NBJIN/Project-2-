@@ -14,14 +14,14 @@ On researching projects and javascript notes I reviewed a widely used game calle
 
 ## Table of Contents
 
-1. [User Experience](#user-experience)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Testing](#testing) 
-5. [Finished Product](#finished-product)
-6. [Deployment](#deployment)
-7. [Credits](#credits)
-8. [Acknowledgements](#acknowledgements)
+1. [User Experience](#1-user-experience)
+2. [Features](#2-features)
+3. [Technologies Used](#3-technologies-used)
+4. [Testing](#4-testing) 
+5. [Finished Product](#5-finished-product)
+6. [Deployment](#6-deployment)
+7. [Credits](#7-credits)
+8. [Acknowledgements](#8-acknowledgements)
 <br>
 
 #
@@ -264,7 +264,7 @@ The game provides a reset button whereby if a player is in the middle of a game 
 - Adding a sound effect when the cat is caught.   
 #
 
-## 3. [Technologies Used](#technologies-used)
+## 3. Technologies Used
 <br>
 
 a) Languages Used
@@ -302,7 +302,9 @@ https://coolors.co/000000-ff9900-2f4f4f-ff0000-0000ff
 
 #
 
-## 4. [Testing](#testing) 
+## 4. Testing
+
+[Link To Testing Details](testing.md)
 
 Please refer to testing.md file for detailed breakdown on testing
 
@@ -318,7 +320,7 @@ d) Manual Testing
 e) Known Bugs 
 #
 
-## 5. [Finished Product On Desktop And Mobile](#finished-product)
+## 5. Finished Product On Desktop And Mobile
 
 Responsiveness was checkeked between 320px to 1920px 
 <br>
@@ -384,7 +386,7 @@ Mobile - Game completion alert which displays when game has ended
 
 #
 
-## 6. [Deployment](#deployment)
+## 6. Deployment
 
 a) GitHub Pages
     This site was deployed to GitHub pages.  The steps to deploy are the following: 
@@ -408,7 +410,7 @@ c) Forking
 
 #
 
-## 7. [Credits](#credits)
+## 7. Credits
 <br>
 
 a) Content
@@ -464,7 +466,7 @@ In completing this project I accessed the following sources  :
 - Code Institute template in order to build code.  
 #
 
-## 8. [Acknowledgements](#acknowledgements)
+## 8. Acknowledgements
 <br>
 
 - Code Institute LMS for notes and videos and also template provided to build the project.  - https://learn.codeinstitute.net/dashboard
